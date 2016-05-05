@@ -86,6 +86,13 @@ public class MyWatchFace extends CanvasWatchFaceService {
         boolean mRegisteredTimeZoneReceiver = false;
 
         private static final float DESIGNED_SIZE = 512f;
+        final int[] BACKGROUND_RES_ID = {
+                R.drawable.background0,
+                R.drawable.background1,
+                R.drawable.background2,
+                R.drawable.background3,
+                R.drawable.background4
+        };
 
 
         //背景描画用
@@ -127,6 +134,8 @@ public class MyWatchFace extends CanvasWatchFaceService {
                     .build());
 
             Resources resources = MyWatchFace.this.getResources();
+
+
 
             mDrawPaint = new Paint();
             mDrawPaint.setColor(resources.getColor(R.color.analog_hands));
@@ -200,21 +209,20 @@ public class MyWatchFace extends CanvasWatchFaceService {
         @Override
         public void onDraw(Canvas canvas, Rect bounds) {
             mTime.setToNow();
-
-            Resources resources = MyWatchFace.this.getResources();
-
-            Drawable backgroundDrawable = resources.getDrawable(R.drawable.background1);
-            mBitmapPaint = ((BitmapDrawable) backgroundDrawable).getBitmap();
-            mBackgroundScaledBitmap = Bitmap.createScaledBitmap(mBitmapPaint,
-                    bounds.width(), bounds.height(), true /* filter */);
-            canvas.drawBitmap(mBackgroundScaledBitmap, 0, 0, null);
-
+            int imgResId;
             // Draw the background.
             if (isInAmbientMode()) {
-                canvas.drawColor(Color.BLACK);
+                imgResId = R.drawable.black_background;
             } else {
-//                canvas.drawRect(0, 0, canvas.getWidth(), canvas.getHeight(), mBitmapPaint);
+                imgResId = BACKGROUND_RES_ID[mTime.minute % BACKGROUND_RES_ID.length];
             }
+                Resources resources = MyWatchFace.this.getResources();
+                Drawable backgroundDrawable = resources.getDrawable(imgResId);
+                mBitmapPaint = ((BitmapDrawable) backgroundDrawable).getBitmap();
+                mBackgroundScaledBitmap = Bitmap.createScaledBitmap(mBitmapPaint,
+                        bounds.width(), bounds.height(), true /* filter */);
+                canvas.drawBitmap(mBackgroundScaledBitmap, 0, 0, null);
+
 
             // Find the center. Ignore the window insets so that, on round watches with a
             // "chin", the watch face is centered on the entire screen, not just the usable
