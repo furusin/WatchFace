@@ -31,6 +31,7 @@ import android.graphics.Rect;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.os.AsyncTask;
+import android.os.BatteryManager;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -78,67 +79,11 @@ public class MyWatchFace extends CanvasWatchFaceService {
      */
     private static final int MSG_UPDATE_TIME = 0;
     private static final int TIMEOUT_MS = 2000;
+    private static final int SEND_IMAGE = 1;
 
     @Override
     public Engine onCreateEngine() {
         return new Engine();
-    }
-
-    private static class DataLayerListenerService extends WearableListenerService {
-        @Override
-        public void onCreate() {
-            super.onCreate();
-        }
-
-        @Override
-        public void onDataChanged(DataEventBuffer dataEvents) {
-            super.onDataChanged(dataEvents);
-            Log.d("test", "onDataChanged");
-            for (DataEvent event : dataEvents) {
-                if (event.getType() == DataEvent.TYPE_CHANGED &&
-                        event.getDataItem().getUri().getPath().equals("/image")) {
-                    Log.d("test", "onDataChanged");
-                    Log.d("test", "uri: " + event.getDataItem().getUri().toString());
-                    DataMapItem dataMapItem = DataMapItem.fromDataItem(event.getDataItem());
-                    Asset profileAsset = dataMapItem.getDataMap().getAsset("profileImage");
-                    MyWatchFace.receivedBitmap = loadBitmapFromAsset(profileAsset);
-                    // Do something with the bitmap
-
-                }
-            }
-
-
-        }
-
-        public Bitmap loadBitmapFromAsset(Asset asset) {
-            Log.d("test", "loadBitmapFromAsset");
-            if (asset == null) {
-                Log.d("test", "asset is null");
-
-                throw new IllegalArgumentException("Asset must be non-null");
-            } else {
-                Log.d("test", "asset is not null");
-            }
-            ConnectionResult result =
-                    mGoogleApiClient.blockingConnect(TIMEOUT_MS, TimeUnit.MILLISECONDS);
-            if (!result.isSuccess()) {
-                Log.d("test", "hogehoge");
-                return null;
-            }
-            Log.d("test", "hoge");
-            // convert asset into a file descriptor and block until it's ready
-            InputStream assetInputStream = Wearable.DataApi.getFdForAsset(
-                    mGoogleApiClient, asset).await().getInputStream();
-            //mGoogleApiClient.disconnect();
-
-            if (assetInputStream == null) {
-                Log.w("test", "Requested an unknown Asset.");
-                return null;
-            }
-            // decode the stream into a bitmap
-            return BitmapFactory.decodeStream(assetInputStream);
-        }
-
     }
 
 
@@ -176,7 +121,12 @@ public class MyWatchFace extends CanvasWatchFaceService {
         };
 
 
+        private AsyncTask<Asset, Void, Void> mGetImage;
 
+        private DataEventBuffer mDataEventBuffer;
+
+
+        private Asset profileAsset;
         //背景描画用
         Bitmap mBitmapPaint;
         Bitmap mBackgroundScaledBitmap;
@@ -187,6 +137,20 @@ public class MyWatchFace extends CanvasWatchFaceService {
         Paint mDrawPaint;
         boolean mAmbient;
         Time mTime;
+
+
+        final Handler mLoadImageHandler = new Handler() {
+            @Override
+            public void handleMessage(Message message) {
+                switch (message.what) {
+                    case SEND_IMAGE:
+                        // Loads images.
+                        mGetImage = new GetImage();
+                        mGetImage.execute(profileAsset);
+                        break;
+                }
+            }
+        };
 
         //タイムゾーンが変更になった時用
         final BroadcastReceiver mTimeZoneReceiver = new BroadcastReceiver() {
@@ -203,19 +167,17 @@ public class MyWatchFace extends CanvasWatchFaceService {
          * disable anti-aliasing in ambient mode.
          */
         boolean mLowBitAmbient;
-
         @Override
         public void onCreate(SurfaceHolder holder) {
             super.onCreate(holder);
+
+
             mGoogleApiClient = new GoogleApiClient
                     .Builder(MyWatchFace.this)
                     .addConnectionCallbacks(this)
                     .addApi(Wearable.API)
                     .build();
             mGoogleApiClient.connect();
-
-
-
 
 
             setWatchFaceStyle(new WatchFaceStyle.Builder(MyWatchFace.this)
@@ -307,17 +269,21 @@ public class MyWatchFace extends CanvasWatchFaceService {
                 Log.d("test", "AmbientMode");
                 imgResId = R.drawable.black_background;
                 backgroundDrawable = resources.getDrawable(imgResId);
+                mBitmapPaint = ((BitmapDrawable) backgroundDrawable).getBitmap();
+
             } else {
                 if (receivedBitmap == null) {           //スマホ側で何も選択していない時
                     Log.d("test", "receivedBitmap == null");
                     imgResId = BACKGROUND_RES_ID[mTime.minute % BACKGROUND_RES_ID.length];
                     backgroundDrawable = resources.getDrawable(imgResId);
+                    mBitmapPaint = ((BitmapDrawable) backgroundDrawable).getBitmap();
+
                 } else {                                      //スマホ側で画像を選択した時
                     mBitmapPaint = receivedBitmap;
                 }
             }
 
-            mBitmapPaint = ((BitmapDrawable) backgroundDrawable).getBitmap();
+           // mBitmapPaint = ((BitmapDrawable) backgroundDrawable).getBitmap();
             mBackgroundScaledBitmap = Bitmap.createScaledBitmap(mBitmapPaint,
                     bounds.width(), bounds.height(), true /* filter */);
             canvas.drawBitmap(mBackgroundScaledBitmap, 0, 0, null);
@@ -356,7 +322,9 @@ public class MyWatchFace extends CanvasWatchFaceService {
         @Override
         public void onConnected(@Nullable Bundle bundle) {
             Log.d("test", "onConnected");
-           Wearable.DataApi.addListener(mGoogleApiClient, this);
+            Wearable.DataApi.addListener(mGoogleApiClient, this);
+
+
         }
 
 
@@ -369,54 +337,162 @@ public class MyWatchFace extends CanvasWatchFaceService {
         @Override
         public void onDataChanged(DataEventBuffer dataEvents) {
             Log.d("test", "onDataChanged");
-           // new GetImage().execute(dataEvents);
-            new GetImage().doInBackground(dataEvents);
-            /*
             for (DataEvent event : dataEvents) {
                 if (event.getType() == DataEvent.TYPE_CHANGED &&
                         event.getDataItem().getUri().getPath().equals("/image")) {
                     Log.d("test", "onDataChanged");
                     Log.d("test", "uri: " + event.getDataItem().getUri().toString());
                     DataMapItem dataMapItem = DataMapItem.fromDataItem(event.getDataItem());
-                    Asset profileAsset = dataMapItem.getDataMap().getAsset("profileImage");
-                    receivedBitmap = loadBitmapFromAsset(profileAsset);
-                    // Do something with the bitmap
+                    profileAsset = dataMapItem.getDataMap().getAsset("profileImage");
                 }
             }
+
+            mLoadImageHandler.sendEmptyMessage(SEND_IMAGE);
+
+        }
+
+
+        private class GetImage extends AsyncTask<Asset, Void, Void> {
+            Asset profileAsset;
+            DataEvent event;
+
+            @Override
+            protected void onPreExecute() {
+                //do something.
+
+            }
+
+
+            @Override
+            protected Void doInBackground(Asset... params) {
+                Log.d("test", "doInbackground");
+                Log.d("test", "params.length = " + Integer.toString(params.length));
+
+                for (int i = 0; i < params.length; i++) {
+                    Log.d("test", "i : " + Integer.toString(i));
+                    if (params[i] == null) {
+                        Log.d("test", "params[" + Integer.toString(i) + "] = null");
+                    } else {
+                        Log.d("test", "params = " + params[i].toString());
+                    }
+                }
+
+
+                profileAsset = params[0];
+
+
+        //    for (DataEvent event : params) {
+                try {
+/*
+                    if (event.getType() == DataEvent.TYPE_CHANGED &&
+                            event.getDataItem().getUri().getPath().equals("/image")) {
+                        Log.d("test", "onDataChanged");
+                        Log.d("test", "uri: " + event.getDataItem().getUri().toString());
+                        DataMapItem dataMapItem = DataMapItem.fromDataItem(event.getDataItem());
+                        profileAsset = dataMapItem.getDataMap().getAsset("profileImage");
+*/
+                        //receivedBitmap = loadBitmapFromAsset(profileAsset);
+
+                        Log.d("test", "loadBitmapFromAsset");
+                        if (profileAsset == null) {
+                            Log.d("test", "asset is null");
+
+                            throw new IllegalArgumentException("Asset must be non-null");
+                        } else {
+                            Log.d("test", "asset is not null");
+                        }
+
+                        GoogleApiClient googleApiClient = new GoogleApiClient
+                                .Builder(MyWatchFace.this)
+                                .addApi(Wearable.API)
+                                .build();
+                        googleApiClient.connect();
+
+
+                        ConnectionResult result =
+                                googleApiClient.blockingConnect(TIMEOUT_MS, TimeUnit.MILLISECONDS);
+                        if (!result.isSuccess()) {
+                            Log.d("test", "hogehoge");
+                            return null;
+                        }
+                        Log.d("test", "hoge");
+                        // convert asset into a file descriptor and block until it's ready
+                        InputStream assetInputStream = Wearable.DataApi.getFdForAsset(
+                                googleApiClient, profileAsset).await().getInputStream();
+                        //mGoogleApiClient.disconnect();
+
+                        if (assetInputStream == null) {
+                            Log.w("test", "Requested an unknown Asset.");
+                            return null;
+                        }
+                        // decode the stream into a bitmap
+                        receivedBitmap = BitmapFactory.decodeStream(assetInputStream);
+
+
+                        // Do something with the bitmap
+                //    }
+                }catch(RuntimeException e){
+                    Log.d("test","RuntimeException" + e.toString());
+                }
+         //   }
+
+
+                return null;
+            }
+
+
+            @Override
+            protected void onPostExecute(Void aVoid) {
+                super.onPostExecute(aVoid);
+                //    for (DataEvent event : params) {
+/*
+            if (event.getType() == DataEvent.TYPE_CHANGED &&
+                    event.getDataItem().getUri().getPath().equals("/image")) {
+                Log.d("test", "onDataChanged");
+                Log.d("test", "uri: " + event.getDataItem().getUri().toString());
+                DataMapItem dataMapItem = DataMapItem.fromDataItem(event.getDataItem());
+                profileAsset = dataMapItem.getDataMap().getAsset("profileImage");
+*/
+                //receivedBitmap = loadBitmapFromAsset(profileAsset);
+
+/*
+                Log.d("test", "loadBitmapFromAsset");
+                if (profileAsset == null) {
+                    Log.d("test", "asset is null");
+
+                    throw new IllegalArgumentException("Asset must be non-null");
+                } else {
+                    Log.d("test", "asset is not null");
+                }
+
+                ConnectionResult result =
+                        mGoogleApiClient.blockingConnect(TIMEOUT_MS, TimeUnit.MILLISECONDS);
+                if (!result.isSuccess()) {
+                    Log.d("test", "hogehoge");
+                    //        return null;
+                }
+                Log.d("test", "hoge");
+                // convert asset into a file descriptor and block until it's ready
+                InputStream assetInputStream = Wearable.DataApi.getFdForAsset(
+                        mGoogleApiClient, profileAsset).await().getInputStream();
+                //mGoogleApiClient.disconnect();
+
+                if (assetInputStream == null) {
+                    Log.w("test", "Requested an unknown Asset.");
+                    //        return null;
+                }
+                // decode the stream into a bitmap
+                receivedBitmap = BitmapFactory.decodeStream(assetInputStream);
 */
 
+
+                // Do something with the bitmap
+                // }
+                //   }
+
+            }
+
         }
-
-        public Bitmap loadBitmapFromAsset(Asset asset) {
-            Log.d("test", "loadBitmapFromAsset");
-            if (asset == null) {
-                Log.d("test", "asset is null");
-
-                throw new IllegalArgumentException("Asset must be non-null");
-            }else{
-                Log.d("test", "asset is not null");
-            }
-            ConnectionResult result =
-                    mGoogleApiClient.blockingConnect(TIMEOUT_MS, TimeUnit.MILLISECONDS);
-            if (!result.isSuccess()) {
-                Log.d("test", "hogehoge");
-                return null;
-            }
-            Log.d("test", "hoge");
-            // convert asset into a file descriptor and block until it's ready
-            InputStream assetInputStream = Wearable.DataApi.getFdForAsset(
-                    mGoogleApiClient, asset).await().getInputStream();
-            //mGoogleApiClient.disconnect();
-
-            if (assetInputStream == null) {
-                Log.w("test", "Requested an unknown Asset.");
-                return null;
-            }
-            // decode the stream into a bitmap
-            return BitmapFactory.decodeStream(assetInputStream);
-        }
-        
-
 
         @Override
         public void onConnectionFailed(@NonNull ConnectionResult connectionResult) {
@@ -492,72 +568,7 @@ public class MyWatchFace extends CanvasWatchFaceService {
                 mUpdateTimeHandler.sendEmptyMessageDelayed(MSG_UPDATE_TIME, delayMs);
             }
         }
-
-
-    private class GetImage extends AsyncTask<DataEventBuffer, Void, Void>{
-
-        @Override
-        protected Void doInBackground(DataEventBuffer... params) {
-            Log.d("test", "onDataChanged");
-            Log.d("test", "params.length = " + Integer.toString(params.length));
-
-            for(int i = 0; i < params.length; i++){
-                Log.d("test", "i : "+ Integer.toString(i));
-                if(params[i] == null){
-                    Log.d("test", "params[" + Integer.toString(i) + "] = null");
-                }else{
-                    Log.d("test", "params = " + params[i].toString());
-                }
-            }
-
-            for (DataEvent event : params[0]) {
-                if (event.getType() == DataEvent.TYPE_CHANGED &&
-                        event.getDataItem().getUri().getPath().equals("/image")) {
-                    Log.d("test", "onDataChanged");
-                    Log.d("test", "uri: " + event.getDataItem().getUri().toString());
-                    DataMapItem dataMapItem = DataMapItem.fromDataItem(event.getDataItem());
-                    Asset profileAsset = dataMapItem.getDataMap().getAsset("profileImage");
-                    //receivedBitmap = loadBitmapFromAsset(profileAsset);
-
-                    Log.d("test", "loadBitmapFromAsset");
-                    if (profileAsset == null) {
-                        Log.d("test", "asset is null");
-
-                        throw new IllegalArgumentException("Asset must be non-null");
-                    }else{
-                        Log.d("test", "asset is not null");
-                    }
-                    ConnectionResult result =
-                            mGoogleApiClient.blockingConnect(TIMEOUT_MS, TimeUnit.MILLISECONDS);
-                    if (!result.isSuccess()) {
-                        Log.d("test", "hogehoge");
-                        return null;
-                    }
-                    Log.d("test", "hoge");
-                    // convert asset into a file descriptor and block until it's ready
-                    InputStream assetInputStream = Wearable.DataApi.getFdForAsset(
-                            mGoogleApiClient, profileAsset).await().getInputStream();
-                    //mGoogleApiClient.disconnect();
-
-                    if (assetInputStream == null) {
-                        Log.w("test", "Requested an unknown Asset.");
-                        return null;
-                    }
-                    // decode the stream into a bitmap
-                     receivedBitmap = BitmapFactory.decodeStream(assetInputStream);
-
-
-                    // Do something with the bitmap
-                }
-            }
-            
-            return null;
-        }
     }
-    }
-
-
-
 
 
 }
