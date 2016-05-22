@@ -27,30 +27,22 @@
                 android:name="com.google.android.wearable.watchface.preview_circular"
                 android:resource="@drawable/preview_analog" />
             <meta-data
-                android:name="com.google.android.wearable.watchface.companionConfigurationAction"
-                android:value="net.furusin.www.watchface.CONFIG" />
+                android:name="com.google.android.gms.version"
+                android:value="@integer/google_play_services_version" />
+
 
             <intent-filter>
                 <action android:name="android.service.wallpaper.WallpaperService" />
+                <action android:name="com.google.android.gms.wearable.MESSAGE_RECEIVED" />
+                <action android:name="com.google.android.gms.wearable.DATA_CHANGED" />
 
                 <category android:name="com.google.android.wearable.watchface.category.WATCH_FACE" />
             </intent-filter>
         </service>
 
-        <meta-data
-            android:name="com.google.android.gms.version"
-            android:value="@integer/google_play_services_version" />
 
 
-        <activity
-            android:name=".ConfigActivity"
-            android:label="@string/title_activity_config">
-            <intent-filter>
-                <action android:name= "org.firespeed.myapplication.CONFIG" />
-                <category android:name= "com.google.android.wearable.watchface.category.WEARABLE_CONFIGURATION" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
+
     </application>
 
 </manifest>
