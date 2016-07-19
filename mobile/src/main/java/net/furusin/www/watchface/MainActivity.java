@@ -101,13 +101,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
                 try {
                     Bitmap bitmap = MediaStore.Images.Media.getBitmap(getContentResolver(), uri);
                     Asset asset = createAssetFromBitmap(bitmap);
-/*
 
-                    PutDataRequest request = PutDataRequest.create("/image");
-                    request.putAsset("profileImage", asset);
-                    Wearable.DataApi.putDataItem(mGoogleApiClient, request);
-
-*/
                     PutDataMapRequest dataMap = PutDataMapRequest.create("/image");
                     dataMap.getDataMap().putAsset("profileImage", asset);
                     PutDataRequest request = dataMap.asPutDataRequest();
@@ -115,7 +109,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
                     pendingResult.setResultCallback(new ResultCallback<DataApi.DataItemResult> () {
                         @Override
                         public void onResult(DataApi.DataItemResult dataItemResult) {
-                            // something
+
                             Log.e("test", "onResult2: " + dataItemResult);
 
                         }
