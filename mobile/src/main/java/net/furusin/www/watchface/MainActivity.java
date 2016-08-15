@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_PICK, MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
                 intent.setType("image/*");
-                
+
                 startActivityForResult(intent, READ_REQUEST_CODE);
 
             }
@@ -99,6 +99,9 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
                 Log.i("test", "Uri: " + uri.toString());
                 try {
                     Bitmap bitmap = MediaStore.Images.Media.getBitmap(getContentResolver(), uri);
+                    ImageScaler imageScaler = new ImageScaler(bitmap);
+                    bitmap = imageScaler.scale();
+
                     Asset asset = createAssetFromBitmap(bitmap);
 
                     PutDataMapRequest dataMap = PutDataMapRequest.create("/image");

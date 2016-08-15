@@ -5,7 +5,7 @@
         jar="/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         revision="23.0.3"
-        sha1="6d9555bdac280531d87aab9a67580bb4fd5c7bf3">
+        sha1="06a92cf711e3ad9fc954f7c4a3d9af476d10e205">
         <dex dex="/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/pre-dexed/debug/instant-run_0a2e484f832a16a0a8af03dcdc53c735164798b9.jar" />
     </item>
     <item
@@ -89,7 +89,7 @@
         jar="/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         revision="23.0.3"
-        sha1="be4aba18553325cc767d6358bb9bb0e12f57189b">
+        sha1="d06f95f19b13dea6ec5ea865b978e4e01f7b4bb9">
         <dex dex="/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/pre-dexed/debug/instant-run-bootstrap_22c9781d3df8050685ac38f5c149e61a41769a0a.jar" />
     </item>
     <item
