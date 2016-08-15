@@ -69,10 +69,9 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Intent.ACTION_OPEN_DOCUMENT);
-                intent.addCategory(Intent.CATEGORY_OPENABLE);
+                Intent intent = new Intent(Intent.ACTION_PICK, MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
                 intent.setType("image/*");
-
+                
                 startActivityForResult(intent, READ_REQUEST_CODE);
 
             }
@@ -110,7 +109,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
                         @Override
                         public void onResult(DataApi.DataItemResult dataItemResult) {
 
-                            Log.e("test", "onResult2: " + dataItemResult);
+                            Log.d("test", "onResult2: " + dataItemResult);
 
                         }
                     } );
