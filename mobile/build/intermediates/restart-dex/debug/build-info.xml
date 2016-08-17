@@ -4,37 +4,29 @@
     api-level="19"
     density="xxhdpi"
     format="7"
-    timestamp="121858835621679"
-    verifier="COMPATIBLE" >
+    timestamp="137654001329531" >
 
     <task
         name="javac"
-        duration="146" />
+        duration="155" />
     <task
         name="instant-run-dex"
-        duration="661" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="11" />
+        duration="19" />
     <task
         name="verifier"
-        duration="1" />
+        duration="0" />
 
     <artifact
-        location="/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/reload-dex/debug/classes.dex"
-        type="RELOAD_DEX" />
+        location="/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/outputs/apk/mobile-debug.apk"
+        type="MAIN" />
 
-    <build timestamp="121781434247218" >
+    <build timestamp="137654001329531" >
         <artifact
             location="/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/outputs/apk/mobile-debug.apk"
             type="MAIN" />
-    </build>
-    <build
-        timestamp="121858835621679"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/reload-dex/debug/classes.dex"
-            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

@@ -101,6 +101,10 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
                     Bitmap bitmap = MediaStore.Images.Media.getBitmap(getContentResolver(), uri);
                     ImageScaler imageScaler = new ImageScaler(bitmap);
                     bitmap = imageScaler.scale();
+                    bitmap = imageScaler.crop();
+
+                    //imageScaler = new ImageScaler(bitmap);
+
 
                     Asset asset = createAssetFromBitmap(bitmap);
 
@@ -120,7 +124,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
 
                     imageView.setImageBitmap(bitmap);
                     Log.i("test", "bitmap set");
-
+                    imageScaler = null;
                 } catch (IOException e) {
                     e.printStackTrace();
                 }

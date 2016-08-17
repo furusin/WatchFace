@@ -13,17 +13,17 @@ public class ImageScaler {
     int scaleWidth;
     int scaleHeight;
 
-    public ImageScaler(Bitmap bitmap){
+    public ImageScaler(Bitmap bitmap) {
         this.bitmap = bitmap;
     }
 
 
-    public Bitmap scale(){
+    public Bitmap scale() {
         Bitmap scaledBitmap = null;
         int bitmapWidth = bitmap.getWidth();
         int bitmapHeight = bitmap.getHeight();
 
-        if(bitmap.getWidth() > IMAGE_SIZE_MAX && bitmap.getHeight() > IMAGE_SIZE_MAX){
+        if (bitmap.getWidth() > IMAGE_SIZE_MAX && bitmap.getHeight() > IMAGE_SIZE_MAX) {
 
             float scaleWidth = ((float) IMAGE_SIZE_MAX) / bitmapWidth;
             float scaleHeight = ((float) IMAGE_SIZE_MAX) / bitmapHeight;
@@ -35,14 +35,25 @@ public class ImageScaler {
 //          scaledBitmap = Bitmap.createBitmap(bitmap, 0, 0, bitmapWidth, bitmapHeight, scale, false);
             scaledBitmap = Bitmap.createBitmap(bitmap, 0, 0, bitmapWidth, bitmapHeight, scale, false);
             bitmap.recycle();
-        }
+            bitmap = scaledBitmap;
 
-        return scaledBitmap;
+        }
+        return bitmap;
     }
 
+    public Bitmap crop() {
+        Bitmap croppedBitmap = null;
+        if(bitmap.getWidth() > bitmap.getHeight()) {
+            croppedBitmap = Bitmap.createBitmap(bitmap, (bitmap.getWidth() / 2) - (bitmap.getWidth() / 4), 0, (bitmap.getWidth() / 2) + (bitmap.getWidth() / 4), bitmap.getHeight(), null, true);
+        }else{
+            croppedBitmap = Bitmap.createBitmap(bitmap, 0, (bitmap.getHeight() / 2) - (bitmap.getHeight() / 4), bitmap.getWidth(), (bitmap.getHeight() / 2) + (bitmap.getHeight() / 4), null, true);
 
+        }
+        bitmap.recycle();
 
+        bitmap = croppedBitmap;
 
-
+        return bitmap;
+    }
 
 }
