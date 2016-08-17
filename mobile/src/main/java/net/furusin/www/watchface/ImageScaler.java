@@ -43,10 +43,13 @@ public class ImageScaler {
 
     public Bitmap crop() {
         Bitmap croppedBitmap = null;
+        int size = 0;
         if(bitmap.getWidth() > bitmap.getHeight()) {
-            croppedBitmap = Bitmap.createBitmap(bitmap, (bitmap.getWidth() / 2) - (bitmap.getWidth() / 4), 0, (bitmap.getWidth() / 2) + (bitmap.getWidth() / 4), bitmap.getHeight(), null, true);
+            size = bitmap.getHeight();
+            croppedBitmap = Bitmap.createBitmap(bitmap, (bitmap.getWidth() / 2) - size / 2, 0, size, size, null, true);
         }else{
-            croppedBitmap = Bitmap.createBitmap(bitmap, 0, (bitmap.getHeight() / 2) - (bitmap.getHeight() / 4), bitmap.getWidth(), (bitmap.getHeight() / 2) + (bitmap.getHeight() / 4), null, true);
+            size = bitmap.getWidth();
+            croppedBitmap = Bitmap.createBitmap(bitmap, 0, (bitmap.getHeight() / 2) - size / 2, size, size, null, true);
 
         }
         bitmap.recycle();
