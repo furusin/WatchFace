@@ -43,7 +43,7 @@ Context mContext;
 
     /**
      *
-     * @return バッテリーステータス
+     * @return バッテリーステータス：充電中か否か
      * int	BATTERY_STATUS_CHARGING:2
      * int	BATTERY_STATUS_DISCHARGING:3
      * int	BATTERY_STATUS_FULL:5
@@ -54,6 +54,7 @@ Context mContext;
     private int getBatteryStatus(){
         return batteryStatus.getIntExtra(BatteryManager.EXTRA_STATUS, 1);
     }
+
 
 
 }
