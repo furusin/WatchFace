@@ -938,8 +938,255 @@
                     "startLine": 51,
                     "startColumn": 4,
                     "startOffset": 7148,
+                    "endColumn": 106,
+                    "endOffset": 7250
+                },
+                "from": {
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 278,
+                        "endColumn": 106,
+                        "endOffset": 380
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 52,
+                    "startColumn": 4,
+                    "startOffset": 7255,
+                    "endColumn": 123,
+                    "endOffset": 7374
+                },
+                "from": {
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 385,
+                        "endColumn": 123,
+                        "endOffset": 504
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 53,
+                    "startColumn": 4,
+                    "startOffset": 7379,
+                    "endColumn": 110,
+                    "endOffset": 7485
+                },
+                "from": {
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 509,
+                        "endColumn": 110,
+                        "endOffset": 615
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 54,
+                    "startColumn": 4,
+                    "startOffset": 7490,
+                    "endColumn": 105,
+                    "endOffset": 7591
+                },
+                "from": {
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 620,
+                        "endColumn": 105,
+                        "endOffset": 721
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 55,
+                    "startColumn": 4,
+                    "startOffset": 7596,
+                    "endColumn": 131,
+                    "endOffset": 7723
+                },
+                "from": {
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 726,
+                        "endColumn": 131,
+                        "endOffset": 853
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 56,
+                    "startColumn": 4,
+                    "startOffset": 7728,
+                    "endColumn": 95,
+                    "endOffset": 7819
+                },
+                "from": {
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 858,
+                        "endColumn": 95,
+                        "endOffset": 949
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 57,
+                    "startColumn": 4,
+                    "startOffset": 7824,
+                    "endColumn": 96,
+                    "endOffset": 7916
+                },
+                "from": {
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 954,
+                        "endColumn": 96,
+                        "endOffset": 1046
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 58,
+                    "startColumn": 4,
+                    "startOffset": 7921,
+                    "endColumn": 131,
+                    "endOffset": 8048
+                },
+                "from": {
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1051,
+                        "endColumn": 131,
+                        "endOffset": 1178
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 59,
+                    "startColumn": 4,
+                    "startOffset": 8053,
+                    "endColumn": 109,
+                    "endOffset": 8158
+                },
+                "from": {
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1183,
+                        "endColumn": 109,
+                        "endOffset": 1288
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 60,
+                    "startColumn": 4,
+                    "startOffset": 8163,
+                    "endColumn": 86,
+                    "endOffset": 8245
+                },
+                "from": {
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1293,
+                        "endColumn": 86,
+                        "endOffset": 1375
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 61,
+                    "startColumn": 4,
+                    "startOffset": 8250,
+                    "endColumn": 95,
+                    "endOffset": 8341
+                },
+                "from": {
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/values-fr/values-fr.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1380,
+                        "endColumn": 95,
+                        "endOffset": 1471
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 62,
+                    "startColumn": 4,
+                    "startOffset": 8346,
+                    "endColumn": 110,
+                    "endOffset": 8452
+                },
+                "from": {
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/res/values-fr/location_strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 330,
+                        "endColumn": 110,
+                        "endOffset": 436
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 63,
+                    "startColumn": 4,
+                    "startOffset": 8457,
+                    "endColumn": 99,
+                    "endOffset": 8552
+                },
+                "from": {
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/res/values-fr/location_strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 230,
+                        "endColumn": 99,
+                        "endOffset": 325
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 64,
+                    "startColumn": 4,
+                    "startOffset": 8557,
                     "endColumn": 100,
-                    "endOffset": 7244
+                    "endOffset": 8653
                 },
                 "from": {
                     "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/values-fr/values-fr.xml",
@@ -949,6 +1196,25 @@
                         "startOffset": 2061,
                         "endColumn": 100,
                         "endOffset": 2157
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 65,
+                    "startColumn": 4,
+                    "startOffset": 8658,
+                    "endColumn": 108,
+                    "endOffset": 8762
+                },
+                "from": {
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/8.4.0/res/values-fr/wallet_strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 230,
+                        "endColumn": 108,
+                        "endOffset": 334
                     }
                 }
             }

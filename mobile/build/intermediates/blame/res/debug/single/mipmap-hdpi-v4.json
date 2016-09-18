@@ -2,5 +2,9 @@
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/mipmap-hdpi-v4/ic_launcher.png",
         "source": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/mipmap-hdpi-v4/add_image.png",
+        "source": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/res/mipmap-hdpi/add_image.png"
     }
 ]

@@ -4,26 +4,26 @@
     api-level="19"
     density="xxhdpi"
     format="7"
-    timestamp="138206160320841" >
+    timestamp="189468741579862" >
 
     <task
         name="javac"
-        duration="169" />
+        duration="2304" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="7" />
+        duration="1680" />
     <task
         name="verifier"
-        duration="1" />
+        duration="195" />
 
     <artifact
         location="/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/outputs/apk/mobile-debug.apk"
         type="MAIN" />
 
-    <build timestamp="138206160320841" >
+    <build timestamp="189468741579862" >
         <artifact
             location="/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/outputs/apk/mobile-debug.apk"
             type="MAIN" />

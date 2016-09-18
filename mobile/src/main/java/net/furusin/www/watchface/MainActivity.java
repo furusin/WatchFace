@@ -3,10 +3,8 @@ package net.furusin.www.watchface;
 import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.Bundle;
-import android.os.ParcelFileDescriptor;
 import android.provider.MediaStore;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -23,18 +21,12 @@ import com.google.android.gms.common.api.PendingResult;
 import com.google.android.gms.common.api.ResultCallback;
 import com.google.android.gms.wearable.Asset;
 import com.google.android.gms.wearable.DataApi;
-import com.google.android.gms.wearable.DataEvent;
-import com.google.android.gms.wearable.DataEventBuffer;
-import com.google.android.gms.wearable.DataMapItem;
 import com.google.android.gms.wearable.PutDataMapRequest;
 import com.google.android.gms.wearable.PutDataRequest;
 import com.google.android.gms.wearable.Wearable;
 
 import java.io.ByteArrayOutputStream;
-import java.io.FileDescriptor;
 import java.io.IOException;
-import java.io.InputStream;
-import java.util.concurrent.TimeUnit;
 
 public class MainActivity extends AppCompatActivity implements GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener,
         ResultCallback<DataApi.DataItemResult> {
@@ -69,6 +61,10 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+              /*
+                Intent intent = new Intent(Intent.ACTION_OPEN_DOCUMENT);
+                intent.addCategory(Intent.CATEGORY_OPENABLE);
+                */
                 Intent intent = new Intent(Intent.ACTION_PICK, MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
                 intent.setType("image/*");
 
@@ -96,14 +92,14 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
             Uri uri = null;
             if (resultData != null) {
                 uri = resultData.getData();
+                ImageScaler imageScaler;
                 Log.i("test", "Uri: " + uri.toString());
                 try {
                     Bitmap bitmap = MediaStore.Images.Media.getBitmap(getContentResolver(), uri);
-                    ImageScaler imageScaler = new ImageScaler(bitmap);
+                    imageScaler = new ImageScaler(bitmap);
                     bitmap = imageScaler.scale();
                     bitmap = imageScaler.crop();
 
-                    //imageScaler = new ImageScaler(bitmap);
 
 
                     Asset asset = createAssetFromBitmap(bitmap);
@@ -172,13 +168,13 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
 
     @Override
     public void onConnectionFailed(@NonNull ConnectionResult connectionResult) {
-        Log.e("test", "onConnectionFailed: " + connectionResult);
+        Log.d("test", "onConnectionFailed: " + connectionResult);
 
     }
 
     @Override
     public void onResult(@NonNull DataApi.DataItemResult dataItemResult) {
-        Log.e("test", "onResult: " + dataItemResult);
+        Log.d("test", "onResult: " + dataItemResult);
 
     }
 }

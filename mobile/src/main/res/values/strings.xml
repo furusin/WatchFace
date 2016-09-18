@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">WatchFace</string>
+    <string name="choose_image">写真を選ぶ</string>
 </resources>
