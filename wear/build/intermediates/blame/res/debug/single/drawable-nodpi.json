@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/res/merged/debug/drawable-nodpi/black_background.png",
+        "source": "/Users/furusin/AndroidStudioProjects/WatchFace/wear/src/main/res/drawable-nodpi/black_background.png"
+    },
+    {
+        "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/res/merged/debug/drawable-nodpi/preview_analog.png",
+        "source": "/Users/furusin/AndroidStudioProjects/WatchFace/wear/src/main/res/drawable-nodpi/preview_analog.png"
+    }
+]

@@ -12,11 +12,11 @@ import android.widget.Toast;
  * Created by furusin on 2016/09/18.
  */
 public class MyBatteryManager {
-Context mContext;
+    Context mContext;
     IntentFilter intentFilter;
     Intent batteryStatus;
 
-    private void MyBatteryManager(Context context){
+    public MyBatteryManager(Context context){
         mContext = context;
         intentFilter = new IntentFilter(Intent.ACTION_BATTERY_CHANGED);
         batteryStatus = mContext.registerReceiver(null, intentFilter);

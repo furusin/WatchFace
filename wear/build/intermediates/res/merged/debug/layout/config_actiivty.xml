@@ -9,4 +9,10 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="net.furusin.www.watchface.ConfigActiivty">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/batteryTextView"
+        android:text="Battery Information"/>
+
 </RelativeLayout>

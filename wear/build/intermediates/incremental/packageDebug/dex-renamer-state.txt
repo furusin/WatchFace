@@ -1,0 +1,7 @@
+#Fri Oct 14 23:02:27 JST 2016
+base.0=/Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_03bf87c185148b8b85ea8d395c67379b8fc6b3b0
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_18b186a663567e7f132f37f65b703910170a48a1/classes.dex
+base.1=/Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_18b186a663567e7f132f37f65b703910170a48a1
+file.0=/Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_03bf87c185148b8b85ea8d395c67379b8fc6b3b0/classes.dex

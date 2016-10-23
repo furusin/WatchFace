@@ -715,6 +715,7 @@ containing a value of this type.
         public static final int open_on_phone=0x7f020038;
         public static final int open_on_phone_animation=0x7f020039;
         public static final int preview_analog=0x7f02003a;
+        public static final int screen=0x7f02003b;
     }
     public static final class id {
         public static final int adjust_height=0x7f0f000b;
@@ -723,6 +724,7 @@ containing a value of this type.
         public static final int all=0x7f0f0001;
         public static final int animatedWrapperContainer=0x7f0f001d;
         public static final int auto=0x7f0f0010;
+        public static final int batteryTextView=0x7f0f0020;
         public static final int bottom=0x7f0f0002;
         public static final int buttonPanel=0x7f0f001f;
         public static final int center=0x7f0f0009;
@@ -731,8 +733,8 @@ containing a value of this type.
         public static final int clip_horizontal=0x7f0f0015;
         public static final int clip_vertical=0x7f0f0016;
         public static final int dark=0x7f0f0011;
-        public static final int dismiss_overlay_button=0x7f0f0021;
-        public static final int dismiss_overlay_explain=0x7f0f0020;
+        public static final int dismiss_overlay_button=0x7f0f0022;
+        public static final int dismiss_overlay_explain=0x7f0f0021;
         public static final int end=0x7f0f0017;
         public static final int fill=0x7f0f0018;
         public static final int fill_horizontal=0x7f0f0019;
@@ -743,14 +745,14 @@ containing a value of this type.
         public static final int item_touch_helper_previous_elevation=0x7f0f0000;
         public static final int left=0x7f0f0003;
         public static final int light=0x7f0f0012;
-        public static final int message=0x7f0f0022;
+        public static final int message=0x7f0f0023;
         public static final int none=0x7f0f0007;
         public static final int parentPanel=0x7f0f001c;
         public static final int right=0x7f0f0004;
         public static final int standard=0x7f0f000e;
         public static final int start=0x7f0f001b;
-        public static final int text=0x7f0f0024;
-        public static final int title=0x7f0f0023;
+        public static final int text=0x7f0f0025;
+        public static final int title=0x7f0f0024;
         public static final int top=0x7f0f0005;
         public static final int wide=0x7f0f000f;
         public static final int width=0x7f0f0008;

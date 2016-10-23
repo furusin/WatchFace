@@ -1,32 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="armeabi-v7a,armeabi"
     api-level="19"
     density="xxhdpi"
-    format="7"
-    timestamp="189468741579862" >
+    format="8"
+    plugin-version="2.2.0"
+    timestamp="84716253569628"
+    token="1454947427808512678"
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="2304" />
+        duration="460" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="851" />
     <task
         name="instant-run-transform"
-        duration="1680" />
+        duration="42" />
     <task
         name="verifier"
-        duration="195" />
+        duration="5" />
 
     <artifact
-        location="/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/outputs/apk/mobile-debug.apk"
-        type="MAIN" />
+        location="/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/reload-dex/debug/classes.dex"
+        type="RELOAD_DEX" />
 
-    <build timestamp="189468741579862" >
+    <build
+        timestamp="84579660904905"
+        verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/outputs/apk/mobile-debug.apk"
             type="MAIN" />
+    </build>
+    <build
+        timestamp="84607805664711"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/builds/debug/84607805664711/classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        timestamp="84716253569628"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/reload-dex/debug/classes.dex"
+            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

@@ -4,16 +4,12 @@
         "source": "/Users/furusin/AndroidStudioProjects/WatchFace/wear/src/main/res/drawable-nodpi/background2.JPG"
     },
     {
-        "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/res/merged/debug/drawable-nodpi-v4/preview_analog.png",
-        "source": "/Users/furusin/AndroidStudioProjects/WatchFace/wear/src/main/res/drawable-nodpi/preview_analog.png"
+        "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/res/merged/debug/drawable-nodpi-v4/background4.JPG",
+        "source": "/Users/furusin/AndroidStudioProjects/WatchFace/wear/src/main/res/drawable-nodpi/background4.JPG"
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/res/merged/debug/drawable-nodpi-v4/background0.jpg",
         "source": "/Users/furusin/AndroidStudioProjects/WatchFace/wear/src/main/res/drawable-nodpi/background0.jpg"
-    },
-    {
-        "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/res/merged/debug/drawable-nodpi-v4/background4.JPG",
-        "source": "/Users/furusin/AndroidStudioProjects/WatchFace/wear/src/main/res/drawable-nodpi/background4.JPG"
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/res/merged/debug/drawable-nodpi-v4/background3.JPG",
@@ -22,9 +18,5 @@
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/res/merged/debug/drawable-nodpi-v4/background1.jpg",
         "source": "/Users/furusin/AndroidStudioProjects/WatchFace/wear/src/main/res/drawable-nodpi/background1.jpg"
-    },
-    {
-        "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/res/merged/debug/drawable-nodpi-v4/black_background.png",
-        "source": "/Users/furusin/AndroidStudioProjects/WatchFace/wear/src/main/res/drawable-nodpi/black_background.png"
     }
 ]

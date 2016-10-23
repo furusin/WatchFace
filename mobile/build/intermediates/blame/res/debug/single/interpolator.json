@@ -16,8 +16,16 @@
         "source": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.support/wearable/1.4.0/res/interpolator/generic_confirmation_animation_interpolator_0.xml"
     },
     {
+        "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/interpolator/mr_fast_out_slow_in.xml",
+        "source": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/interpolator/mr_fast_out_slow_in.xml"
+    },
+    {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/interpolator/open_on_phone_animation_interpolator_1.xml",
         "source": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.support/wearable/1.4.0/res/interpolator/open_on_phone_animation_interpolator_1.xml"
+    },
+    {
+        "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/interpolator/mr_linear_out_slow_in.xml",
+        "source": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/interpolator/mr_linear_out_slow_in.xml"
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/interpolator/generic_confirmation_animation_interpolator_3.xml",

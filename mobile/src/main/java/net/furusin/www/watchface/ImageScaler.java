@@ -5,13 +5,14 @@ import android.graphics.Matrix;
 
 /**
  * Created by furusin on 2016/08/15.
+ * アプリから選択した画像を切り抜くクラス。
+ * 縦長の写真の場合、中心から横幅のサイズを正方形に切り出す。
+ * 横長の写真の場合、中心から縦幅のサイズを正方形に切り出す。
  */
 public class ImageScaler {
 
     int IMAGE_SIZE_MAX = 512;
     Bitmap bitmap;
-    int scaleWidth;
-    int scaleHeight;
 
     public ImageScaler(Bitmap bitmap) {
         this.bitmap = bitmap;
@@ -32,7 +33,6 @@ public class ImageScaler {
             Matrix scale = new Matrix();
             scale.postScale(scaleFactor, scaleFactor);
 
-//          scaledBitmap = Bitmap.createBitmap(bitmap, 0, 0, bitmapWidth, bitmapHeight, scale, false);
             scaledBitmap = Bitmap.createBitmap(bitmap, 0, 0, bitmapWidth, bitmapHeight, scale, false);
             bitmap.recycle();
             bitmap = scaledBitmap;
@@ -40,6 +40,16 @@ public class ImageScaler {
         }
         return bitmap;
     }
+
+
+
+    /*
+     * アプリから選択した画像を切り抜くクラス。
+     * 縦長の写真の場合、中心から横幅のサイズを正方形に切り出す。
+     * 横長の写真の場合、中心から縦幅のサイズを正方形に切り出す。
+     *
+     *
+     */
 
     public Bitmap crop() {
         Bitmap croppedBitmap = null;

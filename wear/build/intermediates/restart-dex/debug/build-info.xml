@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    api-level="23"
+    density="hdpi"
+    format="8"
+    plugin-version="2.2.0"
+    timestamp="39963646504086"
+    token="-5683606972069354910"
+    verifier="FULL_BUILD_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="1289" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="91" />
+    <task
+        name="verifier"
+        duration="374" />
+
+    <artifact
+        location="/Users/furusin/AndroidStudioProjects/WatchFace/wear/build/outputs/apk/wear-debug.apk"
+        type="MAIN" />
+
+    <build
+        timestamp="39963646504086"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/Users/furusin/AndroidStudioProjects/WatchFace/wear/build/outputs/apk/wear-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

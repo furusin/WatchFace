@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "541005665575",
+    "firebase_url": "https://watchface-d5c99.firebaseio.com",
+    "project_id": "watchface-d5c99",
+    "storage_bucket": "watchface-d5c99.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:541005665575:android:c60e92e72c443a83",
+        "android_client_info": {
+          "package_name": "net.furusin.www.watchface"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "541005665575-51kast6u09ldr0crm5mr7vt5m5iidugo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "net.furusin.www.watchface",
+            "certificate_hash": "18E5E85F2997DB280DA9D925C0A2FA6BACF8707D"
+          }
+        },
+        {
+          "client_id": "541005665575-bgvrh1vtm2i3o5g6oh15aehdiaf42sos.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPdhdS6BNcW46BbS5CWups-A4eYpJyMN0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "541005665575-bgvrh1vtm2i3o5g6oh15aehdiaf42sos.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

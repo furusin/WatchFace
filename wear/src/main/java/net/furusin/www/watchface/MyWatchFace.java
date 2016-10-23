@@ -39,6 +39,7 @@ import android.support.wearable.watchface.WatchFaceStyle;
 import android.text.format.Time;
 import android.util.Log;
 import android.view.SurfaceHolder;
+import android.widget.Toast;
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
@@ -337,6 +338,9 @@ public class MyWatchFace extends CanvasWatchFaceService {
                     Log.d("test", "uri: " + event.getDataItem().getUri().toString());
                     DataMapItem dataMapItem = DataMapItem.fromDataItem(event.getDataItem());
                     profileAsset = dataMapItem.getDataMap().getAsset("profileImage");
+                }
+                if(event.getDataItem().getUri().getPath().equals("/batteryInfo")){
+
                 }
             }
 

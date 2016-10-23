@@ -1,9 +1,13 @@
 package net.furusin.www.watchface;
 
 import android.app.Activity;
+import android.content.BroadcastReceiver;
+import android.content.Context;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.graphics.Bitmap;
 import android.net.Uri;
+import android.os.BatteryManager;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.support.annotation.NonNull;
@@ -14,6 +18,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.support.wearable.companion.WatchFaceCompanion;
+import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
@@ -21,9 +27,11 @@ import com.google.android.gms.common.api.PendingResult;
 import com.google.android.gms.common.api.ResultCallback;
 import com.google.android.gms.wearable.Asset;
 import com.google.android.gms.wearable.DataApi;
+import com.google.android.gms.wearable.DataMap;
 import com.google.android.gms.wearable.PutDataMapRequest;
 import com.google.android.gms.wearable.PutDataRequest;
 import com.google.android.gms.wearable.Wearable;
+
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
@@ -38,13 +46,34 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
     private final int READ_REQUEST_CODE = 44;
     ImageView imageView;
     GoogleApiClient mGoogleApiClient;
+    TextView textView;  //バッテリー状態表示テスト用
+
+
     private static final String PATH_WITH_FEATURE = "/watch_face_config/Digital";
     private String mPeerId;
+    private MyBatteryManager myBatteryManager;
+    //int batteryStatus = 0;
+    String batteryStatusString = "";
+    int batteryLevel = 0;
+
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+
+        IntentFilter intentFilter = new IntentFilter();
+
+        intentFilter.addAction(Intent.ACTION_BATTERY_CHANGED);
+        registerReceiver(mBroadcastReveiver, intentFilter);
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        textView = (TextView)findViewById(R.id.textView);
+
         imageView = (ImageView) findViewById(R.id.imageView);
         Button button = (Button) findViewById(R.id.button);
 
@@ -56,7 +85,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
                 .build();
 
         mPeerId = getIntent().getStringExtra(WatchFaceCompanion.EXTRA_PEER_ID);
-
+        myBatteryManager = new MyBatteryManager(getApplicationContext());
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -65,6 +94,9 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
                 Intent intent = new Intent(Intent.ACTION_OPEN_DOCUMENT);
                 intent.addCategory(Intent.CATEGORY_OPENABLE);
                 */
+
+
+
                 Intent intent = new Intent(Intent.ACTION_PICK, MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
                 intent.setType("image/*");
 
@@ -75,6 +107,57 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
         // ATTENTION: This was auto-generated to implement the App Indexing API.
         // See https://g.co/AppIndexing/AndroidStudio for more information.
     }
+
+    private BroadcastReceiver mBroadcastReveiver = new BroadcastReceiver() {
+        @Override
+        public void onReceive(Context context, Intent intent) {
+            String action = intent.getAction();
+            if(action.equals(Intent.ACTION_BATTERY_CHANGED)){
+                 int batteryStatus = intent.getIntExtra("status", 0);
+                batteryLevel = intent.getIntExtra("level", 0);
+
+                switch (batteryStatus){
+                    case BatteryManager.BATTERY_STATUS_UNKNOWN:
+                        batteryStatusString = "unknown";
+                        break;
+                    case BatteryManager.BATTERY_STATUS_CHARGING:
+                        batteryStatusString = "charging";
+                        break;
+                    case BatteryManager.BATTERY_STATUS_DISCHARGING:
+                        batteryStatusString = "discharging";
+                        break;
+                    case BatteryManager.BATTERY_STATUS_NOT_CHARGING:
+                        batteryStatusString = "not charging";
+                        break;
+                    case BatteryManager.BATTERY_STATUS_FULL:
+                        batteryStatusString = "full";
+                        break;
+                }
+
+                textView.setText(batteryStatusString);
+
+                PutDataMapRequest putDataMapRequest = PutDataMapRequest.create("/batteryInfo");
+                DataMap dataMap = new DataMap();
+                dataMap.putInt("BatteryLevel", batteryLevel);
+                dataMap.putInt("BatteryStatus", batteryStatus);
+
+                putDataMapRequest.getDataMap().putDataMap("/batteryInfo", dataMap);
+                PutDataRequest request = putDataMapRequest.asPutDataRequest();
+                com.google.android.gms.common.api.PendingResult<DataApi.DataItemResult> pendingResult = Wearable.DataApi.putDataItem(mGoogleApiClient, request);
+                pendingResult.setResultCallback(new ResultCallback<DataApi.DataItemResult> () {
+                    @Override
+                    public void onResult(DataApi.DataItemResult dataItemResult) {
+
+                        Log.d("test", "onResult2: " + dataItemResult);
+
+                    }
+                } );
+
+
+
+            }
+        }
+    };
 
     @Override
     public void onActivityResult(int requestCode, int resultCode,
@@ -127,6 +210,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
             }
         }
     }
+
 
     private static Asset createAssetFromBitmap(Bitmap bitmap) {
         final ByteArrayOutputStream byteStream = new ByteArrayOutputStream();
