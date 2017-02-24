@@ -1,50 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
+    abi="armeabi-v7a,armeabi"
     api-level="19"
     density="xxhdpi"
     format="8"
-    plugin-version="2.2.0"
-    timestamp="84716253569628"
+    plugin-version="2.2.3"
+    timestamp="51178413011074"
     token="1454947427808512678"
-    verifier="COMPATIBLE" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="460" />
+        duration="3078" />
     <task
         name="instant-run-dex"
-        duration="851" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="42" />
+        duration="329" />
     <task
         name="verifier"
-        duration="5" />
+        duration="2" />
 
     <artifact
-        location="/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/reload-dex/debug/classes.dex"
-        type="RELOAD_DEX" />
+        location="/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/outputs/apk/mobile-debug.apk"
+        type="MAIN" />
 
     <build
-        timestamp="84579660904905"
-        verifier="FULL_BUILD_REQUESTED" >
-        <artifact
-            location="/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/outputs/apk/mobile-debug.apk"
-            type="MAIN" />
-    </build>
-    <build
-        timestamp="84607805664711"
+        timestamp="159987211218532"
         verifier="COMPATIBLE" >
         <artifact
-            location="/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/builds/debug/84607805664711/classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="84716253569628"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/reload-dex/debug/classes.dex"
-            type="RELOAD_DEX" />
+            location="/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+            type="RESOURCES" />
     </build>
 
 </instant-run>

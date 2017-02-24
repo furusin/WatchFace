@@ -135,16 +135,16 @@ public final class R {
 		public static final int item_touch_helper_max_drag_scroll_per_frame = 0x7f0b0019;
 	}
 	public static final class drawable {
-		public static final int card_background = 0x7f020006;
-		public static final int card_frame = 0x7f020007;
-		public static final int card_frame_pressed = 0x7f020008;
-		public static final int close_button = 0x7f020009;
-		public static final int generic_confirmation = 0x7f020034;
-		public static final int generic_confirmation_animation = 0x7f020035;
-		public static final int ic_full_cancel = 0x7f020036;
-		public static final int ic_full_sad = 0x7f020037;
-		public static final int open_on_phone = 0x7f020038;
-		public static final int open_on_phone_animation = 0x7f020039;
+		public static final int card_background = 0x7f020007;
+		public static final int card_frame = 0x7f020008;
+		public static final int card_frame_pressed = 0x7f020009;
+		public static final int close_button = 0x7f02000a;
+		public static final int generic_confirmation = 0x7f020035;
+		public static final int generic_confirmation_animation = 0x7f020036;
+		public static final int ic_full_cancel = 0x7f020037;
+		public static final int ic_full_sad = 0x7f020038;
+		public static final int open_on_phone = 0x7f020039;
+		public static final int open_on_phone_animation = 0x7f02003a;
 	}
 	public static final class id {
 		public static final int alertTitle = 0x7f0f001e;

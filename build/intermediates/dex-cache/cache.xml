@@ -115,7 +115,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="a4ae15311624560c30aa512dc00b4663cad40743">
+        sha1="c920681fe4fede41066f12aa8b1c7e7c424ad5fa">
         <dex dex="/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/pre-dexed/debug/instant-run-bootstrap_22c9781d3df8050685ac38f5c149e61a41769a0a.jar" />
     </item>
     <item
@@ -142,7 +142,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="7aca8bb385dbea841a75288d29b9bb73bd6b9ebd">
+        sha1="3fc62e362c821c81d5c442788e9a5f86b58b8f5b">
         <dex dex="/Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_18b186a663567e7f132f37f65b703910170a48a1/classes.dex" />
     </item>
     <item
@@ -165,6 +165,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.android.support/multidex/1.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="6666dd525c3da197e7d07f4f23ef5fc7881a697b">
+        <dex dex="/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/pre-dexed/debug/com.android.support-multidex-1.0.0_380c387081707067e283a1f5bbd8c3e88d9d2fcc.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.4.0/jars/classes.jar"
         jumboMode="true"
         optimize="true"
@@ -178,7 +187,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="e6781d12a64cc471974788ecf28a58dbbf43e503">
+        sha1="9cda6f495df1c31a1512f693d385ecf25e7eeb6a">
         <dex dex="/Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_03bf87c185148b8b85ea8d395c67379b8fc6b3b0/classes.dex" />
     </item>
     <item
@@ -196,7 +205,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="0a37fb4897bfa0597ad4e8080bc4d2b10d8326eb">
+        sha1="da028f5a95dff170aa009817f5d42269760398a8">
         <dex dex="/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/pre-dexed/debug/instant-run_0a2e484f832a16a0a8af03dcdc53c735164798b9.jar" />
     </item>
     <item
@@ -299,13 +308,13 @@
         <dex dex="/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.3.0_4b9f3190e43fb4886f8248e08c72ebcf89c1861e.jar" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/8.4.0/jars/classes.jar"
+        is-multidex="true"
+        jar="/Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="966e5771a5a2ebfb31bf00d7cd6cd2546d245517">
-        <dex dex="/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-auth-8.4.0_f048cfe261cdc1e5d2f956324dc471a5dc61b8b5.jar" />
+        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
+        <dex dex="/Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.0.1_fed7b3a6fdd398073cd99520abadd998805698b9/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -318,21 +327,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
-        <dex dex="/Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.0.1_fed7b3a6fdd398073cd99520abadd998805698b9/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
         sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
         <dex dex="/Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.0.1_89b580d26c3ff298e172de703b92754dd74af293/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="966e5771a5a2ebfb31bf00d7cd6cd2546d245517">
+        <dex dex="/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-auth-8.4.0_f048cfe261cdc1e5d2f956324dc471a5dc61b8b5.jar" />
     </item>
     <item
         is-multidex="false"

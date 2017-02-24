@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/wear/src/main/AndroidManifest.xml:2:1-48:12
+ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/wear/src/main/AndroidManifest.xml:2:1-55:12
 	package
 		ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/wear/src/main/AndroidManifest.xml:3:5-40
 		INJECTED from /Users/furusin/AndroidStudioProjects/WatchFace/wear/src/main/AndroidManifest.xml
@@ -22,11 +22,11 @@ ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/wear/src/main/AndroidM
 	android:name
 		ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/wear/src/main/AndroidManifest.xml:8:22-65
 application
-ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/wear/src/main/AndroidManifest.xml:10:5-46:19
+ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/wear/src/main/AndroidManifest.xml:10:5-53:19
 MERGED from [com.google.android.support:wearable:1.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/exploded-aar/com.google.android.support/wearable/1.4.0/AndroidManifest.xml:8:5-20
-MERGED from [com.android.support:support-v4:23.0.1] /Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-wearable:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/8.4.0/AndroidManifest.xml:19:5-20
 MERGED from [com.google.android.gms:play-services-basement:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.0.1] /Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
 	android:label
 		ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/wear/src/main/AndroidManifest.xml:13:9-41
 	android:supportsRtl
@@ -34,13 +34,13 @@ MERGED from [com.google.android.gms:play-services-basement:8.4.0] /Users/furusin
 	android:allowBackup
 		ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/wear/src/main/AndroidManifest.xml:11:9-35
 	android:icon
-		ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/wear/src/main/AndroidManifest.xml:12:9-43
+		ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/wear/src/main/AndroidManifest.xml:12:9-36
 	android:theme
 		ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/wear/src/main/AndroidManifest.xml:15:9-59
 service#net.furusin.www.watchface.MyWatchFace
-ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/wear/src/main/AndroidManifest.xml:16:9-41:19
+ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/wear/src/main/AndroidManifest.xml:16:9-48:19
 	android:label
-		ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/wear/src/main/AndroidManifest.xml:18:13-51
+		ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/wear/src/main/AndroidManifest.xml:18:13-45
 	android:permission
 		ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/wear/src/main/AndroidManifest.xml:19:13-67
 	android:name
@@ -69,32 +69,42 @@ ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/wear/src/main/AndroidM
 		ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/wear/src/main/AndroidManifest.xml:31:17-70
 	android:name
 		ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/wear/src/main/AndroidManifest.xml:30:17-62
-intent-filter#android.service.wallpaper.WallpaperService+com.google.android.gms.wearable.DATA_CHANGED+com.google.android.gms.wearable.MESSAGE_RECEIVED+com.google.android.wearable.watchface.category.WATCH_FACE
-ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/wear/src/main/AndroidManifest.xml:34:13-40:29
+meta-data#com.google.android.wearable.watchface.wearableConfigurationAction
+ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/wear/src/main/AndroidManifest.xml:34:13-36:76
+	android:value
+		ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/wear/src/main/AndroidManifest.xml:36:17-73
+	android:name
+		ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/wear/src/main/AndroidManifest.xml:35:17-97
+intent-filter#android.service.wallpaper.WallpaperService+com.google.android.gms.wearable.DATA_CHANGED+com.google.android.gms.wearable.MESSAGE_RECEIVED+com.google.android.wearable.watchface.category.WATCH_FACE+com.google.android.wearable.watchface.category.WEARABLE_CONFIGURATION
+ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/wear/src/main/AndroidManifest.xml:38:13-47:29
 action#android.service.wallpaper.WallpaperService
-ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/wear/src/main/AndroidManifest.xml:35:17-85
+ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/wear/src/main/AndroidManifest.xml:39:17-85
 	android:name
-		ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/wear/src/main/AndroidManifest.xml:35:25-82
+		ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/wear/src/main/AndroidManifest.xml:39:25-82
 action#com.google.android.gms.wearable.MESSAGE_RECEIVED
-ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/wear/src/main/AndroidManifest.xml:36:17-91
+ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/wear/src/main/AndroidManifest.xml:40:17-91
 	android:name
-		ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/wear/src/main/AndroidManifest.xml:36:25-88
+		ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/wear/src/main/AndroidManifest.xml:40:25-88
 action#com.google.android.gms.wearable.DATA_CHANGED
-ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/wear/src/main/AndroidManifest.xml:37:17-87
+ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/wear/src/main/AndroidManifest.xml:41:17-87
 	android:name
-		ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/wear/src/main/AndroidManifest.xml:37:25-84
+		ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/wear/src/main/AndroidManifest.xml:41:25-84
+category#com.google.android.wearable.watchface.category.WEARABLE_CONFIGURATION
+ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/wear/src/main/AndroidManifest.xml:43:17-44:95
+	android:name
+		ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/wear/src/main/AndroidManifest.xml:43:27-132
 category#com.google.android.wearable.watchface.category.WATCH_FACE
-ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/wear/src/main/AndroidManifest.xml:39:17-102
+ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/wear/src/main/AndroidManifest.xml:46:17-102
 	android:name
-		ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/wear/src/main/AndroidManifest.xml:39:27-99
+		ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/wear/src/main/AndroidManifest.xml:46:27-99
 uses-sdk
 INJECTED from /Users/furusin/AndroidStudioProjects/WatchFace/wear/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.google.android.support:wearable:1.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/exploded-aar/com.google.android.support/wearable/1.4.0/AndroidManifest.xml:4:5-6:41
-MERGED from [com.android.support:support-v4:23.0.1] /Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:recyclerview-v7:23.0.1] /Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/AndroidManifest.xml:20:5-43
 MERGED from [com.google.android.gms:play-services-wearable:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/8.4.0/AndroidManifest.xml:18:5-42
 MERGED from [com.google.android.gms:play-services-base:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/AndroidManifest.xml:18:5-42
 MERGED from [com.google.android.gms:play-services-basement:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.0.1] /Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
 	android:targetSdkVersion
 		INJECTED from /Users/furusin/AndroidStudioProjects/WatchFace/wear/src/main/AndroidManifest.xml
 		INJECTED from /Users/furusin/AndroidStudioProjects/WatchFace/wear/src/main/AndroidManifest.xml

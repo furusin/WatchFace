@@ -1,4 +1,4 @@
-#Sun Oct 23 11:28:25 JST 2016
+#Mon Feb 20 22:11:51 JST 2017
 base.0=/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/transforms/dex/debug/folders/1000/1f/main
 renamed.0=classes.dex
 file.0=/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

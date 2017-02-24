@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml:2:1-42:12
+ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml:2:1-52:12
 	package
 		ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml:3:5-40
 		INJECTED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml
@@ -23,12 +23,10 @@ ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/Androi
 	android:name
 		ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml:7:22-77
 application
-ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml:10:5-40:19
+ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml:10:5-50:19
 MERGED from [com.google.android.support:wearable:1.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.support/wearable/1.4.0/AndroidManifest.xml:8:5-20
-MERGED from [com.android.support:support-v4:23.3.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services/8.4.0/AndroidManifest.xml:19:5-20
 MERGED from [com.google.android.gms:play-services-ads:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.4.0/AndroidManifest.xml:24:5-32:19
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:20:5-24:19
 MERGED from [com.google.android.gms:play-services-analytics:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.4.0/AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.4.0/AndroidManifest.xml:19:5-20
 MERGED from [com.google.android.gms:play-services-appinvite:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/8.4.0/AndroidManifest.xml:20:5-30:19
@@ -37,22 +35,24 @@ MERGED from [com.google.android.gms:play-services-auth:8.4.0] /Users/furusin/And
 MERGED from [com.google.android.gms:play-services-cast:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/8.4.0/AndroidManifest.xml:19:5-20
 MERGED from [com.android.support:mediarouter-v7:23.0.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:appcompat-v7:23.3.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-vector-drawable:23.3.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.3.0/AndroidManifest.xml:7:5-20
 MERGED from [com.android.support:animated-vector-drawable:23.3.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.3.0/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-drive:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/8.4.0/AndroidManifest.xml:19:5-20
+MERGED from [com.android.support:support-vector-drawable:23.3.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.3.0/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-fitness:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/8.4.0/AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-location:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-maps:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/AndroidManifest.xml:27:5-20
 MERGED from [com.google.android.gms:play-services-games:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/8.4.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-drive:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/8.4.0/AndroidManifest.xml:19:5-20
 MERGED from [com.google.android.gms:play-services-gcm:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.4.0/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-location:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/AndroidManifest.xml:19:5-20
 MERGED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/AndroidManifest.xml:26:5-46:19
-MERGED from [com.google.android.gms:play-services-identity:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/8.4.0/AndroidManifest.xml:19:5-20
 MERGED from [com.google.android.gms:play-services-nearby:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/8.4.0/AndroidManifest.xml:20:5-20
 MERGED from [com.google.android.gms:play-services-panorama:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/8.4.0/AndroidManifest.xml:19:5-20
 MERGED from [com.google.android.gms:play-services-plus:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.4.0/AndroidManifest.xml:19:5-20
 MERGED from [com.google.android.gms:play-services-safetynet:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/8.4.0/AndroidManifest.xml:19:5-20
 MERGED from [com.google.android.gms:play-services-vision:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/8.4.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-identity:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/8.4.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/AndroidManifest.xml:27:5-20
 MERGED from [com.google.android.gms:play-services-wearable:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/8.4.0/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.3.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:22:5-20
 	android:label
 		ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml:13:9-41
 	android:supportsRtl
@@ -60,84 +60,97 @@ MERGED from [com.google.android.gms:play-services-wearable:8.4.0] /Users/furusin
 	android:allowBackup
 		ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml:11:9-35
 	android:icon
-		ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml:12:9-43
+		ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml:12:9-36
 	android:theme
 		ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml:15:9-40
+	android:name
+		ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml:16:9-68
 activity#net.furusin.www.watchface.MainActivity
-ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml:16:9-34:20
+ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml:17:9-41:20
 	android:name
-		ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml:16:19-47
-intent-filter#android.intent.action.ACTION_POWER_CONNECTED+android.intent.action.ACTION_POWER_DISCONNECTED+android.intent.category.BROWSABLE+android.intent.category.DEFAULT+android.intent.category.LAUNCHER+com.example.android.wearable.watchface.CONFIG_DIGITAL+com.google.android.wearable.watchface.category.COMPANION_CONFIGURATION
-ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml:17:13-32:29
+		ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml:17:19-47
+intent-filter#android.intent.action.ACTION_POWER_CONNECTED+android.intent.action.ACTION_POWER_DISCONNECTED+android.intent.action.MAIN+android.intent.category.BROWSABLE+android.intent.category.DEFAULT+android.intent.category.LAUNCHER+com.example.android.wearable.watchface.CONFIG_DIGITAL+com.google.android.wearable.watchface.category.COMPANION_CONFIGURATION
+ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml:18:13-39:29
+action#android.intent.action.MAIN
+ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml:19:17-69
+	android:name
+		ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml:19:25-66
 action#com.example.android.wearable.watchface.CONFIG_DIGITAL
-ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml:19:17-20:79
+ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml:22:17-23:79
 	android:name
-		ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml:19:25-114
+		ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml:22:25-114
 action#android.intent.action.ACTION_POWER_CONNECTED
-ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml:23:17-86
+ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml:27:17-86
 	android:name
-		ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml:23:25-84
+		ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml:27:25-84
 action#android.intent.action.ACTION_POWER_DISCONNECTED
-ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml:24:17-89
+ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml:28:17-89
 	android:name
-		ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml:24:25-87
+		ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml:28:25-87
 category#com.google.android.wearable.watchface.category.COMPANION_CONFIGURATION
-ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml:26:17-27:96
+ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml:31:17-32:96
 	android:name
-		ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml:26:27-133
+		ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml:31:27-133
 category#android.intent.category.DEFAULT
-ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml:28:17-76
+ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml:35:17-76
 	android:name
-		ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml:28:27-73
+		ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml:35:27-73
 category#android.intent.category.LAUNCHER
-ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml:29:17-77
+ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml:36:17-77
 	android:name
-		ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml:29:27-74
+		ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml:36:27-74
 category#android.intent.category.BROWSABLE
-ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml:30:17-77
+ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml:37:17-77
 	android:name
-		ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml:30:27-75
+		ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml:37:27-75
+meta-data#com.google.android.wearable.watchface.wearableConfigurationAction
+ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml:42:9-44:72
+	android:value
+		ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml:44:13-69
+	android:name
+		ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml:43:13-93
 meta-data#com.google.android.gms.version
-ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml:36:9-38:69
+ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml:46:9-48:69
 MERGED from [com.google.android.gms:play-services-basement:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:21:9-23:69
 	android:value
-		ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml:38:13-66
+		ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml:48:13-66
 	android:name
-		ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml:37:13-58
+		ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml:47:13-58
 uses-sdk
 INJECTED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.google.android.support:wearable:1.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.support/wearable/1.4.0/AndroidManifest.xml:4:5-6:41
-MERGED from [com.android.support:support-v4:23.3.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:recyclerview-v7:23.0.1] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.android.support/multidex/1.0.0/AndroidManifest.xml:18:5-42
 MERGED from [com.google.android.gms:play-services:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services/8.4.0/AndroidManifest.xml:18:5-42
 MERGED from [com.google.android.gms:play-services-ads:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.4.0/AndroidManifest.xml:23:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:18:5-42
 MERGED from [com.google.android.gms:play-services-analytics:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.4.0/AndroidManifest.xml:18:5-42
 MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.4.0/AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/AndroidManifest.xml:18:5-42
 MERGED from [com.google.android.gms:play-services-appinvite:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/8.4.0/AndroidManifest.xml:18:5-42
 MERGED from [com.google.android.gms:play-services-appstate:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/8.4.0/AndroidManifest.xml:18:5-42
 MERGED from [com.google.android.gms:play-services-auth:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/8.4.0/AndroidManifest.xml:18:5-43
 MERGED from [com.google.android.gms:play-services-cast:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/8.4.0/AndroidManifest.xml:18:5-42
 MERGED from [com.android.support:mediarouter-v7:23.0.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:appcompat-v7:23.3.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:support-vector-drawable:23.3.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.3.0/AndroidManifest.xml:5:5-43
 MERGED from [com.android.support:animated-vector-drawable:23.3.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.3.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-drive:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-vector-drawable:23.3.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.3.0/AndroidManifest.xml:5:5-43
 MERGED from [com.google.android.gms:play-services-fitness:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/8.4.0/AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-location:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-maps:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/AndroidManifest.xml:26:5-42
 MERGED from [com.google.android.gms:play-services-games:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-drive:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/8.4.0/AndroidManifest.xml:18:5-42
 MERGED from [com.google.android.gms:play-services-gcm:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-location:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/AndroidManifest.xml:18:5-42
 MERGED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-identity:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/8.4.0/AndroidManifest.xml:18:5-42
 MERGED from [com.google.android.gms:play-services-nearby:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/8.4.0/AndroidManifest.xml:18:5-42
 MERGED from [com.google.android.gms:play-services-panorama:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/8.4.0/AndroidManifest.xml:18:5-42
 MERGED from [com.google.android.gms:play-services-plus:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.4.0/AndroidManifest.xml:18:5-42
 MERGED from [com.google.android.gms:play-services-safetynet:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/8.4.0/AndroidManifest.xml:18:5-42
 MERGED from [com.google.android.gms:play-services-vision:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/8.4.0/AndroidManifest.xml:4:5-42
 MERGED from [com.google.android.gms:play-services-wallet:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/8.4.0/AndroidManifest.xml:19:5-42
+MERGED from [com.google.android.gms:play-services-identity:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/AndroidManifest.xml:26:5-42
 MERGED from [com.google.android.gms:play-services-wearable:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.3.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/AndroidManifest.xml:20:5-43
 	tools:overrideLibrary
 		ADDED from [com.android.support:appcompat-v7:23.3.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
@@ -150,17 +163,17 @@ uses-permission#android.permission.INTERNET
 ADDED from [com.google.android.gms:play-services-ads:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.4.0/AndroidManifest.xml:20:5-66
 MERGED from [com.google.android.gms:play-services-analytics:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.4.0/AndroidManifest.xml:21:5-67
 MERGED from [com.google.android.gms:play-services-appinvite:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/8.4.0/AndroidManifest.xml:19:5-67
-MERGED from [com.google.android.gms:play-services-maps:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/AndroidManifest.xml:21:5-66
 MERGED from [com.google.android.gms:play-services-gcm:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.4.0/AndroidManifest.xml:22:5-67
 MERGED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/AndroidManifest.xml:21:5-66
 	android:name
 		ADDED from [com.google.android.gms:play-services-ads:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.4.0/AndroidManifest.xml:20:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.android.gms:play-services-ads:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.4.0/AndroidManifest.xml:21:5-78
 MERGED from [com.google.android.gms:play-services-analytics:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.4.0/AndroidManifest.xml:22:5-79
-MERGED from [com.google.android.gms:play-services-maps:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/AndroidManifest.xml:20:5-78
 MERGED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/AndroidManifest.xml:22:5-79
 MERGED from [com.google.android.gms:play-services-nearby:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/8.4.0/AndroidManifest.xml:19:5-79
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/AndroidManifest.xml:20:5-78
 	android:name
 		ADDED from [com.google.android.gms:play-services-ads:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.4.0/AndroidManifest.xml:21:22-76
 activity#com.google.android.gms.ads.AdActivity
@@ -209,12 +222,6 @@ ADDED from [com.google.android.gms:play-services-auth:8.4.0] /Users/furusin/Andr
 		ADDED from [com.google.android.gms:play-services-auth:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/8.4.0/AndroidManifest.xml:31:13-107
 	android:name
 		ADDED from [com.google.android.gms:play-services-auth:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/8.4.0/AndroidManifest.xml:29:13-62
-uses-feature#0x00020000
-ADDED from [com.google.android.gms:play-services-maps:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/AndroidManifest.xml:22:5-24:33
-	android:glEsVersion
-		ADDED from [com.google.android.gms:play-services-maps:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/AndroidManifest.xml:23:8-40
-	android:required
-		ADDED from [com.google.android.gms:play-services-maps:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/AndroidManifest.xml:24:8-31
 uses-permission#com.google.android.c2dm.permission.RECEIVE
 ADDED from [com.google.android.gms:play-services-gcm:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.4.0/AndroidManifest.xml:21:5-82
 	android:name
@@ -247,3 +254,9 @@ ADDED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/furus
 		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/AndroidManifest.xml:44:11-35
 	android:name
 		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/AndroidManifest.xml:42:11-82
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/AndroidManifest.xml:22:5-24:33
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/AndroidManifest.xml:23:8-40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:8.4.0] /Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/AndroidManifest.xml:24:8-31

@@ -7,17 +7,17 @@
                     "startLine": 2,
                     "startColumn": 4,
                     "startOffset": 105,
-                    "endColumn": 77,
-                    "endOffset": 178
+                    "endColumn": 73,
+                    "endOffset": 174
                 },
                 "from": {
-                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.6.1/res/values-bs/values.xml",
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/10.0.1/res/values-bs/values.xml",
                     "position": {
                         "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 356,
-                        "endColumn": 77,
-                        "endOffset": 429
+                        "startColumn": 0,
+                        "startOffset": 237,
+                        "endColumn": 69,
+                        "endOffset": 306
                     }
                 }
             },
@@ -25,18 +25,18 @@
                 "to": {
                     "startLine": 3,
                     "startColumn": 4,
-                    "startOffset": 183,
-                    "endColumn": 100,
-                    "endOffset": 279
+                    "startOffset": 179,
+                    "endColumn": 77,
+                    "endOffset": 252
                 },
                 "from": {
-                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.6.1/res/values-bs/values.xml",
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/res/values-bs/values.xml",
                     "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 434,
-                        "endColumn": 100,
-                        "endOffset": 530
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 298,
+                        "endColumn": 73,
+                        "endOffset": 371
                     }
                 }
             },
@@ -44,18 +44,18 @@
                 "to": {
                     "startLine": 4,
                     "startColumn": 4,
-                    "startOffset": 284,
-                    "endColumn": 86,
-                    "endOffset": 366
+                    "startOffset": 257,
+                    "endColumn": 100,
+                    "endOffset": 353
                 },
                 "from": {
-                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.6.1/res/values-bs/values.xml",
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/res/values-bs/values.xml",
                     "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 535,
-                        "endColumn": 86,
-                        "endOffset": 617
+                        "startLine": 5,
+                        "startColumn": 0,
+                        "startOffset": 372,
+                        "endColumn": 96,
+                        "endOffset": 468
                     }
                 }
             },
@@ -63,18 +63,18 @@
                 "to": {
                     "startLine": 5,
                     "startColumn": 4,
-                    "startOffset": 371,
-                    "endColumn": 112,
-                    "endOffset": 479
+                    "startOffset": 358,
+                    "endColumn": 86,
+                    "endOffset": 440
                 },
                 "from": {
-                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.6.1/res/values-bs/values.xml",
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/res/values-bs/values.xml",
                     "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 622,
-                        "endColumn": 112,
-                        "endOffset": 730
+                        "startLine": 6,
+                        "startColumn": 0,
+                        "startOffset": 469,
+                        "endColumn": 82,
+                        "endOffset": 551
                     }
                 }
             },
@@ -82,18 +82,18 @@
                 "to": {
                     "startLine": 6,
                     "startColumn": 4,
-                    "startOffset": 484,
-                    "endColumn": 86,
-                    "endOffset": 566
+                    "startOffset": 445,
+                    "endColumn": 112,
+                    "endOffset": 553
                 },
                 "from": {
-                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.6.1/res/values-bs/values.xml",
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/res/values-bs/values.xml",
                     "position": {
-                        "startLine": 8,
-                        "startColumn": 4,
-                        "startOffset": 735,
-                        "endColumn": 86,
-                        "endOffset": 817
+                        "startLine": 7,
+                        "startColumn": 0,
+                        "startOffset": 552,
+                        "endColumn": 108,
+                        "endOffset": 660
                     }
                 }
             },
@@ -101,18 +101,18 @@
                 "to": {
                     "startLine": 7,
                     "startColumn": 4,
-                    "startOffset": 571,
-                    "endColumn": 111,
-                    "endOffset": 678
+                    "startOffset": 558,
+                    "endColumn": 86,
+                    "endOffset": 640
                 },
                 "from": {
-                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.6.1/res/values-bs/values.xml",
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/res/values-bs/values.xml",
                     "position": {
-                        "startLine": 9,
-                        "startColumn": 4,
-                        "startOffset": 822,
-                        "endColumn": 111,
-                        "endOffset": 929
+                        "startLine": 8,
+                        "startColumn": 0,
+                        "startOffset": 661,
+                        "endColumn": 82,
+                        "endOffset": 743
                     }
                 }
             },
@@ -120,18 +120,18 @@
                 "to": {
                     "startLine": 8,
                     "startColumn": 4,
-                    "startOffset": 683,
-                    "endColumn": 111,
-                    "endOffset": 790
+                    "startOffset": 645,
+                    "endColumn": 168,
+                    "endOffset": 809
                 },
                 "from": {
-                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.6.1/res/values-bs/values.xml",
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/res/values-bs/values.xml",
                     "position": {
-                        "startLine": 10,
-                        "startColumn": 4,
-                        "startOffset": 934,
-                        "endColumn": 111,
-                        "endOffset": 1041
+                        "startLine": 9,
+                        "startColumn": 0,
+                        "startOffset": 744,
+                        "endColumn": 164,
+                        "endOffset": 908
                     }
                 }
             },
@@ -139,18 +139,18 @@
                 "to": {
                     "startLine": 9,
                     "startColumn": 4,
-                    "startOffset": 795,
-                    "endColumn": 119,
-                    "endOffset": 910
+                    "startOffset": 814,
+                    "endColumn": 111,
+                    "endOffset": 921
                 },
                 "from": {
-                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.6.1/res/values-bs/values.xml",
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/res/values-bs/values.xml",
                     "position": {
-                        "startLine": 11,
-                        "startColumn": 4,
-                        "startOffset": 1046,
-                        "endColumn": 119,
-                        "endOffset": 1161
+                        "startLine": 10,
+                        "startColumn": 0,
+                        "startOffset": 909,
+                        "endColumn": 107,
+                        "endOffset": 1016
                     }
                 }
             },
@@ -158,18 +158,18 @@
                 "to": {
                     "startLine": 10,
                     "startColumn": 4,
-                    "startOffset": 915,
-                    "endColumn": 102,
-                    "endOffset": 1013
+                    "startOffset": 926,
+                    "endColumn": 111,
+                    "endOffset": 1033
                 },
                 "from": {
-                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.6.1/res/values-bs/values.xml",
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/res/values-bs/values.xml",
                     "position": {
-                        "startLine": 12,
-                        "startColumn": 4,
-                        "startOffset": 1166,
-                        "endColumn": 102,
-                        "endOffset": 1264
+                        "startLine": 11,
+                        "startColumn": 0,
+                        "startOffset": 1017,
+                        "endColumn": 107,
+                        "endOffset": 1124
                     }
                 }
             },
@@ -177,18 +177,18 @@
                 "to": {
                     "startLine": 11,
                     "startColumn": 4,
-                    "startOffset": 1018,
-                    "endColumn": 105,
-                    "endOffset": 1119
+                    "startOffset": 1038,
+                    "endColumn": 119,
+                    "endOffset": 1153
                 },
                 "from": {
-                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.6.1/res/values-bs/values.xml",
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/res/values-bs/values.xml",
                     "position": {
-                        "startLine": 13,
-                        "startColumn": 4,
-                        "startOffset": 1269,
-                        "endColumn": 105,
-                        "endOffset": 1370
+                        "startLine": 12,
+                        "startColumn": 0,
+                        "startOffset": 1125,
+                        "endColumn": 115,
+                        "endOffset": 1240
                     }
                 }
             },
@@ -196,18 +196,18 @@
                 "to": {
                     "startLine": 12,
                     "startColumn": 4,
-                    "startOffset": 1124,
-                    "endColumn": 79,
-                    "endOffset": 1199
+                    "startOffset": 1158,
+                    "endColumn": 102,
+                    "endOffset": 1256
                 },
                 "from": {
-                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.6.1/res/values-bs/values.xml",
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/res/values-bs/values.xml",
                     "position": {
-                        "startLine": 14,
-                        "startColumn": 4,
-                        "startOffset": 1375,
-                        "endColumn": 79,
-                        "endOffset": 1450
+                        "startLine": 13,
+                        "startColumn": 0,
+                        "startOffset": 1241,
+                        "endColumn": 98,
+                        "endOffset": 1339
                     }
                 }
             },
@@ -215,18 +215,18 @@
                 "to": {
                     "startLine": 13,
                     "startColumn": 4,
-                    "startOffset": 1204,
-                    "endColumn": 96,
-                    "endOffset": 1296
+                    "startOffset": 1261,
+                    "endColumn": 105,
+                    "endOffset": 1362
                 },
                 "from": {
-                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.6.1/res/values-bs/values.xml",
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/res/values-bs/values.xml",
                     "position": {
-                        "startLine": 15,
-                        "startColumn": 4,
-                        "startOffset": 1455,
-                        "endColumn": 96,
-                        "endOffset": 1547
+                        "startLine": 14,
+                        "startColumn": 0,
+                        "startOffset": 1340,
+                        "endColumn": 101,
+                        "endOffset": 1441
                     }
                 }
             },
@@ -234,18 +234,18 @@
                 "to": {
                     "startLine": 14,
                     "startColumn": 4,
-                    "startOffset": 1301,
-                    "endColumn": 99,
-                    "endOffset": 1396
+                    "startOffset": 1367,
+                    "endColumn": 79,
+                    "endOffset": 1442
                 },
                 "from": {
-                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.6.1/res/values-bs/values.xml",
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/res/values-bs/values.xml",
                     "position": {
-                        "startLine": 16,
-                        "startColumn": 4,
-                        "startOffset": 1552,
-                        "endColumn": 99,
-                        "endOffset": 1647
+                        "startLine": 15,
+                        "startColumn": 0,
+                        "startOffset": 1442,
+                        "endColumn": 75,
+                        "endOffset": 1517
                     }
                 }
             },
@@ -253,18 +253,18 @@
                 "to": {
                     "startLine": 15,
                     "startColumn": 4,
-                    "startOffset": 1401,
-                    "endColumn": 107,
-                    "endOffset": 1504
+                    "startOffset": 1447,
+                    "endColumn": 96,
+                    "endOffset": 1539
                 },
                 "from": {
-                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.6.1/res/values-bs/values.xml",
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/res/values-bs/values.xml",
                     "position": {
-                        "startLine": 17,
-                        "startColumn": 4,
-                        "startOffset": 1652,
-                        "endColumn": 107,
-                        "endOffset": 1755
+                        "startLine": 16,
+                        "startColumn": 0,
+                        "startOffset": 1518,
+                        "endColumn": 92,
+                        "endOffset": 1610
                     }
                 }
             },
@@ -272,18 +272,18 @@
                 "to": {
                     "startLine": 16,
                     "startColumn": 4,
-                    "startOffset": 1509,
-                    "endColumn": 81,
-                    "endOffset": 1586
+                    "startOffset": 1544,
+                    "endColumn": 99,
+                    "endOffset": 1639
                 },
                 "from": {
-                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.6.1/res/values-bs/values.xml",
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/res/values-bs/values.xml",
                     "position": {
-                        "startLine": 18,
-                        "startColumn": 4,
-                        "startOffset": 1760,
-                        "endColumn": 81,
-                        "endOffset": 1837
+                        "startLine": 17,
+                        "startColumn": 0,
+                        "startOffset": 1611,
+                        "endColumn": 95,
+                        "endOffset": 1706
                     }
                 }
             },
@@ -291,18 +291,18 @@
                 "to": {
                     "startLine": 17,
                     "startColumn": 4,
-                    "startOffset": 1591,
-                    "endColumn": 135,
-                    "endOffset": 1722
+                    "startOffset": 1644,
+                    "endColumn": 107,
+                    "endOffset": 1747
                 },
                 "from": {
-                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/9.6.1/res/values-bs/values.xml",
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/res/values-bs/values.xml",
                     "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 346,
-                        "endColumn": 135,
-                        "endOffset": 477
+                        "startLine": 18,
+                        "startColumn": 0,
+                        "startOffset": 1707,
+                        "endColumn": 103,
+                        "endOffset": 1810
                     }
                 }
             },
@@ -310,18 +310,18 @@
                 "to": {
                     "startLine": 18,
                     "startColumn": 4,
-                    "startOffset": 1727,
-                    "endColumn": 139,
-                    "endOffset": 1862
+                    "startOffset": 1752,
+                    "endColumn": 81,
+                    "endOffset": 1829
                 },
                 "from": {
-                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/9.6.1/res/values-bs/values.xml",
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/res/values-bs/values.xml",
                     "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 482,
-                        "endColumn": 139,
-                        "endOffset": 617
+                        "startLine": 19,
+                        "startColumn": 0,
+                        "startOffset": 1811,
+                        "endColumn": 77,
+                        "endOffset": 1888
                     }
                 }
             },
@@ -329,18 +329,18 @@
                 "to": {
                     "startLine": 19,
                     "startColumn": 4,
-                    "startOffset": 1867,
-                    "endColumn": 99,
-                    "endOffset": 1962
+                    "startOffset": 1834,
+                    "endColumn": 135,
+                    "endOffset": 1965
                 },
                 "from": {
-                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/9.6.1/res/values-bs/values.xml",
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/10.0.1/res/values-bs/values.xml",
                     "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 622,
-                        "endColumn": 99,
-                        "endOffset": 717
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 288,
+                        "endColumn": 135,
+                        "endOffset": 423
                     }
                 }
             },
@@ -348,18 +348,18 @@
                 "to": {
                     "startLine": 20,
                     "startColumn": 4,
-                    "startOffset": 1967,
-                    "endColumn": 77,
-                    "endOffset": 2040
+                    "startOffset": 1970,
+                    "endColumn": 139,
+                    "endOffset": 2105
                 },
                 "from": {
-                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.6.1/res/values-bs/values.xml",
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/10.0.1/res/values-bs/values.xml",
                     "position": {
-                        "startLine": 19,
-                        "startColumn": 4,
-                        "startOffset": 1842,
-                        "endColumn": 77,
-                        "endOffset": 1915
+                        "startLine": 5,
+                        "startColumn": 0,
+                        "startOffset": 424,
+                        "endColumn": 139,
+                        "endOffset": 563
                     }
                 }
             },
@@ -367,18 +367,18 @@
                 "to": {
                     "startLine": 21,
                     "startColumn": 4,
-                    "startOffset": 2045,
-                    "endColumn": 75,
-                    "endOffset": 2116
+                    "startOffset": 2110,
+                    "endColumn": 99,
+                    "endOffset": 2205
                 },
                 "from": {
-                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.6.1/res/values-bs/values.xml",
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/10.0.1/res/values-bs/values.xml",
                     "position": {
-                        "startLine": 20,
-                        "startColumn": 4,
-                        "startOffset": 1920,
-                        "endColumn": 75,
-                        "endOffset": 1991
+                        "startLine": 6,
+                        "startColumn": 0,
+                        "startOffset": 564,
+                        "endColumn": 95,
+                        "endOffset": 659
                     }
                 }
             },
@@ -386,18 +386,18 @@
                 "to": {
                     "startLine": 22,
                     "startColumn": 4,
-                    "startOffset": 2121,
-                    "endColumn": 78,
-                    "endOffset": 2195
+                    "startOffset": 2210,
+                    "endColumn": 77,
+                    "endOffset": 2283
                 },
                 "from": {
-                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.6.1/res/values-bs/values.xml",
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/res/values-bs/values.xml",
                     "position": {
-                        "startLine": 21,
-                        "startColumn": 4,
-                        "startOffset": 1996,
-                        "endColumn": 78,
-                        "endOffset": 2070
+                        "startLine": 20,
+                        "startColumn": 0,
+                        "startOffset": 1889,
+                        "endColumn": 73,
+                        "endOffset": 1962
                     }
                 }
             },
@@ -405,18 +405,18 @@
                 "to": {
                     "startLine": 23,
                     "startColumn": 4,
-                    "startOffset": 2200,
-                    "endColumn": 92,
-                    "endOffset": 2288
+                    "startOffset": 2288,
+                    "endColumn": 75,
+                    "endOffset": 2359
                 },
                 "from": {
-                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.6.1/res/values-bs/values.xml",
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/res/values-bs/values.xml",
                     "position": {
-                        "startLine": 22,
-                        "startColumn": 4,
-                        "startOffset": 2075,
-                        "endColumn": 92,
-                        "endOffset": 2163
+                        "startLine": 21,
+                        "startColumn": 0,
+                        "startOffset": 1963,
+                        "endColumn": 71,
+                        "endOffset": 2034
                     }
                 }
             },
@@ -424,18 +424,18 @@
                 "to": {
                     "startLine": 24,
                     "startColumn": 4,
-                    "startOffset": 2293,
-                    "endColumn": 97,
-                    "endOffset": 2386
+                    "startOffset": 2364,
+                    "endColumn": 78,
+                    "endOffset": 2438
                 },
                 "from": {
-                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.6.1/res/values-bs/values.xml",
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/res/values-bs/values.xml",
                     "position": {
-                        "startLine": 23,
-                        "startColumn": 4,
-                        "startOffset": 2168,
-                        "endColumn": 97,
-                        "endOffset": 2261
+                        "startLine": 22,
+                        "startColumn": 0,
+                        "startOffset": 2035,
+                        "endColumn": 74,
+                        "endOffset": 2109
                     }
                 }
             },
@@ -443,18 +443,18 @@
                 "to": {
                     "startLine": 25,
                     "startColumn": 4,
-                    "startOffset": 2391,
-                    "endColumn": 109,
-                    "endOffset": 2496
+                    "startOffset": 2443,
+                    "endColumn": 92,
+                    "endOffset": 2531
                 },
                 "from": {
-                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.6.1/res/values-bs/values.xml",
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/res/values-bs/values.xml",
                     "position": {
-                        "startLine": 24,
-                        "startColumn": 4,
-                        "startOffset": 2266,
-                        "endColumn": 109,
-                        "endOffset": 2371
+                        "startLine": 23,
+                        "startColumn": 0,
+                        "startOffset": 2110,
+                        "endColumn": 88,
+                        "endOffset": 2198
                     }
                 }
             },
@@ -462,18 +462,18 @@
                 "to": {
                     "startLine": 26,
                     "startColumn": 4,
-                    "startOffset": 2501,
-                    "endColumn": 100,
-                    "endOffset": 2597
+                    "startOffset": 2536,
+                    "endColumn": 97,
+                    "endOffset": 2629
                 },
                 "from": {
-                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.6.1/res/values-bs/values.xml",
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/res/values-bs/values.xml",
                     "position": {
-                        "startLine": 25,
-                        "startColumn": 4,
-                        "startOffset": 2376,
-                        "endColumn": 100,
-                        "endOffset": 2472
+                        "startLine": 24,
+                        "startColumn": 0,
+                        "startOffset": 2199,
+                        "endColumn": 93,
+                        "endOffset": 2292
                     }
                 }
             },
@@ -481,18 +481,18 @@
                 "to": {
                     "startLine": 27,
                     "startColumn": 4,
-                    "startOffset": 2602,
-                    "endColumn": 101,
-                    "endOffset": 2699
+                    "startOffset": 2634,
+                    "endColumn": 109,
+                    "endOffset": 2739
                 },
                 "from": {
-                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.6.1/res/values-bs/values.xml",
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/res/values-bs/values.xml",
                     "position": {
-                        "startLine": 26,
-                        "startColumn": 4,
-                        "startOffset": 2477,
-                        "endColumn": 101,
-                        "endOffset": 2574
+                        "startLine": 25,
+                        "startColumn": 0,
+                        "startOffset": 2293,
+                        "endColumn": 105,
+                        "endOffset": 2398
                     }
                 }
             },
@@ -500,18 +500,18 @@
                 "to": {
                     "startLine": 28,
                     "startColumn": 4,
-                    "startOffset": 2704,
-                    "endColumn": 76,
-                    "endOffset": 2776
+                    "startOffset": 2744,
+                    "endColumn": 100,
+                    "endOffset": 2840
                 },
                 "from": {
-                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.6.1/res/values-bs/values.xml",
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/res/values-bs/values.xml",
                     "position": {
-                        "startLine": 27,
-                        "startColumn": 4,
-                        "startOffset": 2579,
-                        "endColumn": 76,
-                        "endOffset": 2651
+                        "startLine": 26,
+                        "startColumn": 0,
+                        "startOffset": 2399,
+                        "endColumn": 96,
+                        "endOffset": 2495
                     }
                 }
             },
@@ -519,18 +519,18 @@
                 "to": {
                     "startLine": 29,
                     "startColumn": 4,
-                    "startOffset": 2781,
-                    "endColumn": 103,
-                    "endOffset": 2880
+                    "startOffset": 2845,
+                    "endColumn": 101,
+                    "endOffset": 2942
                 },
                 "from": {
-                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.6.1/res/values-bs/values.xml",
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/res/values-bs/values.xml",
                     "position": {
-                        "startLine": 28,
-                        "startColumn": 4,
-                        "startOffset": 2656,
-                        "endColumn": 103,
-                        "endOffset": 2755
+                        "startLine": 27,
+                        "startColumn": 0,
+                        "startOffset": 2496,
+                        "endColumn": 97,
+                        "endOffset": 2593
                     }
                 }
             },
@@ -538,18 +538,18 @@
                 "to": {
                     "startLine": 30,
                     "startColumn": 4,
-                    "startOffset": 2885,
-                    "endColumn": 103,
-                    "endOffset": 2984
+                    "startOffset": 2947,
+                    "endColumn": 76,
+                    "endOffset": 3019
                 },
                 "from": {
-                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.6.1/res/values-bs/values.xml",
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/res/values-bs/values.xml",
                     "position": {
-                        "startLine": 29,
-                        "startColumn": 4,
-                        "startOffset": 2760,
-                        "endColumn": 103,
-                        "endOffset": 2859
+                        "startLine": 28,
+                        "startColumn": 0,
+                        "startOffset": 2594,
+                        "endColumn": 72,
+                        "endOffset": 2666
                     }
                 }
             },
@@ -557,18 +557,18 @@
                 "to": {
                     "startLine": 31,
                     "startColumn": 4,
-                    "startOffset": 2989,
-                    "endColumn": 98,
-                    "endOffset": 3083
+                    "startOffset": 3024,
+                    "endColumn": 103,
+                    "endOffset": 3123
                 },
                 "from": {
-                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.6.1/res/values-bs/values.xml",
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/res/values-bs/values.xml",
                     "position": {
-                        "startLine": 30,
-                        "startColumn": 4,
-                        "startOffset": 2864,
-                        "endColumn": 98,
-                        "endOffset": 2958
+                        "startLine": 29,
+                        "startColumn": 0,
+                        "startOffset": 2667,
+                        "endColumn": 99,
+                        "endOffset": 2766
                     }
                 }
             },
@@ -576,18 +576,18 @@
                 "to": {
                     "startLine": 32,
                     "startColumn": 4,
-                    "startOffset": 3088,
-                    "endColumn": 144,
-                    "endOffset": 3228
+                    "startOffset": 3128,
+                    "endColumn": 103,
+                    "endOffset": 3227
                 },
                 "from": {
-                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.6.1/res/values-bs/values.xml",
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/res/values-bs/values.xml",
                     "position": {
-                        "startLine": 31,
-                        "startColumn": 4,
-                        "startOffset": 2963,
-                        "endColumn": 144,
-                        "endOffset": 3103
+                        "startLine": 30,
+                        "startColumn": 0,
+                        "startOffset": 2767,
+                        "endColumn": 99,
+                        "endOffset": 2866
                     }
                 }
             },
@@ -595,18 +595,18 @@
                 "to": {
                     "startLine": 33,
                     "startColumn": 4,
-                    "startOffset": 3233,
-                    "endColumn": 127,
-                    "endOffset": 3356
+                    "startOffset": 3232,
+                    "endColumn": 98,
+                    "endOffset": 3326
                 },
                 "from": {
-                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.6.1/res/values-bs/values.xml",
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/res/values-bs/values.xml",
                     "position": {
-                        "startLine": 32,
-                        "startColumn": 4,
-                        "startOffset": 3108,
-                        "endColumn": 127,
-                        "endOffset": 3231
+                        "startLine": 31,
+                        "startColumn": 0,
+                        "startOffset": 2867,
+                        "endColumn": 94,
+                        "endOffset": 2961
                     }
                 }
             },
@@ -614,18 +614,18 @@
                 "to": {
                     "startLine": 34,
                     "startColumn": 4,
-                    "startOffset": 3361,
-                    "endColumn": 129,
-                    "endOffset": 3486
+                    "startOffset": 3331,
+                    "endColumn": 108,
+                    "endOffset": 3435
                 },
                 "from": {
-                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.6.1/res/values-bs/values.xml",
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/res/values-bs/values.xml",
                     "position": {
-                        "startLine": 33,
-                        "startColumn": 4,
-                        "startOffset": 3236,
-                        "endColumn": 129,
-                        "endOffset": 3361
+                        "startLine": 32,
+                        "startColumn": 0,
+                        "startOffset": 2962,
+                        "endColumn": 104,
+                        "endOffset": 3066
                     }
                 }
             },
@@ -633,18 +633,18 @@
                 "to": {
                     "startLine": 35,
                     "startColumn": 4,
-                    "startOffset": 3491,
-                    "endColumn": 95,
-                    "endOffset": 3582
+                    "startOffset": 3440,
+                    "endColumn": 144,
+                    "endOffset": 3580
                 },
                 "from": {
-                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.6.1/res/values-bs/values.xml",
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/res/values-bs/values.xml",
                     "position": {
-                        "startLine": 34,
-                        "startColumn": 4,
-                        "startOffset": 3366,
-                        "endColumn": 95,
-                        "endOffset": 3457
+                        "startLine": 33,
+                        "startColumn": 0,
+                        "startOffset": 3067,
+                        "endColumn": 144,
+                        "endOffset": 3211
                     }
                 }
             },
@@ -652,18 +652,18 @@
                 "to": {
                     "startLine": 36,
                     "startColumn": 4,
-                    "startOffset": 3587,
-                    "endColumn": 93,
-                    "endOffset": 3676
+                    "startOffset": 3585,
+                    "endColumn": 127,
+                    "endOffset": 3708
                 },
                 "from": {
-                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.6.1/res/values-bs/values.xml",
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/res/values-bs/values.xml",
                     "position": {
-                        "startLine": 35,
-                        "startColumn": 4,
-                        "startOffset": 3462,
-                        "endColumn": 93,
-                        "endOffset": 3551
+                        "startLine": 34,
+                        "startColumn": 0,
+                        "startOffset": 3212,
+                        "endColumn": 123,
+                        "endOffset": 3335
                     }
                 }
             },
@@ -671,18 +671,18 @@
                 "to": {
                     "startLine": 37,
                     "startColumn": 4,
-                    "startOffset": 3681,
-                    "endColumn": 102,
-                    "endOffset": 3779
+                    "startOffset": 3713,
+                    "endColumn": 129,
+                    "endOffset": 3838
                 },
                 "from": {
-                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.6.1/res/values-bs/values.xml",
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/res/values-bs/values.xml",
                     "position": {
-                        "startLine": 36,
-                        "startColumn": 4,
-                        "startOffset": 3556,
-                        "endColumn": 102,
-                        "endOffset": 3654
+                        "startLine": 35,
+                        "startColumn": 0,
+                        "startOffset": 3336,
+                        "endColumn": 125,
+                        "endOffset": 3461
                     }
                 }
             },
@@ -690,18 +690,18 @@
                 "to": {
                     "startLine": 38,
                     "startColumn": 4,
-                    "startOffset": 3784,
-                    "endColumn": 82,
-                    "endOffset": 3862
+                    "startOffset": 3843,
+                    "endColumn": 95,
+                    "endOffset": 3934
                 },
                 "from": {
-                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.6.1/res/values-bs/values.xml",
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/res/values-bs/values.xml",
                     "position": {
-                        "startLine": 37,
-                        "startColumn": 4,
-                        "startOffset": 3659,
-                        "endColumn": 82,
-                        "endOffset": 3737
+                        "startLine": 36,
+                        "startColumn": 0,
+                        "startOffset": 3462,
+                        "endColumn": 91,
+                        "endOffset": 3553
                     }
                 }
             },
@@ -709,18 +709,18 @@
                 "to": {
                     "startLine": 39,
                     "startColumn": 4,
-                    "startOffset": 3867,
-                    "endColumn": 107,
-                    "endOffset": 3970
+                    "startOffset": 3939,
+                    "endColumn": 93,
+                    "endOffset": 4028
                 },
                 "from": {
-                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.6.1/res/values-bs/values.xml",
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/res/values-bs/values.xml",
                     "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 340,
-                        "endColumn": 107,
-                        "endOffset": 443
+                        "startLine": 37,
+                        "startColumn": 0,
+                        "startOffset": 3554,
+                        "endColumn": 89,
+                        "endOffset": 3643
                     }
                 }
             },
@@ -728,18 +728,18 @@
                 "to": {
                     "startLine": 40,
                     "startColumn": 4,
-                    "startOffset": 3975,
-                    "endColumn": 191,
-                    "endOffset": 4162
+                    "startOffset": 4033,
+                    "endColumn": 102,
+                    "endOffset": 4131
                 },
                 "from": {
-                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.6.1/res/values-bs/values.xml",
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/res/values-bs/values.xml",
                     "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 448,
-                        "endColumn": 191,
-                        "endOffset": 635
+                        "startLine": 38,
+                        "startColumn": 0,
+                        "startOffset": 3644,
+                        "endColumn": 98,
+                        "endOffset": 3742
                     }
                 }
             },
@@ -747,18 +747,18 @@
                 "to": {
                     "startLine": 41,
                     "startColumn": 4,
-                    "startOffset": 4167,
-                    "endColumn": 127,
-                    "endOffset": 4290
+                    "startOffset": 4136,
+                    "endColumn": 82,
+                    "endOffset": 4214
                 },
                 "from": {
-                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.6.1/res/values-bs/values.xml",
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/res/values-bs/values.xml",
                     "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 640,
-                        "endColumn": 127,
-                        "endOffset": 763
+                        "startLine": 39,
+                        "startColumn": 0,
+                        "startOffset": 3743,
+                        "endColumn": 78,
+                        "endOffset": 3821
                     }
                 }
             },
@@ -766,18 +766,18 @@
                 "to": {
                     "startLine": 42,
                     "startColumn": 4,
-                    "startOffset": 4295,
-                    "endColumn": 111,
-                    "endOffset": 4402
+                    "startOffset": 4219,
+                    "endColumn": 107,
+                    "endOffset": 4322
                 },
                 "from": {
-                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.6.1/res/values-bs/values.xml",
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/values-bs/values.xml",
                     "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 768,
-                        "endColumn": 111,
-                        "endOffset": 875
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 283,
+                        "endColumn": 103,
+                        "endOffset": 386
                     }
                 }
             },
@@ -785,18 +785,18 @@
                 "to": {
                     "startLine": 43,
                     "startColumn": 4,
-                    "startOffset": 4407,
-                    "endColumn": 218,
-                    "endOffset": 4621
+                    "startOffset": 4327,
+                    "endColumn": 191,
+                    "endOffset": 4514
                 },
                 "from": {
-                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.6.1/res/values-bs/values.xml",
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/values-bs/values.xml",
                     "position": {
-                        "startLine": 8,
-                        "startColumn": 4,
-                        "startOffset": 880,
-                        "endColumn": 218,
-                        "endOffset": 1094
+                        "startLine": 5,
+                        "startColumn": 0,
+                        "startOffset": 387,
+                        "endColumn": 191,
+                        "endOffset": 578
                     }
                 }
             },
@@ -804,18 +804,18 @@
                 "to": {
                     "startLine": 44,
                     "startColumn": 4,
-                    "startOffset": 4626,
-                    "endColumn": 218,
-                    "endOffset": 4840
+                    "startOffset": 4519,
+                    "endColumn": 127,
+                    "endOffset": 4642
                 },
                 "from": {
-                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.6.1/res/values-bs/values.xml",
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/values-bs/values.xml",
                     "position": {
-                        "startLine": 9,
-                        "startColumn": 4,
-                        "startOffset": 1099,
-                        "endColumn": 218,
-                        "endOffset": 1313
+                        "startLine": 6,
+                        "startColumn": 0,
+                        "startOffset": 579,
+                        "endColumn": 123,
+                        "endOffset": 702
                     }
                 }
             },
@@ -823,18 +823,18 @@
                 "to": {
                     "startLine": 45,
                     "startColumn": 4,
-                    "startOffset": 4845,
-                    "endColumn": 127,
-                    "endOffset": 4968
+                    "startOffset": 4647,
+                    "endColumn": 111,
+                    "endOffset": 4754
                 },
                 "from": {
-                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.6.1/res/values-bs/values.xml",
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/values-bs/values.xml",
                     "position": {
-                        "startLine": 10,
-                        "startColumn": 4,
-                        "startOffset": 1318,
-                        "endColumn": 127,
-                        "endOffset": 1441
+                        "startLine": 7,
+                        "startColumn": 0,
+                        "startOffset": 703,
+                        "endColumn": 107,
+                        "endOffset": 810
                     }
                 }
             },
@@ -842,18 +842,18 @@
                 "to": {
                     "startLine": 46,
                     "startColumn": 4,
-                    "startOffset": 4973,
-                    "endColumn": 130,
-                    "endOffset": 5099
+                    "startOffset": 4759,
+                    "endColumn": 208,
+                    "endOffset": 4963
                 },
                 "from": {
-                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.6.1/res/values-bs/values.xml",
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/values-bs/values.xml",
                     "position": {
-                        "startLine": 11,
-                        "startColumn": 4,
-                        "startOffset": 1446,
-                        "endColumn": 130,
-                        "endOffset": 1572
+                        "startLine": 8,
+                        "startColumn": 0,
+                        "startOffset": 811,
+                        "endColumn": 208,
+                        "endOffset": 1019
                     }
                 }
             },
@@ -861,18 +861,18 @@
                 "to": {
                     "startLine": 47,
                     "startColumn": 4,
-                    "startOffset": 5104,
-                    "endColumn": 234,
-                    "endOffset": 5334
+                    "startOffset": 4968,
+                    "endColumn": 127,
+                    "endOffset": 5091
                 },
                 "from": {
-                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.6.1/res/values-bs/values.xml",
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/values-bs/values.xml",
                     "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 343,
-                        "endColumn": 234,
-                        "endOffset": 573
+                        "startLine": 9,
+                        "startColumn": 0,
+                        "startOffset": 1020,
+                        "endColumn": 123,
+                        "endOffset": 1143
                     }
                 }
             },
@@ -880,18 +880,18 @@
                 "to": {
                     "startLine": 48,
                     "startColumn": 4,
-                    "startOffset": 5339,
-                    "endColumn": 243,
-                    "endOffset": 5578
+                    "startOffset": 5096,
+                    "endColumn": 130,
+                    "endOffset": 5222
                 },
                 "from": {
-                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.6.1/res/values-bs/values.xml",
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/values-bs/values.xml",
                     "position": {
-                        "startLine": 12,
-                        "startColumn": 4,
-                        "startOffset": 1577,
-                        "endColumn": 243,
-                        "endOffset": 1816
+                        "startLine": 10,
+                        "startColumn": 0,
+                        "startOffset": 1144,
+                        "endColumn": 126,
+                        "endOffset": 1270
                     }
                 }
             },
@@ -899,18 +899,18 @@
                 "to": {
                     "startLine": 49,
                     "startColumn": 4,
-                    "startOffset": 5583,
-                    "endColumn": 121,
-                    "endOffset": 5700
+                    "startOffset": 5227,
+                    "endColumn": 199,
+                    "endOffset": 5422
                 },
                 "from": {
-                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.6.1/res/values-bs/values.xml",
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/res/values-bs/values.xml",
                     "position": {
-                        "startLine": 13,
-                        "startColumn": 4,
-                        "startOffset": 1821,
-                        "endColumn": 121,
-                        "endOffset": 1938
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 285,
+                        "endColumn": 199,
+                        "endOffset": 484
                     }
                 }
             },
@@ -918,18 +918,18 @@
                 "to": {
                     "startLine": 50,
                     "startColumn": 4,
-                    "startOffset": 5705,
-                    "endColumn": 108,
-                    "endOffset": 5809
+                    "startOffset": 5427,
+                    "endColumn": 212,
+                    "endOffset": 5635
                 },
                 "from": {
-                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.6.1/res/values-bs/values.xml",
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/values-bs/values.xml",
                     "position": {
-                        "startLine": 14,
-                        "startColumn": 4,
-                        "startOffset": 1943,
-                        "endColumn": 108,
-                        "endOffset": 2047
+                        "startLine": 11,
+                        "startColumn": 0,
+                        "startOffset": 1271,
+                        "endColumn": 212,
+                        "endOffset": 1483
                     }
                 }
             },
@@ -937,18 +937,18 @@
                 "to": {
                     "startLine": 51,
                     "startColumn": 4,
-                    "startOffset": 5814,
-                    "endColumn": 191,
-                    "endOffset": 6001
+                    "startOffset": 5640,
+                    "endColumn": 108,
+                    "endOffset": 5744
                 },
                 "from": {
-                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.6.1/res/values-bs/values.xml",
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/values-bs/values.xml",
                     "position": {
-                        "startLine": 15,
-                        "startColumn": 4,
-                        "startOffset": 2052,
-                        "endColumn": 191,
-                        "endOffset": 2239
+                        "startLine": 12,
+                        "startColumn": 0,
+                        "startOffset": 1484,
+                        "endColumn": 104,
+                        "endOffset": 1588
                     }
                 }
             },
@@ -956,18 +956,18 @@
                 "to": {
                     "startLine": 52,
                     "startColumn": 4,
-                    "startOffset": 6006,
-                    "endColumn": 128,
-                    "endOffset": 6130
+                    "startOffset": 5749,
+                    "endColumn": 191,
+                    "endOffset": 5936
                 },
                 "from": {
-                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.6.1/res/values-bs/values.xml",
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/values-bs/values.xml",
                     "position": {
-                        "startLine": 16,
-                        "startColumn": 4,
-                        "startOffset": 2244,
-                        "endColumn": 128,
-                        "endOffset": 2368
+                        "startLine": 13,
+                        "startColumn": 0,
+                        "startOffset": 1589,
+                        "endColumn": 191,
+                        "endOffset": 1780
                     }
                 }
             },
@@ -975,18 +975,18 @@
                 "to": {
                     "startLine": 53,
                     "startColumn": 4,
-                    "startOffset": 6135,
-                    "endColumn": 208,
-                    "endOffset": 6339
+                    "startOffset": 5941,
+                    "endColumn": 128,
+                    "endOffset": 6065
                 },
                 "from": {
-                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.6.1/res/values-bs/values.xml",
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/values-bs/values.xml",
                     "position": {
-                        "startLine": 17,
-                        "startColumn": 4,
-                        "startOffset": 2373,
-                        "endColumn": 208,
-                        "endOffset": 2577
+                        "startLine": 14,
+                        "startColumn": 0,
+                        "startOffset": 1781,
+                        "endColumn": 124,
+                        "endOffset": 1905
                     }
                 }
             },
@@ -994,18 +994,18 @@
                 "to": {
                     "startLine": 54,
                     "startColumn": 4,
-                    "startOffset": 6344,
-                    "endColumn": 130,
-                    "endOffset": 6470
+                    "startOffset": 6070,
+                    "endColumn": 208,
+                    "endOffset": 6274
                 },
                 "from": {
-                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.6.1/res/values-bs/values.xml",
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/values-bs/values.xml",
                     "position": {
-                        "startLine": 18,
-                        "startColumn": 4,
-                        "startOffset": 2582,
-                        "endColumn": 130,
-                        "endOffset": 2708
+                        "startLine": 15,
+                        "startColumn": 0,
+                        "startOffset": 1906,
+                        "endColumn": 208,
+                        "endOffset": 2114
                     }
                 }
             },
@@ -1013,18 +1013,18 @@
                 "to": {
                     "startLine": 55,
                     "startColumn": 4,
-                    "startOffset": 6475,
+                    "startOffset": 6279,
                     "endColumn": 175,
-                    "endOffset": 6646
+                    "endOffset": 6450
                 },
                 "from": {
-                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.6.1/res/values-bs/values.xml",
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/values-bs/values.xml",
                     "position": {
-                        "startLine": 19,
-                        "startColumn": 4,
-                        "startOffset": 2713,
-                        "endColumn": 175,
-                        "endOffset": 2884
+                        "startLine": 16,
+                        "startColumn": 0,
+                        "startOffset": 2115,
+                        "endColumn": 171,
+                        "endOffset": 2286
                     }
                 }
             },
@@ -1032,18 +1032,18 @@
                 "to": {
                     "startLine": 56,
                     "startColumn": 4,
-                    "startOffset": 6651,
+                    "startOffset": 6455,
                     "endColumn": 97,
-                    "endOffset": 6744
+                    "endOffset": 6548
                 },
                 "from": {
-                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.6.1/res/values-bs/values.xml",
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/values-bs/values.xml",
                     "position": {
-                        "startLine": 20,
-                        "startColumn": 4,
-                        "startOffset": 2889,
-                        "endColumn": 97,
-                        "endOffset": 2982
+                        "startLine": 17,
+                        "startColumn": 0,
+                        "startOffset": 2287,
+                        "endColumn": 93,
+                        "endOffset": 2380
                     }
                 }
             },
@@ -1051,18 +1051,18 @@
                 "to": {
                     "startLine": 57,
                     "startColumn": 4,
-                    "startOffset": 6749,
+                    "startOffset": 6553,
                     "endColumn": 94,
-                    "endOffset": 6839
+                    "endOffset": 6643
                 },
                 "from": {
-                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.6.1/res/values-bs/values.xml",
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/values-bs/values.xml",
                     "position": {
-                        "startLine": 21,
-                        "startColumn": 4,
-                        "startOffset": 2987,
-                        "endColumn": 94,
-                        "endOffset": 3077
+                        "startLine": 18,
+                        "startColumn": 0,
+                        "startOffset": 2381,
+                        "endColumn": 90,
+                        "endOffset": 2471
                     }
                 }
             },
@@ -1070,18 +1070,18 @@
                 "to": {
                     "startLine": 58,
                     "startColumn": 4,
-                    "startOffset": 6844,
+                    "startOffset": 6648,
                     "endColumn": 113,
-                    "endOffset": 6953
+                    "endOffset": 6757
                 },
                 "from": {
-                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.6.1/res/values-bs/values.xml",
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/res/values-bs/values.xml",
                     "position": {
-                        "startLine": 22,
-                        "startColumn": 4,
-                        "startOffset": 3082,
-                        "endColumn": 113,
-                        "endOffset": 3191
+                        "startLine": 19,
+                        "startColumn": 0,
+                        "startOffset": 2472,
+                        "endColumn": 109,
+                        "endOffset": 2581
                     }
                 }
             },
@@ -1089,18 +1089,18 @@
                 "to": {
                     "startLine": 59,
                     "startColumn": 4,
-                    "startOffset": 6958,
-                    "endColumn": 110,
-                    "endOffset": 7064
+                    "startOffset": 6762,
+                    "endColumn": 139,
+                    "endOffset": 6897
                 },
                 "from": {
-                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/9.6.1/res/values-bs/values.xml",
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/10.0.1/res/values-bs/values.xml",
                     "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 293,
-                        "endColumn": 110,
-                        "endOffset": 399
+                        "startLine": 5,
+                        "startColumn": 0,
+                        "startOffset": 307,
+                        "endColumn": 135,
+                        "endOffset": 442
                     }
                 }
             },
@@ -1108,18 +1108,189 @@
                 "to": {
                     "startLine": 60,
                     "startColumn": 4,
-                    "startOffset": 7069,
-                    "endColumn": 94,
-                    "endOffset": 7159
+                    "startOffset": 6902,
+                    "endColumn": 107,
+                    "endOffset": 7005
                 },
                 "from": {
-                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/9.6.1/res/values-bs/values.xml",
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/10.0.1/res/values-bs/values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 0,
+                        "startOffset": 443,
+                        "endColumn": 103,
+                        "endOffset": 546
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 61,
+                    "startColumn": 4,
+                    "startOffset": 7010,
+                    "endColumn": 104,
+                    "endOffset": 7110
+                },
+                "from": {
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/10.0.1/res/values-bs/values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 0,
+                        "startOffset": 547,
+                        "endColumn": 100,
+                        "endOffset": 647
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 62,
+                    "startColumn": 4,
+                    "startOffset": 7115,
+                    "endColumn": 103,
+                    "endOffset": 7214
+                },
+                "from": {
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/10.0.1/res/values-bs/values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 0,
+                        "startOffset": 648,
+                        "endColumn": 99,
+                        "endOffset": 747
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 63,
+                    "startColumn": 4,
+                    "startOffset": 7219,
+                    "endColumn": 117,
+                    "endOffset": 7332
+                },
+                "from": {
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/10.0.1/res/values-bs/values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 0,
+                        "startOffset": 748,
+                        "endColumn": 113,
+                        "endOffset": 861
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 64,
+                    "startColumn": 4,
+                    "startOffset": 7337,
+                    "endColumn": 104,
+                    "endOffset": 7437
+                },
+                "from": {
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/10.0.1/res/values-bs/values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 0,
+                        "startOffset": 862,
+                        "endColumn": 100,
+                        "endOffset": 962
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 65,
+                    "startColumn": 4,
+                    "startOffset": 7442,
+                    "endColumn": 71,
+                    "endOffset": 7509
+                },
+                "from": {
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/10.0.1/res/values-bs/values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 0,
+                        "startOffset": 963,
+                        "endColumn": 67,
+                        "endOffset": 1030
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 66,
+                    "startColumn": 4,
+                    "startOffset": 7514,
+                    "endColumn": 110,
+                    "endOffset": 7620
+                },
+                "from": {
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/10.0.1/res/values-bs/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 233,
+                        "endColumn": 106,
+                        "endOffset": 339
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 67,
+                    "startColumn": 4,
+                    "startOffset": 7625,
+                    "endColumn": 94,
+                    "endOffset": 7715
+                },
+                "from": {
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/10.0.1/res/values-bs/values.xml",
                     "position": {
                         "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 404,
-                        "endColumn": 94,
-                        "endOffset": 494
+                        "startColumn": 0,
+                        "startOffset": 340,
+                        "endColumn": 90,
+                        "endOffset": 430
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 68,
+                    "startColumn": 4,
+                    "startOffset": 7720,
+                    "endColumn": 140,
+                    "endOffset": 7856
+                },
+                "from": {
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/10.0.1/res/values-bs/values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 0,
+                        "startOffset": 1031,
+                        "endColumn": 136,
+                        "endOffset": 1167
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 69,
+                    "startColumn": 4,
+                    "startOffset": 7861,
+                    "endColumn": 91,
+                    "endOffset": 7948
+                },
+                "from": {
+                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/10.0.1/res/values-bs/values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 0,
+                        "startOffset": 1168,
+                        "endColumn": 87,
+                        "endOffset": 1255
                     }
                 }
             }

@@ -1,6 +1,5 @@
 <resources>
-    <string name="app_name">WatchFace</string>
-    <string name="my_analog_name">My Analog</string>
+    <string name="app_name">Selected Image Watch Face</string>
     <string name="title_activity_config_actiivty">ConfigActiivty</string>
     <string name="title_activity_config">Config</string>
     <string name="smooth">Smooth</string>

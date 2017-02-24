@@ -196,14 +196,14 @@ public final class R {
 		public static final int monochrome = 0x7f100050;
 		public static final int none = 0x7f100010;
 		public static final int normal = 0x7f10000c;
-		public static final int place_autocomplete_clear_button = 0x7f1000ad;
-		public static final int place_autocomplete_powered_by_google = 0x7f1000af;
-		public static final int place_autocomplete_prediction_primary_text = 0x7f1000b1;
-		public static final int place_autocomplete_prediction_secondary_text = 0x7f1000b2;
-		public static final int place_autocomplete_progress = 0x7f1000b0;
-		public static final int place_autocomplete_search_button = 0x7f1000ab;
-		public static final int place_autocomplete_search_input = 0x7f1000ac;
-		public static final int place_autocomplete_separator = 0x7f1000ae;
+		public static final int place_autocomplete_clear_button = 0x7f1000ae;
+		public static final int place_autocomplete_powered_by_google = 0x7f1000b0;
+		public static final int place_autocomplete_prediction_primary_text = 0x7f1000b2;
+		public static final int place_autocomplete_prediction_secondary_text = 0x7f1000b3;
+		public static final int place_autocomplete_progress = 0x7f1000b1;
+		public static final int place_autocomplete_search_button = 0x7f1000ac;
+		public static final int place_autocomplete_search_input = 0x7f1000ad;
+		public static final int place_autocomplete_separator = 0x7f1000af;
 		public static final int production = 0x7f10003a;
 		public static final int sandbox = 0x7f10003b;
 		public static final int satellite = 0x7f10002b;
@@ -232,9 +232,9 @@ public final class R {
 		public static final int accept = 0x7f090040;
 		public static final int auth_google_play_services_client_facebook_display_name = 0x7f090042;
 		public static final int auth_google_play_services_client_google_display_name = 0x7f090043;
-		public static final int cast_notification_connected_message = 0x7f090044;
-		public static final int cast_notification_connecting_message = 0x7f090045;
-		public static final int cast_notification_disconnect = 0x7f090046;
+		public static final int cast_notification_connected_message = 0x7f090046;
+		public static final int cast_notification_connecting_message = 0x7f090047;
+		public static final int cast_notification_disconnect = 0x7f090048;
 		public static final int common_google_play_services_api_unavailable_text = 0x7f090013;
 		public static final int common_google_play_services_enable_button = 0x7f090014;
 		public static final int common_google_play_services_enable_text = 0x7f090015;
@@ -264,13 +264,13 @@ public final class R {
 		public static final int common_open_on_phone = 0x7f09002d;
 		public static final int common_signin_button_text = 0x7f09002e;
 		public static final int common_signin_button_text_long = 0x7f09002f;
-		public static final int create_calendar_message = 0x7f090048;
-		public static final int create_calendar_title = 0x7f090049;
-		public static final int decline = 0x7f09004a;
+		public static final int create_calendar_message = 0x7f09004a;
+		public static final int create_calendar_title = 0x7f09004b;
+		public static final int decline = 0x7f09004c;
 		public static final int place_autocomplete_clear_button = 0x7f09003b;
 		public static final int place_autocomplete_search_hint = 0x7f09003c;
-		public static final int store_picture_message = 0x7f09004b;
-		public static final int store_picture_title = 0x7f09004c;
+		public static final int store_picture_message = 0x7f09004d;
+		public static final int store_picture_title = 0x7f09004e;
 		public static final int wallet_buy_button_place_holder = 0x7f09003e;
 	}
 	public static final class style {

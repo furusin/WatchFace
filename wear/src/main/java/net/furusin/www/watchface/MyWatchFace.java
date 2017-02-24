@@ -107,11 +107,14 @@ public class MyWatchFace extends CanvasWatchFaceService {
 
         private static final float DESIGNED_SIZE = 512f;
         final int[] BACKGROUND_RES_ID = {
+/*
                 R.drawable.background0,
                 R.drawable.background1,
                 R.drawable.background2,
                 R.drawable.background3,
                 R.drawable.background4
+*/
+                R.drawable.blank
         };
 
 

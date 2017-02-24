@@ -1,6 +1,14 @@
 [
     {
+        "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/mipmap-xhdpi/icon.png",
+        "source": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/res/mipmap-xhdpi/icon.png"
+    },
+    {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",
         "source": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/mipmap-xhdpi/blank.png",
+        "source": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/res/mipmap-xhdpi/blank.png"
     }
 ]

@@ -1586,8 +1586,8 @@
                     "startLine": 116,
                     "startColumn": 4,
                     "startOffset": 11878,
-                    "endColumn": 46,
-                    "endOffset": 11920
+                    "endColumn": 62,
+                    "endOffset": 11936
                 },
                 "from": {
                     "file": "/Users/furusin/AndroidStudioProjects/WatchFace/wear/src/main/res/values/strings.xml",
@@ -1595,8 +1595,8 @@
                         "startLine": 1,
                         "startColumn": 4,
                         "startOffset": 16,
-                        "endColumn": 46,
-                        "endOffset": 58
+                        "endColumn": 62,
+                        "endOffset": 74
                     }
                 }
             },
@@ -1604,9 +1604,9 @@
                 "to": {
                     "startLine": 117,
                     "startColumn": 4,
-                    "startOffset": 11925,
+                    "startOffset": 11941,
                     "endColumn": 91,
-                    "endOffset": 12012
+                    "endOffset": 12028
                 },
                 "from": {
                     "file": "/Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/res/values/auth_strings.xml",
@@ -1623,9 +1623,9 @@
                 "to": {
                     "startLine": 118,
                     "startColumn": 4,
-                    "startOffset": 12017,
+                    "startOffset": 12033,
                     "endColumn": 87,
-                    "endOffset": 12100
+                    "endOffset": 12116
                 },
                 "from": {
                     "file": "/Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/res/values/auth_strings.xml",
@@ -1642,9 +1642,9 @@
                 "to": {
                     "startLine": 119,
                     "startColumn": 4,
-                    "startOffset": 12105,
+                    "startOffset": 12121,
                     "endColumn": 231,
-                    "endOffset": 12332
+                    "endOffset": 12348
                 },
                 "from": {
                     "file": "/Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values/base_strings.xml",
@@ -1661,9 +1661,9 @@
                 "to": {
                     "startLine": 120,
                     "startColumn": 4,
-                    "startOffset": 12337,
+                    "startOffset": 12353,
                     "endColumn": 125,
-                    "endOffset": 12458
+                    "endOffset": 12474
                 },
                 "from": {
                     "file": "/Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values/base_strings.xml",
@@ -1680,9 +1680,9 @@
                 "to": {
                     "startLine": 121,
                     "startColumn": 4,
-                    "startOffset": 12463,
+                    "startOffset": 12479,
                     "endColumn": 180,
-                    "endOffset": 12639
+                    "endOffset": 12655
                 },
                 "from": {
                     "file": "/Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values/base_strings.xml",
@@ -1699,9 +1699,9 @@
                 "to": {
                     "startLine": 122,
                     "startColumn": 4,
-                    "startOffset": 12644,
+                    "startOffset": 12660,
                     "endColumn": 124,
-                    "endOffset": 12764
+                    "endOffset": 12780
                 },
                 "from": {
                     "file": "/Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values/base_strings.xml",
@@ -1718,9 +1718,9 @@
                 "to": {
                     "startLine": 123,
                     "startColumn": 4,
-                    "startOffset": 12769,
+                    "startOffset": 12785,
                     "endColumn": 123,
-                    "endOffset": 12888
+                    "endOffset": 12904
                 },
                 "from": {
                     "file": "/Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values/base_strings.xml",
@@ -1737,9 +1737,9 @@
                 "to": {
                     "startLine": 124,
                     "startColumn": 4,
-                    "startOffset": 12893,
+                    "startOffset": 12909,
                     "endColumn": 212,
-                    "endOffset": 13101
+                    "endOffset": 13117
                 },
                 "from": {
                     "file": "/Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values/base_strings.xml",
@@ -1756,9 +1756,9 @@
                 "to": {
                     "startLine": 125,
                     "startColumn": 4,
-                    "startOffset": 13106,
+                    "startOffset": 13122,
                     "endColumn": 214,
-                    "endOffset": 13316
+                    "endOffset": 13332
                 },
                 "from": {
                     "file": "/Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values/base_strings.xml",
@@ -1775,9 +1775,9 @@
                 "to": {
                     "startLine": 126,
                     "startColumn": 4,
-                    "startOffset": 13321,
+                    "startOffset": 13337,
                     "endColumn": 122,
-                    "endOffset": 13439
+                    "endOffset": 13455
                 },
                 "from": {
                     "file": "/Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values/base_strings.xml",
@@ -1794,9 +1794,9 @@
                 "to": {
                     "startLine": 127,
                     "startColumn": 4,
-                    "startOffset": 13444,
+                    "startOffset": 13460,
                     "endColumn": 164,
-                    "endOffset": 13604
+                    "endOffset": 13620
                 },
                 "from": {
                     "file": "/Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values/base_strings.xml",
@@ -1813,9 +1813,9 @@
                 "to": {
                     "startLine": 128,
                     "startColumn": 4,
-                    "startOffset": 13609,
+                    "startOffset": 13625,
                     "endColumn": 93,
-                    "endOffset": 13698
+                    "endOffset": 13714
                 },
                 "from": {
                     "file": "/Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values/base_strings.xml",
@@ -1832,9 +1832,9 @@
                 "to": {
                     "startLine": 129,
                     "startColumn": 4,
-                    "startOffset": 13703,
+                    "startOffset": 13719,
                     "endColumn": 140,
-                    "endOffset": 13839
+                    "endOffset": 13855
                 },
                 "from": {
                     "file": "/Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values/base_strings.xml",
@@ -1851,9 +1851,9 @@
                 "to": {
                     "startLine": 130,
                     "startColumn": 4,
-                    "startOffset": 13844,
+                    "startOffset": 13860,
                     "endColumn": 89,
-                    "endOffset": 13929
+                    "endOffset": 13945
                 },
                 "from": {
                     "file": "/Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values/base_strings.xml",
@@ -1870,9 +1870,9 @@
                 "to": {
                     "startLine": 131,
                     "startColumn": 4,
-                    "startOffset": 13934,
+                    "startOffset": 13950,
                     "endColumn": 102,
-                    "endOffset": 14032
+                    "endOffset": 14048
                 },
                 "from": {
                     "file": "/Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values/base_strings.xml",
@@ -1889,9 +1889,9 @@
                 "to": {
                     "startLine": 132,
                     "startColumn": 4,
-                    "startOffset": 14037,
+                    "startOffset": 14053,
                     "endColumn": 142,
-                    "endOffset": 14175
+                    "endOffset": 14191
                 },
                 "from": {
                     "file": "/Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values/base_strings.xml",
@@ -1908,9 +1908,9 @@
                 "to": {
                     "startLine": 133,
                     "startColumn": 4,
-                    "startOffset": 14180,
+                    "startOffset": 14196,
                     "endColumn": 99,
-                    "endOffset": 14275
+                    "endOffset": 14291
                 },
                 "from": {
                     "file": "/Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values/base_strings.xml",
@@ -1927,9 +1927,9 @@
                 "to": {
                     "startLine": 134,
                     "startColumn": 4,
-                    "startOffset": 14280,
+                    "startOffset": 14296,
                     "endColumn": 150,
-                    "endOffset": 14426
+                    "endOffset": 14442
                 },
                 "from": {
                     "file": "/Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values/base_strings.xml",
@@ -1946,9 +1946,9 @@
                 "to": {
                     "startLine": 135,
                     "startColumn": 4,
-                    "startOffset": 14431,
+                    "startOffset": 14447,
                     "endColumn": 91,
-                    "endOffset": 14518
+                    "endOffset": 14534
                 },
                 "from": {
                     "file": "/Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values/base_strings.xml",
@@ -1965,9 +1965,9 @@
                 "to": {
                     "startLine": 136,
                     "startColumn": 4,
-                    "startOffset": 14523,
+                    "startOffset": 14539,
                     "endColumn": 218,
-                    "endOffset": 14737
+                    "endOffset": 14753
                 },
                 "from": {
                     "file": "/Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/res/values/common_strings.xml",
@@ -1984,9 +1984,9 @@
                 "to": {
                     "startLine": 137,
                     "startColumn": 4,
-                    "startOffset": 14742,
+                    "startOffset": 14758,
                     "endColumn": 218,
-                    "endOffset": 14956
+                    "endOffset": 14972
                 },
                 "from": {
                     "file": "/Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values/base_strings.xml",
@@ -2003,9 +2003,9 @@
                 "to": {
                     "startLine": 138,
                     "startColumn": 4,
-                    "startOffset": 14961,
+                    "startOffset": 14977,
                     "endColumn": 94,
-                    "endOffset": 15051
+                    "endOffset": 15067
                 },
                 "from": {
                     "file": "/Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values/base_strings.xml",
@@ -2022,9 +2022,9 @@
                 "to": {
                     "startLine": 139,
                     "startColumn": 4,
-                    "startOffset": 15056,
+                    "startOffset": 15072,
                     "endColumn": 104,
-                    "endOffset": 15156
+                    "endOffset": 15172
                 },
                 "from": {
                     "file": "/Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values/base_strings.xml",
@@ -2041,9 +2041,9 @@
                 "to": {
                     "startLine": 140,
                     "startColumn": 4,
-                    "startOffset": 15161,
+                    "startOffset": 15177,
                     "endColumn": 180,
-                    "endOffset": 15337
+                    "endOffset": 15353
                 },
                 "from": {
                     "file": "/Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values/base_strings.xml",
@@ -2060,9 +2060,9 @@
                 "to": {
                     "startLine": 141,
                     "startColumn": 4,
-                    "startOffset": 15342,
+                    "startOffset": 15358,
                     "endColumn": 124,
-                    "endOffset": 15462
+                    "endOffset": 15478
                 },
                 "from": {
                     "file": "/Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values/base_strings.xml",
@@ -2079,9 +2079,9 @@
                 "to": {
                     "startLine": 142,
                     "startColumn": 4,
-                    "startOffset": 15467,
+                    "startOffset": 15483,
                     "endColumn": 174,
-                    "endOffset": 15637
+                    "endOffset": 15653
                 },
                 "from": {
                     "file": "/Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values/base_strings.xml",
@@ -2098,9 +2098,9 @@
                 "to": {
                     "startLine": 143,
                     "startColumn": 4,
-                    "startOffset": 15642,
+                    "startOffset": 15658,
                     "endColumn": 104,
-                    "endOffset": 15742
+                    "endOffset": 15758
                 },
                 "from": {
                     "file": "/Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values/base_strings.xml",
@@ -2117,9 +2117,9 @@
                 "to": {
                     "startLine": 144,
                     "startColumn": 4,
-                    "startOffset": 15747,
+                    "startOffset": 15763,
                     "endColumn": 147,
-                    "endOffset": 15890
+                    "endOffset": 15906
                 },
                 "from": {
                     "file": "/Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values/base_strings.xml",
@@ -2136,9 +2136,9 @@
                 "to": {
                     "startLine": 145,
                     "startColumn": 4,
-                    "startOffset": 15895,
+                    "startOffset": 15911,
                     "endColumn": 62,
-                    "endOffset": 15953
+                    "endOffset": 15969
                 },
                 "from": {
                     "file": "/Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values/base_strings.xml",
@@ -2155,9 +2155,9 @@
                 "to": {
                     "startLine": 146,
                     "startColumn": 4,
-                    "startOffset": 15958,
+                    "startOffset": 15974,
                     "endColumn": 61,
-                    "endOffset": 16015
+                    "endOffset": 16031
                 },
                 "from": {
                     "file": "/Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values/base_strings.xml",
@@ -2174,9 +2174,9 @@
                 "to": {
                     "startLine": 147,
                     "startColumn": 4,
-                    "startOffset": 16020,
+                    "startOffset": 16036,
                     "endColumn": 78,
-                    "endOffset": 16094
+                    "endOffset": 16110
                 },
                 "from": {
                     "file": "/Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/values/base_strings.xml",
@@ -2193,9 +2193,9 @@
                 "to": {
                     "startLine": 148,
                     "startColumn": 4,
-                    "startOffset": 16099,
+                    "startOffset": 16115,
                     "endColumn": 61,
-                    "endOffset": 16156
+                    "endOffset": 16172
                 },
                 "from": {
                     "file": "/Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/exploded-aar/com.google.android.support/wearable/1.4.0/res/values/values.xml",
@@ -2212,18 +2212,18 @@
                 "to": {
                     "startLine": 149,
                     "startColumn": 4,
-                    "startOffset": 16161,
-                    "endColumn": 52,
-                    "endOffset": 16209
+                    "startOffset": 16177,
+                    "endColumn": 41,
+                    "endOffset": 16214
                 },
                 "from": {
                     "file": "/Users/furusin/AndroidStudioProjects/WatchFace/wear/src/main/res/values/strings.xml",
                     "position": {
-                        "startLine": 2,
+                        "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 63,
-                        "endColumn": 52,
-                        "endOffset": 111
+                        "startOffset": 210,
+                        "endColumn": 41,
+                        "endOffset": 247
                     }
                 }
             },
@@ -2231,18 +2231,18 @@
                 "to": {
                     "startLine": 150,
                     "startColumn": 4,
-                    "startOffset": 16214,
-                    "endColumn": 41,
-                    "endOffset": 16251
+                    "startOffset": 16219,
+                    "endColumn": 56,
+                    "endOffset": 16271
                 },
                 "from": {
                     "file": "/Users/furusin/AndroidStudioProjects/WatchFace/wear/src/main/res/values/strings.xml",
                     "position": {
-                        "startLine": 5,
+                        "startLine": 3,
                         "startColumn": 4,
-                        "startOffset": 247,
-                        "endColumn": 41,
-                        "endOffset": 284
+                        "startOffset": 153,
+                        "endColumn": 56,
+                        "endOffset": 205
                     }
                 }
             },
@@ -2250,37 +2250,18 @@
                 "to": {
                     "startLine": 151,
                     "startColumn": 4,
-                    "startOffset": 16256,
-                    "endColumn": 56,
-                    "endOffset": 16308
-                },
-                "from": {
-                    "file": "/Users/furusin/AndroidStudioProjects/WatchFace/wear/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 190,
-                        "endColumn": 56,
-                        "endOffset": 242
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 152,
-                    "startColumn": 4,
-                    "startOffset": 16313,
+                    "startOffset": 16276,
                     "endColumn": 73,
-                    "endOffset": 16382
+                    "endOffset": 16345
                 },
                 "from": {
                     "file": "/Users/furusin/AndroidStudioProjects/WatchFace/wear/src/main/res/values/strings.xml",
                     "position": {
-                        "startLine": 3,
+                        "startLine": 2,
                         "startColumn": 4,
-                        "startOffset": 116,
+                        "startOffset": 79,
                         "endColumn": 73,
-                        "endOffset": 185
+                        "endOffset": 148
                     }
                 }
             }

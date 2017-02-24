@@ -1,4 +1,4 @@
-#Fri Oct 14 23:02:27 JST 2016
+#Wed Jan 04 10:30:48 JST 2017
 base.0=/Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_03bf87c185148b8b85ea8d395c67379b8fc6b3b0
 renamed.1=classes2.dex
 renamed.0=classes.dex
