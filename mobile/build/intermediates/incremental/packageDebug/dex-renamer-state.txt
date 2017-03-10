@@ -1,4 +1,7 @@
-#Mon Feb 20 22:11:51 JST 2017
-base.0=/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/transforms/dex/debug/folders/1000/1f/main
-renamed.0=classes.dex
-file.0=/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
+#Mon Mar 06 11:14:31 JST 2017
+base.0=/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_0a2e484f832a16a0a8af03dcdc53c735164798b9
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_22c9781d3df8050685ac38f5c149e61a41769a0a/classes.dex
+base.1=/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_22c9781d3df8050685ac38f5c149e61a41769a0a
+file.0=/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_0a2e484f832a16a0a8af03dcdc53c735164798b9/classes.dex

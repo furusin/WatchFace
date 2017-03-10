@@ -1,10 +1,10 @@
 [
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
-        "source": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+        "source": "/Users/furusin/.android/build-cache/d576cfd1a1eafbe775c20f84acac55b8a9bd4a7d/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
-        "source": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+        "source": "/Users/furusin/.android/build-cache/d576cfd1a1eafbe775c20f84acac55b8a9bd4a7d/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
     }
 ]
