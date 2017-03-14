@@ -1,4 +1,4 @@
-#Tue Mar 14 17:10:13 JST 2017
+#Tue Mar 14 22:44:13 JST 2017
 base.0=/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_0a2e484f832a16a0a8af03dcdc53c735164798b9
 renamed.1=classes.dex
 renamed.0=classes2.dex

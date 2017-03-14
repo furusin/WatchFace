@@ -5,7 +5,7 @@ import android.content.Context;
 import android.text.TextUtils;
 import android.util.Log;
 
-import net.furusin.www.watchface.Util.PreferenceUtil;
+import net.furusin.www.watchface.util.PreferenceUtil;
 
 /**
  * Created by furusin on 2017/03/09.
@@ -25,6 +25,7 @@ public class MyApplication extends Application {
     }
 
     public static String getBitmapString() {
+        Log.d(TAG, "MyApplication.getBitmapString " + mBitmapString);
         return (TextUtils.isEmpty(mBitmapString)) ? PreferenceUtil.getBitmapString(mContext) : mBitmapString;
     }
 

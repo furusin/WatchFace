@@ -17,14 +17,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageView;
 import android.support.wearable.companion.WatchFaceCompanion;
-import android.widget.TextView;
-import android.widget.Toast;
 
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
-import com.google.android.gms.ads.MobileAds;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.common.api.PendingResult;
@@ -42,8 +36,6 @@ import net.furusin.www.watchface.databinding.ActivityMainBinding;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 
-import static java.lang.String.valueOf;
-
 public class MainActivity extends AppCompatActivity implements GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener,
         ResultCallback<DataApi.DataItemResult> {
 
@@ -53,9 +45,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
      */
     private ActivityMainBinding mBinding;
     private final int READ_REQUEST_CODE = 44;
-    ImageView imageView;
     GoogleApiClient mGoogleApiClient;
-    TextView textView;  //バッテリー状態表示テスト用
 
 
     private static final String PATH_WITH_FEATURE = "/watch_face_config/Digital";
@@ -90,7 +80,6 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
 
         mBinding = DataBindingUtil.setContentView(this, R.layout.activity_main);
 
-        imageView = (ImageView) findViewById(R.id.imageView);
         Button button = (Button) findViewById(R.id.button);
 
         mGoogleApiClient = new GoogleApiClient
@@ -100,12 +89,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
                 .addApi(Wearable.API)
                 .build();
 
-        MobileAds.initialize(getApplicationContext(), valueOf(R.string.banner_ad_app_id));
-
-        AdView mAdView = (AdView) findViewById(R.id.adView);
-        AdRequest adRequest = new AdRequest.Builder().addTestDevice(AdRequest.DEVICE_ID_EMULATOR).addTestDevice(valueOf(R.string.test_device_id)).build();
-        mAdView.loadAd(adRequest);
-
+        new MyApplication().initAdMob(mBinding.adView);
 
         mPeerId = getIntent().getStringExtra(WatchFaceCompanion.EXTRA_PEER_ID);
         myBatteryManager = new MyBatteryManager(getApplicationContext());
@@ -149,7 +133,6 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
                         break;
                 }
 
-                textView.setText(batteryStatusString);
 
                 PutDataMapRequest putDataMapRequest = PutDataMapRequest.create("/batteryInfo");
                 DataMap dataMap = new DataMap();
@@ -214,7 +197,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
                     });
 
 
-                    imageView.setImageBitmap(bitmap);
+                    mBinding.imageView.setImageBitmap(bitmap);
                     Log.i("test", "bitmap set");
                     imageScaler = null;
                 } catch (IOException e) {

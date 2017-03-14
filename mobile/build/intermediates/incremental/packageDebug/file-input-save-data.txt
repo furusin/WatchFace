@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Mar 14 17:10:13 JST 2017
+#Tue Mar 14 22:44:13 JST 2017
 210.set=ANDROID_RESOURCE
 282.file=/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/resources-debug.ap_/res/drawable/abc_btn_check_material.xml
 14.set=ANDROID_RESOURCE

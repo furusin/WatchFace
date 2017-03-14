@@ -60,11 +60,11 @@ MERGED from [com.android.support:support-v4:23.3.0] /Users/furusin/.android/buil
 	android:allowBackup
 		ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml:11:9-35
 	android:icon
-		ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml:12:9-37
+		ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml:12:9-36
 	android:theme
 		ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml:15:9-40
 	android:name
-		ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml:16:9-68
+		ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml:16:9-38
 activity#net.furusin.www.watchface.MainActivity
 ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml:17:9-41:20
 	android:name
