@@ -12,6 +12,8 @@ import net.furusin.www.watchface.Util.PreferenceUtil;
  */
 
 public class MyApplication extends Application {
+    private static final String TAG = MyApplication.class.getSimpleName();
+
     private static String mBitmapString;
     private static Context mContext;
 
@@ -19,12 +21,13 @@ public class MyApplication extends Application {
     public void onCreate() {
         super.onCreate();
 
-        Log.d("test", "Myapplication onCreate");
         mContext = getApplicationContext();
     }
 
     public static String getBitmapString() {
-        return (TextUtils.isEmpty(mBitmapString)) ? PreferenceUtil.getBitmapString(mContext) : mBitmapString;
+        Log.d(TAG, "MyApplication.getBitmapString");
+        Log.d(TAG, "mBitmapString = " + mBitmapString);
+        return (TextUtils.isEmpty(mBitmapString)) ? PreferenceUtil.getBitmapString(mContext) : "";
     }
 
     public static void setBitmapString(final String bitmapString) {

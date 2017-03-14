@@ -6,23 +6,26 @@
     density="hdpi"
     format="10"
     plugin-version="2.3.0"
-    timestamp="1489037384833"
+    timestamp="1489476671247"
     token="-5683606972069354910"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="224" />
+        duration="212" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="40" />
+        duration="22" />
     <task
         name="verifier"
-        duration="4" />
+        duration="2" />
 
+    <artifact
+        location="/Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/split-apk/debug/slices/slice_2.apk"
+        type="SPLIT" />
     <artifact
         location="/Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/split-apk/debug/slices/slice_8.apk"
         type="SPLIT" />
@@ -32,7 +35,7 @@
 
     <build
         build-mode="FULL"
-        timestamp="1489036759452"
+        timestamp="1489475208151"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/split-apk/debug/slices/slice_8.apk"
@@ -73,7 +76,7 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1489037324517"
+        timestamp="1489476226022"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/furusin/AndroidStudioProjects/WatchFace/wear/build/outputs/apk/wear-debug.apk"
@@ -81,8 +84,11 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1489037384833"
+        timestamp="1489476671247"
         verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            type="SPLIT" />
         <artifact
             location="/Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/split-apk/debug/slices/slice_8.apk"
             type="SPLIT" />

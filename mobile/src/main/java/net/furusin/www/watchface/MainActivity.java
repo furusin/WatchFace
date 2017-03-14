@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        textView = (TextView)findViewById(R.id.textView);
+        textView = (TextView) findViewById(R.id.textView);
 
         imageView = (ImageView) findViewById(R.id.imageView);
         Button button = (Button) findViewById(R.id.button);
@@ -102,18 +102,10 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-              /*
-                Intent intent = new Intent(Intent.ACTION_OPEN_DOCUMENT);
-                intent.addCategory(Intent.CATEGORY_OPENABLE);
-                */
-
-
-
                 Intent intent = new Intent(Intent.ACTION_PICK, MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
                 intent.setType("image/*");
 
                 startActivityForResult(intent, READ_REQUEST_CODE);
-
             }
         });
         // ATTENTION: This was auto-generated to implement the App Indexing API.
@@ -124,11 +116,11 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
         @Override
         public void onReceive(Context context, Intent intent) {
             String action = intent.getAction();
-            if(action.equals(Intent.ACTION_BATTERY_CHANGED)){
-                 int batteryStatus = intent.getIntExtra("status", 0);
+            if (action.equals(Intent.ACTION_BATTERY_CHANGED)) {
+                int batteryStatus = intent.getIntExtra("status", 0);
                 batteryLevel = intent.getIntExtra("level", 0);
 
-                switch (batteryStatus){
+                switch (batteryStatus) {
                     case BatteryManager.BATTERY_STATUS_UNKNOWN:
                         batteryStatusString = "unknown";
                         break;
@@ -156,15 +148,14 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
                 putDataMapRequest.getDataMap().putDataMap("/batteryInfo", dataMap);
                 PutDataRequest request = putDataMapRequest.asPutDataRequest();
                 com.google.android.gms.common.api.PendingResult<DataApi.DataItemResult> pendingResult = Wearable.DataApi.putDataItem(mGoogleApiClient, request);
-                pendingResult.setResultCallback(new ResultCallback<DataApi.DataItemResult> () {
+                pendingResult.setResultCallback(new ResultCallback<DataApi.DataItemResult>() {
                     @Override
                     public void onResult(DataApi.DataItemResult dataItemResult) {
 
                         Log.d("test", "onResult2: " + dataItemResult);
 
                     }
-                } );
-
+                });
 
 
             }
@@ -196,21 +187,20 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
                     bitmap = imageScaler.crop();
 
 
-
                     Asset asset = createAssetFromBitmap(bitmap);
 
                     PutDataMapRequest dataMap = PutDataMapRequest.create("/image");
                     dataMap.getDataMap().putAsset("profileImage", asset);
                     PutDataRequest request = dataMap.asPutDataRequest();
                     PendingResult<DataApi.DataItemResult> pendingResult = Wearable.DataApi.putDataItem(mGoogleApiClient, request);
-                    pendingResult.setResultCallback(new ResultCallback<DataApi.DataItemResult> () {
+                    pendingResult.setResultCallback(new ResultCallback<DataApi.DataItemResult>() {
                         @Override
                         public void onResult(DataApi.DataItemResult dataItemResult) {
 
                             Log.d("test", "onResult2: " + dataItemResult);
 
                         }
-                    } );
+                    });
 
 
                     imageView.setImageBitmap(bitmap);
@@ -251,7 +241,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
     public void onConnected(@Nullable Bundle bundle) {
         Log.d("test", "onConnected");
         Uri.Builder builder = new Uri.Builder();
-        Log.d("test", "uri: "+ builder.scheme("wear").path(PATH_WITH_FEATURE).authority(mPeerId).build().toString());
+        Log.d("test", "uri: " + builder.scheme("wear").path(PATH_WITH_FEATURE).authority(mPeerId).build().toString());
         Uri uri = builder.scheme("wear").path(PATH_WITH_FEATURE).authority(mPeerId).build();
         Wearable.DataApi.getDataItem(mGoogleApiClient, uri).setResultCallback(this);
 

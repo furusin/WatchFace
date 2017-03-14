@@ -3,6 +3,7 @@ package net.furusin.www.watchface.Util;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.support.annotation.StringDef;
+import android.util.Log;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
@@ -34,6 +35,7 @@ public class PreferenceUtil {
     }
 
     public static String getBitmapString(final Context context) {
+        Log.d("test", "PreferenceUtil.getBitmapString");
         return getSharedPreferences(context).getString(PreferenceKey.Bitmap, "");
     }
 

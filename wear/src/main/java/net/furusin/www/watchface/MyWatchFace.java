@@ -36,6 +36,7 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.wearable.watchface.CanvasWatchFaceService;
 import android.support.wearable.watchface.WatchFaceStyle;
+import android.text.TextUtils;
 import android.text.format.Time;
 import android.util.Base64;
 import android.util.Log;
@@ -50,6 +51,8 @@ import com.google.android.gms.wearable.DataEvent;
 import com.google.android.gms.wearable.DataEventBuffer;
 import com.google.android.gms.wearable.DataMapItem;
 import com.google.android.gms.wearable.Wearable;
+
+import net.furusin.www.watchface.service.MyImage;
 
 import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
@@ -272,15 +275,19 @@ public class MyWatchFace extends CanvasWatchFaceService {
                 mBitmapPaint = ((BitmapDrawable) backgroundDrawable).getBitmap();
 
             } else {
-                Log.d("test", "MyApplication.Bitmap " + MyApplication.getBitmapString());
-                if (receivedBitmap == null) {           //スマホ側で何も選択していない時
+                //Log.d("test", "MyApplication.Bitmap " + MyApplication.getBitmapString());
+                //if (receivedBitmap == null) {           //スマホ側で何も選択していない時
+                if(TextUtils.isEmpty(MyApplication.getBitmapString())){
                     Log.d("test", "receivedBitmap == null");
                     imgResId = BACKGROUND_RES_ID[mTime.minute % BACKGROUND_RES_ID.length];
                     backgroundDrawable = resources.getDrawable(imgResId);
                     mBitmapPaint = ((BitmapDrawable) backgroundDrawable).getBitmap();
 
                 } else {                                      //スマホ側で画像を選択した時
-                   // String bitmapString = MyApplication.getBitmapString();
+                    // String bitmapString = MyApplication.getBitmapString();
+                    Log.d("test", "receivedBitmap != null");
+                    receivedBitmap = new MyImage().bitmapStringComveterToBitmap(MyApplication
+                            .getBitmapString());
                     mBitmapPaint = receivedBitmap;
                 }
             }
@@ -429,7 +436,8 @@ public class MyWatchFace extends CanvasWatchFaceService {
                     String bitmapString = Base64.encodeToString(byteArrayOutputStream.toByteArray()
                             , Base64.DEFAULT);
                     MyApplication.setBitmapString(bitmapString);
-                    Log.d("test", "bitmapString = " + bitmapString);
+                    //Log.d("test", "bitmapString = " + MyApplication.getBitmapString());
+
 
                     // Do something with the bitmap
                     //    }
