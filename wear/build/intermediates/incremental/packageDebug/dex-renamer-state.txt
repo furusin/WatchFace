@@ -1,4 +1,4 @@
-#Thu Mar 09 13:07:45 JST 2017
+#Tue Mar 14 17:09:26 JST 2017
 base.0=/Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_18b186a663567e7f132f37f65b703910170a48a1
 renamed.1=classes2.dex
 renamed.0=classes.dex

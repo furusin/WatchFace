@@ -56,20 +56,20 @@
         "source": "/Users/furusin/.android/build-cache/b42d91993e2c1a7560f2865efa57ce478780836d/output/res/drawable/mr_ic_media_route_connecting_mono_light.xml"
     },
     {
-        "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/drawable/mr_ic_play_light.xml",
-        "source": "/Users/furusin/.android/build-cache/b42d91993e2c1a7560f2865efa57ce478780836d/output/res/drawable/mr_ic_play_light.xml"
-    },
-    {
-        "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_dark.xml",
-        "source": "/Users/furusin/.android/build-cache/d576cfd1a1eafbe775c20f84acac55b8a9bd4a7d/output/res/drawable/abc_dialog_material_background_dark.xml"
+        "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/drawable/mr_ic_cast_dark.xml",
+        "source": "/Users/furusin/.android/build-cache/b42d91993e2c1a7560f2865efa57ce478780836d/output/res/drawable/mr_ic_cast_dark.xml"
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_icon_dark.xml",
         "source": "/Users/furusin/.android/build-cache/2eea369930c0414fffede891d19d3757b89e9081/output/res/drawable/common_plus_signin_btn_icon_dark.xml"
     },
     {
-        "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/drawable/mr_ic_cast_dark.xml",
-        "source": "/Users/furusin/.android/build-cache/b42d91993e2c1a7560f2865efa57ce478780836d/output/res/drawable/mr_ic_cast_dark.xml"
+        "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_dark.xml",
+        "source": "/Users/furusin/.android/build-cache/d576cfd1a1eafbe775c20f84acac55b8a9bd4a7d/output/res/drawable/abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/drawable/mr_ic_play_light.xml",
+        "source": "/Users/furusin/.android/build-cache/b42d91993e2c1a7560f2865efa57ce478780836d/output/res/drawable/mr_ic_play_light.xml"
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_closed_caption.xml",

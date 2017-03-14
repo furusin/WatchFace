@@ -16,12 +16,12 @@
         "source": "/Users/furusin/.android/build-cache/2eea369930c0414fffede891d19d3757b89e9081/output/res/drawable-xhdpi/common_plus_signin_btn_text_dark_pressed.9.png"
     },
     {
-        "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/drawable-xhdpi/cast_ic_notification_1.png",
-        "source": "/Users/furusin/.android/build-cache/5fe4b212809154cdcc6c675083b9a850baa6a549/output/res/drawable-xhdpi/cast_ic_notification_1.png"
-    },
-    {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/drawable-xhdpi/common_google_signin_btn_text_dark_focused.9.png",
         "source": "/Users/furusin/.android/build-cache/2eea369930c0414fffede891d19d3757b89e9081/output/res/drawable-xhdpi/common_google_signin_btn_text_dark_focused.9.png"
+    },
+    {
+        "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/drawable-xhdpi/cast_ic_notification_1.png",
+        "source": "/Users/furusin/.android/build-cache/5fe4b212809154cdcc6c675083b9a850baa6a549/output/res/drawable-xhdpi/cast_ic_notification_1.png"
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/drawable-xhdpi/ic_cast_on_1_light.png",

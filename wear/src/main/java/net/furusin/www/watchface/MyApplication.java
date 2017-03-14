@@ -25,9 +25,7 @@ public class MyApplication extends Application {
     }
 
     public static String getBitmapString() {
-        Log.d(TAG, "MyApplication.getBitmapString");
-        Log.d(TAG, "mBitmapString = " + mBitmapString);
-        return (TextUtils.isEmpty(mBitmapString)) ? PreferenceUtil.getBitmapString(mContext) : "";
+        return (TextUtils.isEmpty(mBitmapString)) ? PreferenceUtil.getBitmapString(mContext) : mBitmapString;
     }
 
     public static void setBitmapString(final String bitmapString) {

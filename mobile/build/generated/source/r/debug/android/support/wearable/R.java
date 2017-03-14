@@ -132,7 +132,7 @@ public final class R {
         public static final int diag_shade_height_rect = 0x7f0b0059;
         public static final int diag_shade_height_round = 0x7f0b005a;
         public static final int dismiss_padding = 0x7f0b005d;
-        public static final int item_touch_helper_max_drag_scroll_per_frame = 0x7f0b0061;
+        public static final int item_touch_helper_max_drag_scroll_per_frame = 0x7f0b0068;
     }
     public static final class drawable {
         public static final int card_background = 0x7f02004b;
@@ -147,35 +147,35 @@ public final class R {
         public static final int open_on_phone_animation = 0x7f0200a9;
     }
     public static final class id {
-        public static final int alertTitle = 0x7f100069;
-        public static final int all = 0x7f100016;
-        public static final int animatedWrapperContainer = 0x7f10008d;
-        public static final int bottom = 0x7f100017;
-        public static final int buttonPanel = 0x7f100064;
-        public static final int center = 0x7f10001d;
-        public static final int center_horizontal = 0x7f100052;
-        public static final int center_vertical = 0x7f100053;
-        public static final int clip_horizontal = 0x7f100054;
-        public static final int clip_vertical = 0x7f100055;
-        public static final int dismiss_overlay_button = 0x7f10008f;
-        public static final int dismiss_overlay_explain = 0x7f10008e;
-        public static final int end = 0x7f100026;
-        public static final int fill = 0x7f100056;
-        public static final int fill_horizontal = 0x7f100057;
-        public static final int fill_vertical = 0x7f100058;
-        public static final int fit = 0x7f10001e;
-        public static final int height = 0x7f10001b;
-        public static final int item_touch_helper_previous_elevation = 0x7f100006;
-        public static final int left = 0x7f100018;
-        public static final int message = 0x7f100090;
-        public static final int none = 0x7f100010;
-        public static final int parentPanel = 0x7f100066;
-        public static final int right = 0x7f100019;
-        public static final int start = 0x7f100059;
-        public static final int text = 0x7f1000a9;
-        public static final int title = 0x7f100063;
-        public static final int top = 0x7f10001a;
-        public static final int width = 0x7f10001c;
+        public static final int alertTitle = 0x7f10006d;
+        public static final int all = 0x7f10001a;
+        public static final int animatedWrapperContainer = 0x7f100090;
+        public static final int bottom = 0x7f10001b;
+        public static final int buttonPanel = 0x7f100068;
+        public static final int center = 0x7f100021;
+        public static final int center_horizontal = 0x7f100056;
+        public static final int center_vertical = 0x7f100057;
+        public static final int clip_horizontal = 0x7f100058;
+        public static final int clip_vertical = 0x7f100059;
+        public static final int dismiss_overlay_button = 0x7f100092;
+        public static final int dismiss_overlay_explain = 0x7f100091;
+        public static final int end = 0x7f10002a;
+        public static final int fill = 0x7f10005a;
+        public static final int fill_horizontal = 0x7f10005b;
+        public static final int fill_vertical = 0x7f10005c;
+        public static final int fit = 0x7f100022;
+        public static final int height = 0x7f10001f;
+        public static final int item_touch_helper_previous_elevation = 0x7f100007;
+        public static final int left = 0x7f10001c;
+        public static final int message = 0x7f100093;
+        public static final int none = 0x7f100014;
+        public static final int parentPanel = 0x7f10006a;
+        public static final int right = 0x7f10001d;
+        public static final int start = 0x7f10005d;
+        public static final int text = 0x7f1000ac;
+        public static final int title = 0x7f100067;
+        public static final int top = 0x7f10001e;
+        public static final int width = 0x7f100020;
     }
     public static final class integer {
         public static final int action_choose_expand_full_duration = 0x7f0d0003;

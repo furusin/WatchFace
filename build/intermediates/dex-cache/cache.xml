@@ -313,7 +313,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="0685d6575d0a874a73a3524eb5c4d60770f26f92">
+        sha1="78eb6f9defa1705c8236843d2a60dcc1fec72e3d">
         <dex dex="/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_22c9781d3df8050685ac38f5c149e61a41769a0a/classes.dex" />
     </item>
     <item
@@ -394,7 +394,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="6ebfd6e97a60dfb7a783cf95256f4074436b35a3">
+        sha1="4684c484ab9d4cd4ee90515862b579544ffdd68d">
         <dex dex="/Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_03bf87c185148b8b85ea8d395c67379b8fc6b3b0/classes.dex" />
     </item>
     <item

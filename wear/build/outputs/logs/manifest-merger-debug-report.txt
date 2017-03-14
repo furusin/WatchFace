@@ -34,7 +34,7 @@ MERGED from [com.android.support:support-v4:23.0.1] /Users/furusin/.android/buil
 	android:allowBackup
 		ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/wear/src/main/AndroidManifest.xml:12:9-35
 	android:icon
-		ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/wear/src/main/AndroidManifest.xml:13:9-36
+		ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/wear/src/main/AndroidManifest.xml:13:9-37
 	android:theme
 		ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/wear/src/main/AndroidManifest.xml:16:9-59
 	android:name

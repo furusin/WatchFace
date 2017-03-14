@@ -112,13 +112,6 @@ public class MyWatchFace extends CanvasWatchFaceService {
 
         private static final float DESIGNED_SIZE = 512f;
         final int[] BACKGROUND_RES_ID = {
-/*
-                R.drawable.background0,
-                R.drawable.background1,
-                R.drawable.background2,
-                R.drawable.background3,
-                R.drawable.background4
-*/
                 R.drawable.blank
         };
 
@@ -198,8 +191,6 @@ public class MyWatchFace extends CanvasWatchFaceService {
             mDrawPaint.setStrokeCap(Paint.Cap.ROUND);
 
             mTime = new Time();
-
-
         }
 
         @Override
@@ -262,27 +253,19 @@ public class MyWatchFace extends CanvasWatchFaceService {
         @Override
         public void onDraw(Canvas canvas, Rect bounds) {
             mTime.setToNow();
-            int imgResId;
-            Resources resources = MyWatchFace.this.getResources();
-            Drawable backgroundDrawable = null;
 
+            Log.d("test", "onDraw");
 
             // Draw the background.
             if (isInAmbientMode()) {                      //Ambientモードの時
                 Log.d("test", "AmbientMode");
-                imgResId = R.drawable.black_background;
-                backgroundDrawable = resources.getDrawable(imgResId);
-                mBitmapPaint = ((BitmapDrawable) backgroundDrawable).getBitmap();
-
+                mBitmapPaint = setDrawImageWithDrawable(R.drawable.black_background);
             } else {
                 //Log.d("test", "MyApplication.Bitmap " + MyApplication.getBitmapString());
                 //if (receivedBitmap == null) {           //スマホ側で何も選択していない時
                 if(TextUtils.isEmpty(MyApplication.getBitmapString())){
                     Log.d("test", "receivedBitmap == null");
-                    imgResId = BACKGROUND_RES_ID[mTime.minute % BACKGROUND_RES_ID.length];
-                    backgroundDrawable = resources.getDrawable(imgResId);
-                    mBitmapPaint = ((BitmapDrawable) backgroundDrawable).getBitmap();
-
+                    mBitmapPaint = setDrawImageWithDrawable(R.drawable.blank);
                 } else {                                      //スマホ側で画像を選択した時
                     // String bitmapString = MyApplication.getBitmapString();
                     Log.d("test", "receivedBitmap != null");
@@ -292,11 +275,9 @@ public class MyWatchFace extends CanvasWatchFaceService {
                 }
             }
 
-            // mBitmapPaint = ((BitmapDrawable) backgroundDrawable).getBitmap();
             mBackgroundScaledBitmap = Bitmap.createScaledBitmap(mBitmapPaint,
                     bounds.width(), bounds.height(), true /* filter */);
             canvas.drawBitmap(mBackgroundScaledBitmap, 0, 0, null);
-
 
             // Find the center. Ignore the window insets so that, on round watches with a
             // "chin", the watch face is centered on the entire screen, not just the usable
@@ -332,8 +313,6 @@ public class MyWatchFace extends CanvasWatchFaceService {
         public void onConnected(@Nullable Bundle bundle) {
             Log.d("test", "onConnected");
             Wearable.DataApi.addListener(mGoogleApiClient, this);
-
-
         }
 
 
@@ -535,5 +514,12 @@ public class MyWatchFace extends CanvasWatchFaceService {
         }
     }
 
+    private void setDrawImage(){
+    }
+
+    private Bitmap setDrawImageWithDrawable(int resourceId){
+        Drawable backgroundDrawable = getApplicationContext().getResources().getDrawable(resourceId);
+        return ((BitmapDrawable) backgroundDrawable).getBitmap();
+    }
 
 }

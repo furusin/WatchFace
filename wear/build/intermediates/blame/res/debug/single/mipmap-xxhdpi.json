@@ -4,6 +4,10 @@
         "source": "/Users/furusin/AndroidStudioProjects/WatchFace/wear/src/main/res/mipmap-xxhdpi/icon.png"
     },
     {
+        "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/res/merged/debug/mipmap-xxhdpi/icon2.png",
+        "source": "/Users/furusin/AndroidStudioProjects/WatchFace/wear/src/main/res/mipmap-xxhdpi/icon2.png"
+    },
+    {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/res/merged/debug/mipmap-xxhdpi/blank.png",
         "source": "/Users/furusin/AndroidStudioProjects/WatchFace/wear/src/main/res/mipmap-xxhdpi/blank.png"
     },

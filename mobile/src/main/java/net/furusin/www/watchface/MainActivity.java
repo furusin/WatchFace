@@ -5,6 +5,7 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.databinding.DataBindingUtil;
 import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.BatteryManager;
@@ -36,6 +37,8 @@ import com.google.android.gms.wearable.PutDataRequest;
 import com.google.android.gms.wearable.Wearable;
 
 
+import net.furusin.www.watchface.databinding.ActivityMainBinding;
+
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 
@@ -48,6 +51,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
      * ATTENTION: This was auto-generated to implement the App Indexing API.
      * See https://g.co/AppIndexing/AndroidStudio for more information.
      */
+    private ActivityMainBinding mBinding;
     private final int READ_REQUEST_CODE = 44;
     ImageView imageView;
     GoogleApiClient mGoogleApiClient;
@@ -73,11 +77,18 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
     }
 
     @Override
+    protected void onPause() {
+        super.onPause();
+
+        unregisterReceiver(mBroadcastReveiver);
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        textView = (TextView) findViewById(R.id.textView);
+        mBinding = DataBindingUtil.setContentView(this, R.layout.activity_main);
 
         imageView = (ImageView) findViewById(R.id.imageView);
         Button button = (Button) findViewById(R.id.button);

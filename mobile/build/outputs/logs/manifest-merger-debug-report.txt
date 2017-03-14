@@ -60,7 +60,7 @@ MERGED from [com.android.support:support-v4:23.3.0] /Users/furusin/.android/buil
 	android:allowBackup
 		ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml:11:9-35
 	android:icon
-		ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml:12:9-36
+		ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml:12:9-37
 	android:theme
 		ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml:15:9-40
 	android:name
@@ -150,6 +150,8 @@ MERGED from [com.google.android.gms:play-services-maps:8.4.0] /Users/furusin/.an
 MERGED from [com.google.android.gms:play-services-wearable:8.4.0] /Users/furusin/.android/build-cache/92857768d28d23796bd741cd60ee8dbf16adc1e5/output/AndroidManifest.xml:18:5-42
 MERGED from [com.google.android.gms:play-services-base:8.4.0] /Users/furusin/.android/build-cache/2eea369930c0414fffede891d19d3757b89e9081/output/AndroidManifest.xml:18:5-42
 MERGED from [com.google.android.gms:play-services-basement:8.4.0] /Users/furusin/.android/build-cache/582128dd37f03e817d245fc431f40bba8303d478/output/AndroidManifest.xml:18:5-42
+MERGED from [com.android.databinding:adapters:1.3.1] /Users/furusin/.android/build-cache/63000fa56e9e8690ed2e21caa6405012a9d1dfcb/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.databinding:library:1.3.1] /Users/furusin/.android/build-cache/2ce5eee02721751230a8fbd8536e09563f7e43d3/output/AndroidManifest.xml:22:5-24:41
 MERGED from [com.android.support:support-v4:23.3.0] /Users/furusin/.android/build-cache/e0543701ed4abb26e440b8e11a42912ceea9c7c8/output/AndroidManifest.xml:20:5-43
 	tools:overrideLibrary
 		ADDED from [com.android.support:appcompat-v7:23.3.0] /Users/furusin/.android/build-cache/d576cfd1a1eafbe775c20f84acac55b8a9bd4a7d/output/AndroidManifest.xml:23:9-75
