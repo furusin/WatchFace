@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/incremental/mergeDebugResources/merged.dir/values-my/values-my.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 251,
+                    "endOffset": 352
+                },
+                "from": {
+                    "file": "/Users/furusin/.android/build-cache/a922aad148437a453780a8f8322d2b2c6d68e6a1/output/res/values-my/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 343,
+                        "endColumn": 251,
+                        "endOffset": 590
+                    }
+                }
+            }
+        ]
+    }
+]

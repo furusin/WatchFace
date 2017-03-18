@@ -1,0 +1,82 @@
+[
+    {
+        "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/release/color/wallet_secondary_text_holo_dark.xml",
+        "source": "/Users/furusin/.android/build-cache/7a5b65afe4883bce52f2777303b35f5ef6d4d5b1/output/res/color/wallet_secondary_text_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/release/color/abc_search_url_text.xml",
+        "source": "/Users/furusin/.android/build-cache/d576cfd1a1eafbe775c20f84acac55b8a9bd4a7d/output/res/color/abc_search_url_text.xml"
+    },
+    {
+        "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/release/color/abc_secondary_text_material_dark.xml",
+        "source": "/Users/furusin/.android/build-cache/d576cfd1a1eafbe775c20f84acac55b8a9bd4a7d/output/res/color/abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/release/color/switch_thumb_material_dark.xml",
+        "source": "/Users/furusin/.android/build-cache/d576cfd1a1eafbe775c20f84acac55b8a9bd4a7d/output/res/color/switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/release/color/circular_button.xml",
+        "source": "/Users/furusin/.android/build-cache/39c0d849d4b7f797759a94cb6642b1c5d87728c0/output/res/color/circular_button.xml"
+    },
+    {
+        "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/release/color/card_grey_text_color.xml",
+        "source": "/Users/furusin/.android/build-cache/39c0d849d4b7f797759a94cb6642b1c5d87728c0/output/res/color/card_grey_text_color.xml"
+    },
+    {
+        "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/release/color/common_google_signin_btn_text_light.xml",
+        "source": "/Users/furusin/.android/build-cache/2eea369930c0414fffede891d19d3757b89e9081/output/res/color/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/release/color/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/furusin/.android/build-cache/2eea369930c0414fffede891d19d3757b89e9081/output/res/color/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/release/color/abc_secondary_text_material_light.xml",
+        "source": "/Users/furusin/.android/build-cache/d576cfd1a1eafbe775c20f84acac55b8a9bd4a7d/output/res/color/abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/release/color/common_plus_signin_btn_text_light.xml",
+        "source": "/Users/furusin/.android/build-cache/2eea369930c0414fffede891d19d3757b89e9081/output/res/color/common_plus_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/release/color/switch_thumb_material_light.xml",
+        "source": "/Users/furusin/.android/build-cache/d576cfd1a1eafbe775c20f84acac55b8a9bd4a7d/output/res/color/switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/release/color/abc_primary_text_material_light.xml",
+        "source": "/Users/furusin/.android/build-cache/d576cfd1a1eafbe775c20f84acac55b8a9bd4a7d/output/res/color/abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/release/color/abc_primary_text_material_dark.xml",
+        "source": "/Users/furusin/.android/build-cache/d576cfd1a1eafbe775c20f84acac55b8a9bd4a7d/output/res/color/abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/release/color/card_text_color.xml",
+        "source": "/Users/furusin/.android/build-cache/39c0d849d4b7f797759a94cb6642b1c5d87728c0/output/res/color/card_text_color.xml"
+    },
+    {
+        "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/release/color/common_plus_signin_btn_text_dark.xml",
+        "source": "/Users/furusin/.android/build-cache/2eea369930c0414fffede891d19d3757b89e9081/output/res/color/common_plus_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/release/color/abc_primary_text_disable_only_material_dark.xml",
+        "source": "/Users/furusin/.android/build-cache/d576cfd1a1eafbe775c20f84acac55b8a9bd4a7d/output/res/color/abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/release/color/wallet_primary_text_holo_light.xml",
+        "source": "/Users/furusin/.android/build-cache/7a5b65afe4883bce52f2777303b35f5ef6d4d5b1/output/res/color/wallet_primary_text_holo_light.xml"
+    },
+    {
+        "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/release/color/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/furusin/.android/build-cache/d576cfd1a1eafbe775c20f84acac55b8a9bd4a7d/output/res/color/abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/release/color/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/furusin/.android/build-cache/d576cfd1a1eafbe775c20f84acac55b8a9bd4a7d/output/res/color/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/release/color/abc_primary_text_disable_only_material_light.xml",
+        "source": "/Users/furusin/.android/build-cache/d576cfd1a1eafbe775c20f84acac55b8a9bd4a7d/output/res/color/abc_primary_text_disable_only_material_light.xml"
+    }
+]

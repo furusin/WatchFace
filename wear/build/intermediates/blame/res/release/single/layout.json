@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/res/merged/release/layout/error_layout.xml",
+        "source": "/Users/furusin/.android/build-cache/39c0d849d4b7f797759a94cb6642b1c5d87728c0/output/res/layout/error_layout.xml"
+    },
+    {
+        "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/res/merged/release/layout/alert_dialog_wearable.xml",
+        "source": "/Users/furusin/.android/build-cache/39c0d849d4b7f797759a94cb6642b1c5d87728c0/output/res/layout/alert_dialog_wearable.xml"
+    },
+    {
+        "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/res/merged/release/layout/config_actiivty.xml",
+        "source": "/Users/furusin/AndroidStudioProjects/WatchFace/wear/src/main/res/layout/config_actiivty.xml"
+    }
+]

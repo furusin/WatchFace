@@ -1,14 +1,14 @@
 
 package android.databinding;
-import net.furusin.www.watchface.BR;
+import net.furusin.www.SelectedPhotoWatchFace.BR;
 class DataBinderMapper  {
     final static int TARGET_MIN_SDK = 23;
     public DataBinderMapper() {
     }
     public android.databinding.ViewDataBinding getDataBinder(android.databinding.DataBindingComponent bindingComponent, android.view.View view, int layoutId) {
         switch(layoutId) {
-                case net.furusin.www.watchface.R.layout.activity_main:
-                    return net.furusin.www.watchface.databinding.ActivityMainBinding.bind(view, bindingComponent);
+                case net.furusin.www.SelectedPhotoWatchFace.R.layout.activity_main:
+                    return net.furusin.www.SelectedPhotoWatchFace.databinding.ActivityMainBinding.bind(view, bindingComponent);
         }
         return null;
     }
@@ -25,7 +25,7 @@ class DataBinderMapper  {
         switch(code) {
             case 423753077: {
                 if(tag.equals("layout/activity_main_0")) {
-                    return net.furusin.www.watchface.R.layout.activity_main;
+                    return net.furusin.www.SelectedPhotoWatchFace.R.layout.activity_main;
                 }
                 break;
             }

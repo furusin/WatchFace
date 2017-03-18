@@ -180,12 +180,12 @@
         "source": "/Users/furusin/.android/build-cache/9650ba8dbf05bca7e9c1b33968d903857970704d/output/res/drawable-hdpi/places_ic_clear.png"
     },
     {
-        "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/drawable-hdpi/ic_media_route_on_0_mono_dark.png",
-        "source": "/Users/furusin/.android/build-cache/b42d91993e2c1a7560f2865efa57ce478780836d/output/res/drawable-hdpi/ic_media_route_on_0_mono_dark.png"
-    },
-    {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/drawable-hdpi/common_google_signin_btn_icon_light_normal.9.png",
         "source": "/Users/furusin/.android/build-cache/2eea369930c0414fffede891d19d3757b89e9081/output/res/drawable-hdpi/common_google_signin_btn_icon_light_normal.9.png"
+    },
+    {
+        "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/drawable-hdpi/ic_media_route_on_0_mono_dark.png",
+        "source": "/Users/furusin/.android/build-cache/b42d91993e2c1a7560f2865efa57ce478780836d/output/res/drawable-hdpi/ic_media_route_on_0_mono_dark.png"
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/drawable-hdpi/ic_setting_dark.png",

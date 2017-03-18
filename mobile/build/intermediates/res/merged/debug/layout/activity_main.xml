@@ -2,29 +2,14 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:ads="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools">
+
     <data>
     </data>
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context="net.furusin.www.watchface.MainActivity">
-
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_margin="@dimen/spacing_large"
-            android:src="@mipmap/add_image"/>
-
-        <Button
-            android:id="@+id/button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/imageView"
-            android:layout_centerHorizontal="true"
-            android:text="@string/choose_image"/>
+        tools:context="net.furusin.www.watchface.net.furusin.www.SelectedPhotoWatchFace.MainActivity">
 
         <com.google.android.gms.ads.AdView
             android:id="@+id/adView"
@@ -35,5 +20,35 @@
             ads:adSize="BANNER"
             ads:adUnitId="@string/banner_ad_unit_id">
         </com.google.android.gms.ads.AdView>
+
+        <Button
+            android:id="@+id/button"
+            style="@style/select_photo_btn"
+            android:layout_above="@id/adView"
+            android:text="@string/choose_image"/>
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/button"
+            android:layout_alignParentTop="true"
+            android:layout_margin="@dimen/spacing_small">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:gravity="center"
+                    android:src="@mipmap/add_image"/>
+            </LinearLayout>
+        </ScrollView>
+
+
     </RelativeLayout>
 </layout>

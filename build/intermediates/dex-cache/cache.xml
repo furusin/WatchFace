@@ -7,7 +7,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="05728368ca01f2be56863575e31e9c5b609b6057">
+        sha1="e8be4b71616de406a9911c7360dda791ee9d6f9c">
         <dex dex="/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_22c9781d3df8050685ac38f5c149e61a41769a0a/classes.dex" />
     </item>
     <item
@@ -18,33 +18,6 @@
         revision="25.0.0"
         sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
         <dex dex="/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_0a2e484f832a16a0a8af03dcdc53c735164798b9/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/furusin/.android/build-cache/63000fa56e9e8690ed2e21caa6405012a9d1dfcb/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="68956f5ba1517b7a3d513ba540548e257741cbae">
-        <dex dex="/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ca90cccfc2d8e8d92b657741227be41276454e52/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Applications/Android Studio.app/Contents/gradle/m2repository/com/android/databinding/baseLibrary/2.3.0/baseLibrary-2.3.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="cf0b6ab1d94f770655f81657b93fce2ba4cd331d">
-        <dex dex="/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/baseLibrary-2.3.0_3d8a92b3f03695a50c7548f68422f80006780753/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/furusin/.android/build-cache/2ce5eee02721751230a8fbd8536e09563f7e43d3/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="7f2f348b830f292429db987f74ba3e67c6752322">
-        <dex dex="/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d85e1424554969cddf57f9c1784ad3459cf0a901/classes.dex" />
     </item>
 
 </items>

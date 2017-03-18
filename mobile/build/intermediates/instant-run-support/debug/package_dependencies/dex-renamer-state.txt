@@ -1,4 +1,4 @@
-#Tue Mar 14 22:31:46 JST 2017
+#Sat Mar 18 14:21:40 JST 2017
 file.9=/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/baseLibrary-2.3.0_3d8a92b3f03695a50c7548f68422f80006780753/classes.dex
 base.10=/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/classes_81dbc5d0c82c3bab0126cf751a794905e6ddc36c
 file.8=/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4498f3001d0d141facccf79cd004fa2949e630a1/classes.dex

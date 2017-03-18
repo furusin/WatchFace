@@ -8,10 +8,6 @@
         "source": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/res/mipmap-xxxhdpi/blank.png"
     },
     {
-        "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/mipmap-xxxhdpi/icon2.png",
-        "source": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/res/mipmap-xxxhdpi/icon2.png"
-    },
-    {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
         "source": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     }

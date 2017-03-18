@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/res/merged/release/mipmap-hdpi/blank.png",
+        "source": "/Users/furusin/AndroidStudioProjects/WatchFace/wear/src/main/res/mipmap-hdpi/blank.png"
+    },
+    {
+        "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/res/merged/release/mipmap-hdpi/ic_launcher.png",
+        "source": "/Users/furusin/AndroidStudioProjects/WatchFace/wear/src/main/res/mipmap-hdpi/ic_launcher.png"
+    }
+]

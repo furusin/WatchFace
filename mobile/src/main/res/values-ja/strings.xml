@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ウォッチ写真セッター</string>
+    <string name="choose_image">写真を選ぶ</string>
+    <string name="photo_set">写真がセットされました</string>
+    <string name="banner_ad_unit_id">ca-app-pub-4347315437638494/5968020565</string><!-- Admob 広告ユニットID-->
+    <string name="banner_ad_app_id">ca-app-pub-4347315437638494~4491287363</string><!-- Admob アプリID -->
+    <string name="test_device_id">7EB4646CB58EFA3B4CABC189A07EE971</string>
+
+</resources>

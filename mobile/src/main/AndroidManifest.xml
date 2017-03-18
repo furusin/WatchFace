@@ -1,51 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="net.furusin.www.watchface">
+          package="net.furusin.www.SelectedPhotoWatchFace">
 
     <!-- Required to act as a custom watch face. -->
-    <uses-permission android:name="android.permission.WAKE_LOCK" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
 
 
     <application
+        android:name="net.furusin.www.SelectedPhotoWatchFace.MyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/icon"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme"
-        android:name=".MyApplication">
-        <activity android:name=".MainActivity">
+        android:theme="@style/AppTheme">
+        <activity android:name="net.furusin.www.SelectedPhotoWatchFace.MainActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
+                <action android:name="android.intent.action.MAIN"/>
 
                 <action android:name=
-                    "com.example.android.wearable.watchface.CONFIG_DIGITAL" />
-
-
-                //端末が電源に接続されたときや接続が解除されたときにBroadCastReceiverを受け取るために必要
-                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
-                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
-
+                            "com.example.android.wearable.watchface.CONFIG_DIGITAL"/>
 
                 <category android:name=
-                    "com.google.android.wearable.watchface.category.COMPANION_CONFIGURATION" />
+                              "com.google.android.wearable.watchface.category.COMPANION_CONFIGURATION"/>
 
-
-                <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
                 <category android:name="android.intent.category.BROWSABLE"/>
 
             </intent-filter>
 
         </activity>
+
         <meta-data
             android:name="com.google.android.wearable.watchface.wearableConfigurationAction"
-            android:value="net.furusin.www.watchface.CONFIG_DIGITAL" />
+            android:value="net.furusin.www.watchface.CONFIG_DIGITAL"/>
 
         <meta-data
             android:name="com.google.android.gms.version"
-            android:value="@integer/google_play_services_version" />
+            android:value="@integer/google_play_services_version"/>
 
     </application>
 
