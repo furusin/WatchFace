@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 23
-    buildToolsVersion '25.0.0'
+    compileSdkVersion 25
+    buildToolsVersion '25.0.2'
 
     defaultConfig {
         applicationId "net.furusin.www.SelectedPhotoWatchFace"
-        minSdkVersion 9
-        targetSdkVersion 23
+        minSdkVersion 19
+        targetSdkVersion 25
         versionCode 1
         versionName "1.0"
     }
@@ -26,12 +26,12 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     wearApp project(':wear')
     testCompile 'junit:junit:4.12'
-    compile 'com.android.support:appcompat-v7:23.3.0'
-    compile 'com.google.android.gms:play-services-gcm:8.4.0'
+    compile 'com.android.support:appcompat-v7:25.1.0'
     compile "com.google.android.support:wearable:1.4.0"
-
-    compile 'com.google.android.gms:play-services-wearable:8.4.0'
     compile 'com.android.support:multidex:1.0.0'
-    compile 'com.google.android.gms:play-services:8.+'
-    
+    //compile 'com.google.android.gms:play-services-wearable:9.0.0'
+    compile 'com.google.android.gms:play-services:10.0.1'
+    //compile 'com.google.android.gms:play-services-gcm:9.0.0'
+    compile 'com.google.firebase:firebase-crash:9.6.1'
 }
+apply plugin: 'com.google.gms.google-services'

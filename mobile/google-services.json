@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:541005665575:android:c60e92e72c443a83",
         "android_client_info": {
-          "package_name": "net.furusin.www.watchface"
+          "package_name": "net.furusin.www.SelectedPhotoWatchFace"
         }
       },
       "oauth_client": [
@@ -18,7 +18,7 @@
           "client_id": "541005665575-51kast6u09ldr0crm5mr7vt5m5iidugo.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "net.furusin.www.watchface",
+            "package_name": "net.furusin.www.SelectedPhotoWatchFace",
             "certificate_hash": "18E5E85F2997DB280DA9D925C0A2FA6BACF8707D"
           }
         },

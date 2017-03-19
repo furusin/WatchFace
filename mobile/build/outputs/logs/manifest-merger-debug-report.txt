@@ -15,7 +15,11 @@ ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/Androi
 		INJECTED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml
 uses-permission#android.permission.WAKE_LOCK
 ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml:6:5-67
-MERGED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/furusin/.android/build-cache/fbdb6d86d4ffb8368eaff0c5637f8de7b6738ae3/output/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-analytics:10.0.1] /Users/furusin/.android/build-cache/f392e90e7690fd79645b09eefb8f3b673c10ec16/output/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.0.1] /Users/furusin/.android/build-cache/9bf1ccada8e86599d3a742d6ae5893c10a2c8a2f/output/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics:10.0.1] /Users/furusin/.android/build-cache/976fb8d66289478d2a31c318d013a3a62b90eacd/output/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /Users/furusin/.android/build-cache/ae07229278dfe638393222cd25fe995cd23465ab/output/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:10.0.1] /Users/furusin/.android/build-cache/67e0f2e1a777eefe268f8a1e4ab71a0e35f29b00/output/AndroidManifest.xml:21:5-67
 	android:name
 		ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml:6:22-65
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
@@ -25,34 +29,58 @@ ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/Androi
 application
 ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml:10:5-43:19
 MERGED from [com.google.android.support:wearable:1.4.0] /Users/furusin/.android/build-cache/39c0d849d4b7f797759a94cb6642b1c5d87728c0/output/AndroidManifest.xml:8:5-20
-MERGED from [com.google.android.gms:play-services:8.4.0] /Users/furusin/.android/build-cache/bc0733f3881a6df93fe277af817e5b409f6da75c/output/AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-ads:8.4.0] /Users/furusin/.android/build-cache/0aa0f30dc92ac6c9e33cdf19f64ff4bf24e179e0/output/AndroidManifest.xml:24:5-32:19
-MERGED from [com.google.android.gms:play-services-analytics:8.4.0] /Users/furusin/.android/build-cache/fe18d9d184f9df83afe30ba2645c4ba4b4078346/output/AndroidManifest.xml:24:5-20
-MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] /Users/furusin/.android/build-cache/eac5aaa3b7ab6a881071802611bed720a297c086/output/AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-appinvite:8.4.0] /Users/furusin/.android/build-cache/07d388640583c585f58638877a81e4db62af4983/output/AndroidManifest.xml:20:5-30:19
-MERGED from [com.google.android.gms:play-services-appstate:8.4.0] /Users/furusin/.android/build-cache/2d73a927dde91cba777eea7797b02a69e33326ab/output/AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-auth:8.4.0] /Users/furusin/.android/build-cache/068e65eea57c5f6a34c18ce2ae1b2da94c2b6196/output/AndroidManifest.xml:20:5-32:19
-MERGED from [com.google.android.gms:play-services-cast:8.4.0] /Users/furusin/.android/build-cache/5fe4b212809154cdcc6c675083b9a850baa6a549/output/AndroidManifest.xml:19:5-20
-MERGED from [com.android.support:mediarouter-v7:23.0.0] /Users/furusin/.android/build-cache/b42d91993e2c1a7560f2865efa57ce478780836d/output/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:23.3.0] /Users/furusin/.android/build-cache/d576cfd1a1eafbe775c20f84acac55b8a9bd4a7d/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:23.3.0] /Users/furusin/.android/build-cache/7bf23b4ee701cc04aca958b7d8a51a6409fa1366/output/AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-vector-drawable:23.3.0] /Users/furusin/.android/build-cache/173e42dce74cf87ff4f40a5f8e36dd299cdff7f6/output/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-fitness:8.4.0] /Users/furusin/.android/build-cache/ec8750b7279f9c2cc3175f8d78659561ae63ad9f/output/AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-games:8.4.0] /Users/furusin/.android/build-cache/c4b6ebb3524588e67e494e1c023c9f5ec4465a4f/output/AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-drive:8.4.0] /Users/furusin/.android/build-cache/5b6b3709b52d103b4dbf615610db0f9252efa60e/output/AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-gcm:8.4.0] /Users/furusin/.android/build-cache/37622f9968611afa01f5b49ac037560d404cd621/output/AndroidManifest.xml:24:5-20
-MERGED from [com.google.android.gms:play-services-location:8.4.0] /Users/furusin/.android/build-cache/9650ba8dbf05bca7e9c1b33968d903857970704d/output/AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/furusin/.android/build-cache/fbdb6d86d4ffb8368eaff0c5637f8de7b6738ae3/output/AndroidManifest.xml:26:5-46:19
-MERGED from [com.google.android.gms:play-services-nearby:8.4.0] /Users/furusin/.android/build-cache/812c8854de6618beedcfbf646287a9a8afbf9586/output/AndroidManifest.xml:20:5-20
-MERGED from [com.google.android.gms:play-services-panorama:8.4.0] /Users/furusin/.android/build-cache/43d4eccb99b5d829bfa74eb40114b1c004df2c79/output/AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-plus:8.4.0] /Users/furusin/.android/build-cache/a856fd4ac9f6b79d23f42f6fc2464ae29aae14c5/output/AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-safetynet:8.4.0] /Users/furusin/.android/build-cache/5aa128fbea4c52acaa13a26bd109ed65b6807d5b/output/AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-vision:8.4.0] /Users/furusin/.android/build-cache/f54b47fcf84da9871922104e52976547cd3c8dfe/output/AndroidManifest.xml:5:5-20
-MERGED from [com.google.android.gms:play-services-identity:8.4.0] /Users/furusin/.android/build-cache/d0569a79bdd38ac80d8bddc6f0a074418fe2b5e0/output/AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-maps:8.4.0] /Users/furusin/.android/build-cache/851d1a5662e0c382a9d6714b9ae251c387357e23/output/AndroidManifest.xml:27:5-20
-MERGED from [com.google.android.gms:play-services-wearable:8.4.0] /Users/furusin/.android/build-cache/92857768d28d23796bd741cd60ee8dbf16adc1e5/output/AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] /Users/furusin/.android/build-cache/582128dd37f03e817d245fc431f40bba8303d478/output/AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.3.0] /Users/furusin/.android/build-cache/e0543701ed4abb26e440b8e11a42912ceea9c7c8/output/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services:10.0.1] /Users/furusin/.android/build-cache/7fbce1c09c64e2688a073db6c6ac38333fa99ddb/output/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:10.0.1] /Users/furusin/.android/build-cache/dd6fa736de02ee4fd87e7c131061f45e99450175/output/AndroidManifest.xml:23:5-27:19
+MERGED from [com.google.android.gms:play-services-analytics:10.0.1] /Users/furusin/.android/build-cache/f392e90e7690fd79645b09eefb8f3b673c10ec16/output/AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-appinvite:10.0.1] /Users/furusin/.android/build-cache/843d458f41cf09b1cb090f3936fb380883ff7cd8/output/AndroidManifest.xml:19:5-26:19
+MERGED from [com.google.android.gms:play-services-auth:10.0.1] /Users/furusin/.android/build-cache/5043180e5726b7caf8e1a40281df4d8d1d6b8d96/output/AndroidManifest.xml:19:5-25:19
+MERGED from [com.google.android.gms:play-services-cast-framework:10.0.1] /Users/furusin/.android/build-cache/926ce1dc45a1782997e21dae5ac23ff49935c58c/output/AndroidManifest.xml:4:5-8:19
+MERGED from [com.google.android.gms:play-services-cast:10.0.1] /Users/furusin/.android/build-cache/92cecfca6d675aa8731a7487bf7d2aeec33b1233/output/AndroidManifest.xml:18:5-19
+MERGED from [com.android.support:mediarouter-v7:24.0.0] /Users/furusin/.android/build-cache/ff9fdc378cd1a46fd3d05c08c9b27ef40543c60d/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:palette-v7:24.0.0] /Users/furusin/.android/build-cache/05afb8d1403c83fc7bd1dee795f537be16de2452/output/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:appcompat-v7:25.1.0] /Users/furusin/.android/build-cache/a9b82416d9884b7a64cd06ad872b683da1458011/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.1.0] /Users/furusin/.android/build-cache/7fb5f5b384986c9358f89bbb4f056f005da10d3f/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.1.0] /Users/furusin/.android/build-cache/78d69d51ad54d472e07a2bc4b771f281bf5a6961/output/AndroidManifest.xml:23:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:10.0.1] /Users/furusin/.android/build-cache/adee386615d7a8fdc06f56a807f33ae2e8533f62/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-config:10.0.1] /Users/furusin/.android/build-cache/65e55e9245b3092811d729e1a6cdaf417833cbcd/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-awareness:10.0.1] /Users/furusin/.android/build-cache/aac3b10da636e1be1221575c2adf6bd74ed41852/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-auth:10.0.1] /Users/furusin/.android/build-cache/21c79e406e93cb7d7c1cf0df6b9dbe57aeab0aa6/output/AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.firebase:firebase-messaging:10.0.1] /Users/furusin/.android/build-cache/2e4170834f47f2146eba7d47dad3e151419afe1a/output/AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.android.gms:play-services-fitness:10.0.1] /Users/furusin/.android/build-cache/6a7623d946145c696a3df6958bafad06de899394/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-games:10.0.1] /Users/furusin/.android/build-cache/18a35c206950e9dab59046cbe78f755175e3162a/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-drive:10.0.1] /Users/furusin/.android/build-cache/ff5a6db52524ee66b46b2b2581b65860d5934349/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-gass:10.0.1] /Users/furusin/.android/build-cache/a04d23268e42a8b74476f019c00cdcdbe7c15aef/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-gcm:10.0.1] /Users/furusin/.android/build-cache/70cf63697854f3fe80444b5e9784f096b43a42e3/output/AndroidManifest.xml:23:5-19
+MERGED from [com.google.firebase:firebase-appindexing:10.0.1] /Users/furusin/.android/build-cache/7a191d35b171364c3bdf96e56024429607e92bc6/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-iid:10.0.1] /Users/furusin/.android/build-cache/dc65025b9d234457c29d7afe0a442fb850d066ba/output/AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-location:10.0.1] /Users/furusin/.android/build-cache/f1fb1c9c9167578df901ce5b99057473f79fcb23/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-nearby:10.0.1] /Users/furusin/.android/build-cache/fc9d6d13111057ec12f290245a5c10c42350d5b8/output/AndroidManifest.xml:5:5-19
+MERGED from [com.google.android.gms:play-services-panorama:10.0.1] /Users/furusin/.android/build-cache/7af74435b10a2c17ee6ac785d18b603f8111e661/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-places:10.0.1] /Users/furusin/.android/build-cache/fd91fe519c16f606a273540cc1fb41569cd54a4a/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-plus:10.0.1] /Users/furusin/.android/build-cache/5baee3d241bd341921504f69f616d993891f175a/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-safetynet:10.0.1] /Users/furusin/.android/build-cache/62cce0a1c7184143c8f217ba24433f39e4862899/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] /Users/furusin/.android/build-cache/75d916e060d45f314a726afe4fc5d89f9b4a0c4e/output/AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:10.0.1] /Users/furusin/.android/build-cache/2130d8e218e8e9179f1865549ca84659c3d1869e/output/AndroidManifest.xml:19:5-19
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.0.1] /Users/furusin/.android/build-cache/9bf1ccada8e86599d3a742d6ae5893c10a2c8a2f/output/AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-vision:10.0.1] /Users/furusin/.android/build-cache/3d7fcdb507155dd68bd9d1a2061f2e19674b131c/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-identity:10.0.1] /Users/furusin/.android/build-cache/386b155daaee883588ff8b28af781272f32b41c4/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] /Users/furusin/.android/build-cache/03b561ffa5b7f3e9602d30e3fbc7bc373851adcf/output/AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-wearable:10.0.1] /Users/furusin/.android/build-cache/cdcd8d30e930efe8f1400b863f01e10c8cb68572/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-base:10.0.1] /Users/furusin/.android/build-cache/4bca41ee5621d755ee25119a25ed9edae516f1aa/output/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.firebase:firebase-crash:10.0.1] /Users/furusin/.android/build-cache/3a9f86ece23b1b6fd8733cca21a9de0001c6d514/output/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-core:10.0.1] /Users/furusin/.android/build-cache/67d17903422b2ded5f8a2d7ba12be92595856cda/output/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:10.0.1] /Users/furusin/.android/build-cache/976fb8d66289478d2a31c318d013a3a62b90eacd/output/AndroidManifest.xml:24:5-33:19
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /Users/furusin/.android/build-cache/ae07229278dfe638393222cd25fe995cd23465ab/output/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:10.0.1] /Users/furusin/.android/build-cache/67e0f2e1a777eefe268f8a1e4ab71a0e35f29b00/output/AndroidManifest.xml:28:5-50:19
+MERGED from [com.google.firebase:firebase-common:10.0.1] /Users/furusin/.android/build-cache/a41f8631b6cd003760bac16ed8755539128dfb5a/output/AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] /Users/furusin/.android/build-cache/597a45ee0bd7a8316c05c3abd2115b3325801850/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/furusin/.android/build-cache/40a0c233602e19465ffb50a151a355978419d4fa/output/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.1.0] /Users/furusin/.android/build-cache/7df77e629ab64bf2cb4510e52618b3f25842a4fb/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.1.0] /Users/furusin/.android/build-cache/6fa65bf85229443f678aaf82041680b21c550dfa/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/furusin/.android/build-cache/562470110c84207abdb5ec582ea365f3a8317db7/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/furusin/.android/build-cache/39f44ae63b25041dc6d533cedf04fb4b80d7789f/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/furusin/.android/build-cache/06796db11282980abb2d3a1b8e34f3bb1f93f2a2/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/furusin/.android/build-cache/437bd4e32639e8d410e1dfd8036879cdf86dfc14/output/AndroidManifest.xml:25:5-20
 	android:label
 		ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml:14:9-41
 	android:supportsRtl
@@ -103,7 +131,7 @@ ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/Androi
 		ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml:36:13-93
 meta-data#com.google.android.gms.version
 ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml:39:9-41:68
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] /Users/furusin/.android/build-cache/582128dd37f03e817d245fc431f40bba8303d478/output/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/furusin/.android/build-cache/40a0c233602e19465ffb50a151a355978419d4fa/output/AndroidManifest.xml:20:9-121
 	android:value
 		ADDED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml:41:13-66
 	android:name
@@ -113,40 +141,71 @@ INJECTED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/And
 MERGED from [com.google.android.support:wearable:1.4.0] /Users/furusin/.android/build-cache/39c0d849d4b7f797759a94cb6642b1c5d87728c0/output/AndroidManifest.xml:4:5-6:41
 MERGED from [com.android.support:recyclerview-v7:23.0.1] /Users/furusin/.android/build-cache/fa9686e306d8b4473b5c7ca7c60e4338a8b6656a/output/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:multidex:1.0.0] /Users/furusin/.android/build-cache/81a3ea2e2dc629cbaa5affeec526fd8ff2d0dd2d/output/AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services:8.4.0] /Users/furusin/.android/build-cache/bc0733f3881a6df93fe277af817e5b409f6da75c/output/AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-ads:8.4.0] /Users/furusin/.android/build-cache/0aa0f30dc92ac6c9e33cdf19f64ff4bf24e179e0/output/AndroidManifest.xml:23:5-42
-MERGED from [com.google.android.gms:play-services-analytics:8.4.0] /Users/furusin/.android/build-cache/fe18d9d184f9df83afe30ba2645c4ba4b4078346/output/AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] /Users/furusin/.android/build-cache/eac5aaa3b7ab6a881071802611bed720a297c086/output/AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-appinvite:8.4.0] /Users/furusin/.android/build-cache/07d388640583c585f58638877a81e4db62af4983/output/AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-appstate:8.4.0] /Users/furusin/.android/build-cache/2d73a927dde91cba777eea7797b02a69e33326ab/output/AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-auth:8.4.0] /Users/furusin/.android/build-cache/068e65eea57c5f6a34c18ce2ae1b2da94c2b6196/output/AndroidManifest.xml:18:5-43
-MERGED from [com.google.android.gms:play-services-cast:8.4.0] /Users/furusin/.android/build-cache/5fe4b212809154cdcc6c675083b9a850baa6a549/output/AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:mediarouter-v7:23.0.0] /Users/furusin/.android/build-cache/b42d91993e2c1a7560f2865efa57ce478780836d/output/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:23.3.0] /Users/furusin/.android/build-cache/d576cfd1a1eafbe775c20f84acac55b8a9bd4a7d/output/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:23.3.0] /Users/furusin/.android/build-cache/7bf23b4ee701cc04aca958b7d8a51a6409fa1366/output/AndroidManifest.xml:5:5-44
-MERGED from [com.android.support:support-vector-drawable:23.3.0] /Users/furusin/.android/build-cache/173e42dce74cf87ff4f40a5f8e36dd299cdff7f6/output/AndroidManifest.xml:5:5-43
-MERGED from [com.google.android.gms:play-services-fitness:8.4.0] /Users/furusin/.android/build-cache/ec8750b7279f9c2cc3175f8d78659561ae63ad9f/output/AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-games:8.4.0] /Users/furusin/.android/build-cache/c4b6ebb3524588e67e494e1c023c9f5ec4465a4f/output/AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-drive:8.4.0] /Users/furusin/.android/build-cache/5b6b3709b52d103b4dbf615610db0f9252efa60e/output/AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-gcm:8.4.0] /Users/furusin/.android/build-cache/37622f9968611afa01f5b49ac037560d404cd621/output/AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-location:8.4.0] /Users/furusin/.android/build-cache/9650ba8dbf05bca7e9c1b33968d903857970704d/output/AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/furusin/.android/build-cache/fbdb6d86d4ffb8368eaff0c5637f8de7b6738ae3/output/AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-nearby:8.4.0] /Users/furusin/.android/build-cache/812c8854de6618beedcfbf646287a9a8afbf9586/output/AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-panorama:8.4.0] /Users/furusin/.android/build-cache/43d4eccb99b5d829bfa74eb40114b1c004df2c79/output/AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-plus:8.4.0] /Users/furusin/.android/build-cache/a856fd4ac9f6b79d23f42f6fc2464ae29aae14c5/output/AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-safetynet:8.4.0] /Users/furusin/.android/build-cache/5aa128fbea4c52acaa13a26bd109ed65b6807d5b/output/AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-vision:8.4.0] /Users/furusin/.android/build-cache/f54b47fcf84da9871922104e52976547cd3c8dfe/output/AndroidManifest.xml:4:5-42
-MERGED from [com.google.android.gms:play-services-wallet:8.4.0] /Users/furusin/.android/build-cache/7a5b65afe4883bce52f2777303b35f5ef6d4d5b1/output/AndroidManifest.xml:19:5-42
-MERGED from [com.google.android.gms:play-services-identity:8.4.0] /Users/furusin/.android/build-cache/d0569a79bdd38ac80d8bddc6f0a074418fe2b5e0/output/AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-maps:8.4.0] /Users/furusin/.android/build-cache/851d1a5662e0c382a9d6714b9ae251c387357e23/output/AndroidManifest.xml:26:5-42
-MERGED from [com.google.android.gms:play-services-wearable:8.4.0] /Users/furusin/.android/build-cache/92857768d28d23796bd741cd60ee8dbf16adc1e5/output/AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:8.4.0] /Users/furusin/.android/build-cache/2eea369930c0414fffede891d19d3757b89e9081/output/AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.4.0] /Users/furusin/.android/build-cache/582128dd37f03e817d245fc431f40bba8303d478/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services:10.0.1] /Users/furusin/.android/build-cache/7fbce1c09c64e2688a073db6c6ac38333fa99ddb/output/AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-ads:10.0.1] /Users/furusin/.android/build-cache/9fd8906e0584f98aed14ca5ad467b55c216427d2/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-ads-lite:10.0.1] /Users/furusin/.android/build-cache/dd6fa736de02ee4fd87e7c131061f45e99450175/output/AndroidManifest.xml:22:5-42
+MERGED from [com.google.android.gms:play-services-analytics:10.0.1] /Users/furusin/.android/build-cache/f392e90e7690fd79645b09eefb8f3b673c10ec16/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-appinvite:10.0.1] /Users/furusin/.android/build-cache/843d458f41cf09b1cb090f3936fb380883ff7cd8/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-auth:10.0.1] /Users/furusin/.android/build-cache/5043180e5726b7caf8e1a40281df4d8d1d6b8d96/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-auth-base:10.0.1] /Users/furusin/.android/build-cache/1eff1a571d53843175c0936b4c08f0d11b9d67fa/output/AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-cast-framework:10.0.1] /Users/furusin/.android/build-cache/926ce1dc45a1782997e21dae5ac23ff49935c58c/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-cast:10.0.1] /Users/furusin/.android/build-cache/92cecfca6d675aa8731a7487bf7d2aeec33b1233/output/AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:mediarouter-v7:24.0.0] /Users/furusin/.android/build-cache/ff9fdc378cd1a46fd3d05c08c9b27ef40543c60d/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:palette-v7:24.0.0] /Users/furusin/.android/build-cache/05afb8d1403c83fc7bd1dee795f537be16de2452/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:25.1.0] /Users/furusin/.android/build-cache/a9b82416d9884b7a64cd06ad872b683da1458011/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.1.0] /Users/furusin/.android/build-cache/7fb5f5b384986c9358f89bbb4f056f005da10d3f/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.1.0] /Users/furusin/.android/build-cache/78d69d51ad54d472e07a2bc4b771f281bf5a6961/output/AndroidManifest.xml:21:5-43
+MERGED from [com.google.android.gms:play-services-clearcut:10.0.1] /Users/furusin/.android/build-cache/adee386615d7a8fdc06f56a807f33ae2e8533f62/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-config:10.0.1] /Users/furusin/.android/build-cache/65e55e9245b3092811d729e1a6cdaf417833cbcd/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-awareness:10.0.1] /Users/furusin/.android/build-cache/aac3b10da636e1be1221575c2adf6bd74ed41852/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-auth:10.0.1] /Users/furusin/.android/build-cache/21c79e406e93cb7d7c1cf0df6b9dbe57aeab0aa6/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-database:10.0.1] /Users/furusin/.android/build-cache/95030c29f520daf85a6c5d172672bd9daf70af24/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-database-connection:10.0.1] /Users/furusin/.android/build-cache/d371ec9c1d9e86bffd30d321c06186170dd8d3eb/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-messaging:10.0.1] /Users/furusin/.android/build-cache/2e4170834f47f2146eba7d47dad3e151419afe1a/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-storage:10.0.1] /Users/furusin/.android/build-cache/ba7cc690fadeae83c25c354b0a3fe333cd3f1bdc/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-storage-common:10.0.1] /Users/furusin/.android/build-cache/8e6fcee85969c661196d6b0e3583c5edf4d59b2e/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-fitness:10.0.1] /Users/furusin/.android/build-cache/6a7623d946145c696a3df6958bafad06de899394/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-games:10.0.1] /Users/furusin/.android/build-cache/18a35c206950e9dab59046cbe78f755175e3162a/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-drive:10.0.1] /Users/furusin/.android/build-cache/ff5a6db52524ee66b46b2b2581b65860d5934349/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-gass:10.0.1] /Users/furusin/.android/build-cache/a04d23268e42a8b74476f019c00cdcdbe7c15aef/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-gcm:10.0.1] /Users/furusin/.android/build-cache/70cf63697854f3fe80444b5e9784f096b43a42e3/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-appindexing:10.0.1] /Users/furusin/.android/build-cache/7a191d35b171364c3bdf96e56024429607e92bc6/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-iid:10.0.1] /Users/furusin/.android/build-cache/dc65025b9d234457c29d7afe0a442fb850d066ba/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-instantapps:10.0.1] /Users/furusin/.android/build-cache/237e8535119a3ad2e4fd73409f56aeca7af37aab/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-location:10.0.1] /Users/furusin/.android/build-cache/f1fb1c9c9167578df901ce5b99057473f79fcb23/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-nearby:10.0.1] /Users/furusin/.android/build-cache/fc9d6d13111057ec12f290245a5c10c42350d5b8/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-panorama:10.0.1] /Users/furusin/.android/build-cache/7af74435b10a2c17ee6ac785d18b603f8111e661/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-places:10.0.1] /Users/furusin/.android/build-cache/fd91fe519c16f606a273540cc1fb41569cd54a4a/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-plus:10.0.1] /Users/furusin/.android/build-cache/5baee3d241bd341921504f69f616d993891f175a/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-safetynet:10.0.1] /Users/furusin/.android/build-cache/62cce0a1c7184143c8f217ba24433f39e4862899/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-tagmanager:10.0.1] /Users/furusin/.android/build-cache/f2125c75c2033a7d372ba650d2abfe75df6402b6/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] /Users/furusin/.android/build-cache/75d916e060d45f314a726afe4fc5d89f9b4a0c4e/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:10.0.1] /Users/furusin/.android/build-cache/2130d8e218e8e9179f1865549ca84659c3d1869e/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.0.1] /Users/furusin/.android/build-cache/9bf1ccada8e86599d3a742d6ae5893c10a2c8a2f/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-vision:10.0.1] /Users/furusin/.android/build-cache/3d7fcdb507155dd68bd9d1a2061f2e19674b131c/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-wallet:10.0.1] /Users/furusin/.android/build-cache/3cd920515c25dee6b41bf1e06f340e7dba78bd60/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-identity:10.0.1] /Users/furusin/.android/build-cache/386b155daaee883588ff8b28af781272f32b41c4/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] /Users/furusin/.android/build-cache/03b561ffa5b7f3e9602d30e3fbc7bc373851adcf/output/AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-wearable:10.0.1] /Users/furusin/.android/build-cache/cdcd8d30e930efe8f1400b863f01e10c8cb68572/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-base:10.0.1] /Users/furusin/.android/build-cache/4bca41ee5621d755ee25119a25ed9edae516f1aa/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-crash:10.0.1] /Users/furusin/.android/build-cache/3a9f86ece23b1b6fd8733cca21a9de0001c6d514/output/AndroidManifest.xml:20:5-42
+MERGED from [com.google.firebase:firebase-core:10.0.1] /Users/furusin/.android/build-cache/67d17903422b2ded5f8a2d7ba12be92595856cda/output/AndroidManifest.xml:4:5-42
+MERGED from [com.google.firebase:firebase-analytics:10.0.1] /Users/furusin/.android/build-cache/976fb8d66289478d2a31c318d013a3a62b90eacd/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /Users/furusin/.android/build-cache/ae07229278dfe638393222cd25fe995cd23465ab/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-iid:10.0.1] /Users/furusin/.android/build-cache/67e0f2e1a777eefe268f8a1e4ab71a0e35f29b00/output/AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-common:10.0.1] /Users/furusin/.android/build-cache/a41f8631b6cd003760bac16ed8755539128dfb5a/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] /Users/furusin/.android/build-cache/597a45ee0bd7a8316c05c3abd2115b3325801850/output/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/furusin/.android/build-cache/40a0c233602e19465ffb50a151a355978419d4fa/output/AndroidManifest.xml:17:5-42
 MERGED from [com.android.databinding:adapters:1.3.1] /Users/furusin/.android/build-cache/63000fa56e9e8690ed2e21caa6405012a9d1dfcb/output/AndroidManifest.xml:22:5-24:41
 MERGED from [com.android.databinding:library:1.3.1] /Users/furusin/.android/build-cache/2ce5eee02721751230a8fbd8536e09563f7e43d3/output/AndroidManifest.xml:22:5-24:41
-MERGED from [com.android.support:support-v4:23.3.0] /Users/furusin/.android/build-cache/e0543701ed4abb26e440b8e11a42912ceea9c7c8/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:25.1.0] /Users/furusin/.android/build-cache/7df77e629ab64bf2cb4510e52618b3f25842a4fb/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.1.0] /Users/furusin/.android/build-cache/6fa65bf85229443f678aaf82041680b21c550dfa/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/furusin/.android/build-cache/562470110c84207abdb5ec582ea365f3a8317db7/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/furusin/.android/build-cache/39f44ae63b25041dc6d533cedf04fb4b80d7789f/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/furusin/.android/build-cache/06796db11282980abb2d3a1b8e34f3bb1f93f2a2/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.1.0] /Users/furusin/.android/build-cache/437bd4e32639e8d410e1dfd8036879cdf86dfc14/output/AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:23.3.0] /Users/furusin/.android/build-cache/d576cfd1a1eafbe775c20f84acac55b8a9bd4a7d/output/AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:25.1.0] /Users/furusin/.android/build-cache/a9b82416d9884b7a64cd06ad872b683da1458011/output/AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
 		INJECTED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml
 		INJECTED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml
@@ -154,103 +213,239 @@ MERGED from [com.android.support:support-v4:23.3.0] /Users/furusin/.android/buil
 		INJECTED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml
 		INJECTED from /Users/furusin/AndroidStudioProjects/WatchFace/mobile/src/main/AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from [com.google.android.gms:play-services-ads:8.4.0] /Users/furusin/.android/build-cache/0aa0f30dc92ac6c9e33cdf19f64ff4bf24e179e0/output/AndroidManifest.xml:20:5-66
-MERGED from [com.google.android.gms:play-services-analytics:8.4.0] /Users/furusin/.android/build-cache/fe18d9d184f9df83afe30ba2645c4ba4b4078346/output/AndroidManifest.xml:21:5-67
-MERGED from [com.google.android.gms:play-services-appinvite:8.4.0] /Users/furusin/.android/build-cache/07d388640583c585f58638877a81e4db62af4983/output/AndroidManifest.xml:19:5-67
-MERGED from [com.google.android.gms:play-services-gcm:8.4.0] /Users/furusin/.android/build-cache/37622f9968611afa01f5b49ac037560d404cd621/output/AndroidManifest.xml:22:5-67
-MERGED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/furusin/.android/build-cache/fbdb6d86d4ffb8368eaff0c5637f8de7b6738ae3/output/AndroidManifest.xml:21:5-67
-MERGED from [com.google.android.gms:play-services-maps:8.4.0] /Users/furusin/.android/build-cache/851d1a5662e0c382a9d6714b9ae251c387357e23/output/AndroidManifest.xml:21:5-66
+ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] /Users/furusin/.android/build-cache/dd6fa736de02ee4fd87e7c131061f45e99450175/output/AndroidManifest.xml:19:5-66
+MERGED from [com.google.android.gms:play-services-analytics:10.0.1] /Users/furusin/.android/build-cache/f392e90e7690fd79645b09eefb8f3b673c10ec16/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-appinvite:10.0.1] /Users/furusin/.android/build-cache/843d458f41cf09b1cb090f3936fb380883ff7cd8/output/AndroidManifest.xml:18:5-66
+MERGED from [com.google.android.gms:play-services-gcm:10.0.1] /Users/furusin/.android/build-cache/70cf63697854f3fe80444b5e9784f096b43a42e3/output/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:10.0.1] /Users/furusin/.android/build-cache/dc65025b9d234457c29d7afe0a442fb850d066ba/output/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] /Users/furusin/.android/build-cache/75d916e060d45f314a726afe4fc5d89f9b4a0c4e/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.0.1] /Users/furusin/.android/build-cache/9bf1ccada8e86599d3a742d6ae5893c10a2c8a2f/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] /Users/furusin/.android/build-cache/03b561ffa5b7f3e9602d30e3fbc7bc373851adcf/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-crash:10.0.1] /Users/furusin/.android/build-cache/3a9f86ece23b1b6fd8733cca21a9de0001c6d514/output/AndroidManifest.xml:18:5-66
+MERGED from [com.google.firebase:firebase-analytics:10.0.1] /Users/furusin/.android/build-cache/976fb8d66289478d2a31c318d013a3a62b90eacd/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /Users/furusin/.android/build-cache/ae07229278dfe638393222cd25fe995cd23465ab/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:10.0.1] /Users/furusin/.android/build-cache/67e0f2e1a777eefe268f8a1e4ab71a0e35f29b00/output/AndroidManifest.xml:20:5-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-ads:8.4.0] /Users/furusin/.android/build-cache/0aa0f30dc92ac6c9e33cdf19f64ff4bf24e179e0/output/AndroidManifest.xml:20:22-64
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] /Users/furusin/.android/build-cache/dd6fa736de02ee4fd87e7c131061f45e99450175/output/AndroidManifest.xml:19:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.android.gms:play-services-ads:8.4.0] /Users/furusin/.android/build-cache/0aa0f30dc92ac6c9e33cdf19f64ff4bf24e179e0/output/AndroidManifest.xml:21:5-78
-MERGED from [com.google.android.gms:play-services-analytics:8.4.0] /Users/furusin/.android/build-cache/fe18d9d184f9df83afe30ba2645c4ba4b4078346/output/AndroidManifest.xml:22:5-79
-MERGED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/furusin/.android/build-cache/fbdb6d86d4ffb8368eaff0c5637f8de7b6738ae3/output/AndroidManifest.xml:22:5-79
-MERGED from [com.google.android.gms:play-services-nearby:8.4.0] /Users/furusin/.android/build-cache/812c8854de6618beedcfbf646287a9a8afbf9586/output/AndroidManifest.xml:19:5-79
-MERGED from [com.google.android.gms:play-services-maps:8.4.0] /Users/furusin/.android/build-cache/851d1a5662e0c382a9d6714b9ae251c387357e23/output/AndroidManifest.xml:20:5-78
+ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] /Users/furusin/.android/build-cache/dd6fa736de02ee4fd87e7c131061f45e99450175/output/AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-analytics:10.0.1] /Users/furusin/.android/build-cache/f392e90e7690fd79645b09eefb8f3b673c10ec16/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-nearby:10.0.1] /Users/furusin/.android/build-cache/fc9d6d13111057ec12f290245a5c10c42350d5b8/output/AndroidManifest.xml:4:5-78
+MERGED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] /Users/furusin/.android/build-cache/75d916e060d45f314a726afe4fc5d89f9b4a0c4e/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.0.1] /Users/furusin/.android/build-cache/9bf1ccada8e86599d3a742d6ae5893c10a2c8a2f/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] /Users/furusin/.android/build-cache/03b561ffa5b7f3e9602d30e3fbc7bc373851adcf/output/AndroidManifest.xml:19:5-78
+MERGED from [com.google.firebase:firebase-analytics:10.0.1] /Users/furusin/.android/build-cache/976fb8d66289478d2a31c318d013a3a62b90eacd/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /Users/furusin/.android/build-cache/ae07229278dfe638393222cd25fe995cd23465ab/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:10.0.1] /Users/furusin/.android/build-cache/67e0f2e1a777eefe268f8a1e4ab71a0e35f29b00/output/AndroidManifest.xml:19:5-78
 	android:name
-		ADDED from [com.google.android.gms:play-services-ads:8.4.0] /Users/furusin/.android/build-cache/0aa0f30dc92ac6c9e33cdf19f64ff4bf24e179e0/output/AndroidManifest.xml:21:22-76
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] /Users/furusin/.android/build-cache/dd6fa736de02ee4fd87e7c131061f45e99450175/output/AndroidManifest.xml:20:22-76
 activity#com.google.android.gms.ads.AdActivity
-ADDED from [com.google.android.gms:play-services-ads:8.4.0] /Users/furusin/.android/build-cache/0aa0f30dc92ac6c9e33cdf19f64ff4bf24e179e0/output/AndroidManifest.xml:26:9-29:64
+ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] /Users/furusin/.android/build-cache/dd6fa736de02ee4fd87e7c131061f45e99450175/output/AndroidManifest.xml:25:9-232
 	android:configChanges
-		ADDED from [com.google.android.gms:play-services-ads:8.4.0] /Users/furusin/.android/build-cache/0aa0f30dc92ac6c9e33cdf19f64ff4bf24e179e0/output/AndroidManifest.xml:28:13-122
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] /Users/furusin/.android/build-cache/dd6fa736de02ee4fd87e7c131061f45e99450175/output/AndroidManifest.xml:25:72-181
 	android:theme
-		ADDED from [com.google.android.gms:play-services-ads:8.4.0] /Users/furusin/.android/build-cache/0aa0f30dc92ac6c9e33cdf19f64ff4bf24e179e0/output/AndroidManifest.xml:29:13-61
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] /Users/furusin/.android/build-cache/dd6fa736de02ee4fd87e7c131061f45e99450175/output/AndroidManifest.xml:25:182-230
 	android:name
-		ADDED from [com.google.android.gms:play-services-ads:8.4.0] /Users/furusin/.android/build-cache/0aa0f30dc92ac6c9e33cdf19f64ff4bf24e179e0/output/AndroidManifest.xml:27:13-65
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] /Users/furusin/.android/build-cache/dd6fa736de02ee4fd87e7c131061f45e99450175/output/AndroidManifest.xml:25:19-71
 activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
-ADDED from [com.google.android.gms:play-services-ads:8.4.0] /Users/furusin/.android/build-cache/0aa0f30dc92ac6c9e33cdf19f64ff4bf24e179e0/output/AndroidManifest.xml:30:9-31:52
+ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] /Users/furusin/.android/build-cache/dd6fa736de02ee4fd87e7c131061f45e99450175/output/AndroidManifest.xml:26:9-131
 	android:theme
-		ADDED from [com.google.android.gms:play-services-ads:8.4.0] /Users/furusin/.android/build-cache/0aa0f30dc92ac6c9e33cdf19f64ff4bf24e179e0/output/AndroidManifest.xml:31:13-50
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] /Users/furusin/.android/build-cache/dd6fa736de02ee4fd87e7c131061f45e99450175/output/AndroidManifest.xml:26:92-129
 	android:name
-		ADDED from [com.google.android.gms:play-services-ads:8.4.0] /Users/furusin/.android/build-cache/0aa0f30dc92ac6c9e33cdf19f64ff4bf24e179e0/output/AndroidManifest.xml:30:19-91
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.0.1] /Users/furusin/.android/build-cache/dd6fa736de02ee4fd87e7c131061f45e99450175/output/AndroidManifest.xml:26:19-91
 activity#com.google.android.gms.appinvite.PreviewActivity
-ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] /Users/furusin/.android/build-cache/07d388640583c585f58638877a81e4db62af4983/output/AndroidManifest.xml:21:9-29:20
+ADDED from [com.google.android.gms:play-services-appinvite:10.0.1] /Users/furusin/.android/build-cache/843d458f41cf09b1cb090f3936fb380883ff7cd8/output/AndroidManifest.xml:20:9-25:20
 	android:exported
-		ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] /Users/furusin/.android/build-cache/07d388640583c585f58638877a81e4db62af4983/output/AndroidManifest.xml:23:17-40
+		ADDED from [com.google.android.gms:play-services-appinvite:10.0.1] /Users/furusin/.android/build-cache/843d458f41cf09b1cb090f3936fb380883ff7cd8/output/AndroidManifest.xml:20:51-74
 	android:theme
-		ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] /Users/furusin/.android/build-cache/07d388640583c585f58638877a81e4db62af4983/output/AndroidManifest.xml:24:17-63
+		ADDED from [com.google.android.gms:play-services-appinvite:10.0.1] /Users/furusin/.android/build-cache/843d458f41cf09b1cb090f3936fb380883ff7cd8/output/AndroidManifest.xml:20:75-121
 	android:name
-		ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] /Users/furusin/.android/build-cache/07d388640583c585f58638877a81e4db62af4983/output/AndroidManifest.xml:22:17-48
+		ADDED from [com.google.android.gms:play-services-appinvite:10.0.1] /Users/furusin/.android/build-cache/843d458f41cf09b1cb090f3936fb380883ff7cd8/output/AndroidManifest.xml:20:19-50
 intent-filter#android.intent.category.DEFAULT+com.google.android.gms.appinvite.ACTION_PREVIEW
-ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] /Users/furusin/.android/build-cache/07d388640583c585f58638877a81e4db62af4983/output/AndroidManifest.xml:25:13-28:29
+ADDED from [com.google.android.gms:play-services-appinvite:10.0.1] /Users/furusin/.android/build-cache/843d458f41cf09b1cb090f3936fb380883ff7cd8/output/AndroidManifest.xml:21:13-24:29
 action#com.google.android.gms.appinvite.ACTION_PREVIEW
-ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] /Users/furusin/.android/build-cache/07d388640583c585f58638877a81e4db62af4983/output/AndroidManifest.xml:26:17-89
+ADDED from [com.google.android.gms:play-services-appinvite:10.0.1] /Users/furusin/.android/build-cache/843d458f41cf09b1cb090f3936fb380883ff7cd8/output/AndroidManifest.xml:22:17-89
 	android:name
-		ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] /Users/furusin/.android/build-cache/07d388640583c585f58638877a81e4db62af4983/output/AndroidManifest.xml:26:25-87
+		ADDED from [com.google.android.gms:play-services-appinvite:10.0.1] /Users/furusin/.android/build-cache/843d458f41cf09b1cb090f3936fb380883ff7cd8/output/AndroidManifest.xml:22:25-87
 activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
-ADDED from [com.google.android.gms:play-services-auth:8.4.0] /Users/furusin/.android/build-cache/068e65eea57c5f6a34c18ce2ae1b2da94c2b6196/output/AndroidManifest.xml:21:9-24:46
+ADDED from [com.google.android.gms:play-services-auth:10.0.1] /Users/furusin/.android/build-cache/5043180e5726b7caf8e1a40281df4d8d1d6b8d96/output/AndroidManifest.xml:20:9-189
 	android:excludeFromRecents
-		ADDED from [com.google.android.gms:play-services-auth:8.4.0] /Users/furusin/.android/build-cache/068e65eea57c5f6a34c18ce2ae1b2da94c2b6196/output/AndroidManifest.xml:23:19-52
+		ADDED from [com.google.android.gms:play-services-auth:10.0.1] /Users/furusin/.android/build-cache/5043180e5726b7caf8e1a40281df4d8d1d6b8d96/output/AndroidManifest.xml:20:129-162
 	android:exported
-		ADDED from [com.google.android.gms:play-services-auth:8.4.0] /Users/furusin/.android/build-cache/068e65eea57c5f6a34c18ce2ae1b2da94c2b6196/output/AndroidManifest.xml:24:19-43
+		ADDED from [com.google.android.gms:play-services-auth:10.0.1] /Users/furusin/.android/build-cache/5043180e5726b7caf8e1a40281df4d8d1d6b8d96/output/AndroidManifest.xml:20:163-187
 	android:theme
-		ADDED from [com.google.android.gms:play-services-auth:8.4.0] /Users/furusin/.android/build-cache/068e65eea57c5f6a34c18ce2ae1b2da94c2b6196/output/AndroidManifest.xml:22:19-78
+		ADDED from [com.google.android.gms:play-services-auth:10.0.1] /Users/furusin/.android/build-cache/5043180e5726b7caf8e1a40281df4d8d1d6b8d96/output/AndroidManifest.xml:20:69-128
 	android:name
-		ADDED from [com.google.android.gms:play-services-auth:8.4.0] /Users/furusin/.android/build-cache/068e65eea57c5f6a34c18ce2ae1b2da94c2b6196/output/AndroidManifest.xml:21:19-72
+		ADDED from [com.google.android.gms:play-services-auth:10.0.1] /Users/furusin/.android/build-cache/5043180e5726b7caf8e1a40281df4d8d1d6b8d96/output/AndroidManifest.xml:20:19-68
 service#com.google.android.gms.auth.api.signin.RevocationBoundService
-ADDED from [com.google.android.gms:play-services-auth:8.4.0] /Users/furusin/.android/build-cache/068e65eea57c5f6a34c18ce2ae1b2da94c2b6196/output/AndroidManifest.xml:28:9-31:110
+ADDED from [com.google.android.gms:play-services-auth:10.0.1] /Users/furusin/.android/build-cache/5043180e5726b7caf8e1a40281df4d8d1d6b8d96/output/AndroidManifest.xml:24:9-184
 	android:exported
-		ADDED from [com.google.android.gms:play-services-auth:8.4.0] /Users/furusin/.android/build-cache/068e65eea57c5f6a34c18ce2ae1b2da94c2b6196/output/AndroidManifest.xml:30:13-36
+		ADDED from [com.google.android.gms:play-services-auth:10.0.1] /Users/furusin/.android/build-cache/5043180e5726b7caf8e1a40281df4d8d1d6b8d96/output/AndroidManifest.xml:24:64-87
 	android:permission
-		ADDED from [com.google.android.gms:play-services-auth:8.4.0] /Users/furusin/.android/build-cache/068e65eea57c5f6a34c18ce2ae1b2da94c2b6196/output/AndroidManifest.xml:31:13-107
+		ADDED from [com.google.android.gms:play-services-auth:10.0.1] /Users/furusin/.android/build-cache/5043180e5726b7caf8e1a40281df4d8d1d6b8d96/output/AndroidManifest.xml:24:88-182
 	android:name
-		ADDED from [com.google.android.gms:play-services-auth:8.4.0] /Users/furusin/.android/build-cache/068e65eea57c5f6a34c18ce2ae1b2da94c2b6196/output/AndroidManifest.xml:29:13-62
+		ADDED from [com.google.android.gms:play-services-auth:10.0.1] /Users/furusin/.android/build-cache/5043180e5726b7caf8e1a40281df4d8d1d6b8d96/output/AndroidManifest.xml:24:18-63
+receiver#com.google.android.gms.cast.framework.media.MediaIntentReceiver
+ADDED from [com.google.android.gms:play-services-cast-framework:10.0.1] /Users/furusin/.android/build-cache/926ce1dc45a1782997e21dae5ac23ff49935c58c/output/AndroidManifest.xml:5:9-99
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:10.0.1] /Users/furusin/.android/build-cache/926ce1dc45a1782997e21dae5ac23ff49935c58c/output/AndroidManifest.xml:5:19-97
+service#com.google.android.gms.cast.framework.media.MediaNotificationService
+ADDED from [com.google.android.gms:play-services-cast-framework:10.0.1] /Users/furusin/.android/build-cache/926ce1dc45a1782997e21dae5ac23ff49935c58c/output/AndroidManifest.xml:6:9-103
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:10.0.1] /Users/furusin/.android/build-cache/926ce1dc45a1782997e21dae5ac23ff49935c58c/output/AndroidManifest.xml:6:18-101
+service#com.google.android.gms.cast.framework.ReconnectionService
+ADDED from [com.google.android.gms:play-services-cast-framework:10.0.1] /Users/furusin/.android/build-cache/926ce1dc45a1782997e21dae5ac23ff49935c58c/output/AndroidManifest.xml:7:9-92
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:10.0.1] /Users/furusin/.android/build-cache/926ce1dc45a1782997e21dae5ac23ff49935c58c/output/AndroidManifest.xml:7:18-90
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:10.0.1] /Users/furusin/.android/build-cache/2e4170834f47f2146eba7d47dad3e151419afe1a/output/AndroidManifest.xml:23:9-27:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:10.0.1] /Users/furusin/.android/build-cache/2e4170834f47f2146eba7d47dad3e151419afe1a/output/AndroidManifest.xml:23:88-111
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:10.0.1] /Users/furusin/.android/build-cache/2e4170834f47f2146eba7d47dad3e151419afe1a/output/AndroidManifest.xml:23:18-87
+intent-filter#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:10.0.1] /Users/furusin/.android/build-cache/2e4170834f47f2146eba7d47dad3e151419afe1a/output/AndroidManifest.xml:24:13-26:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:10.0.1] /Users/furusin/.android/build-cache/2e4170834f47f2146eba7d47dad3e151419afe1a/output/AndroidManifest.xml:24:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:10.0.1] /Users/furusin/.android/build-cache/2e4170834f47f2146eba7d47dad3e151419afe1a/output/AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:10.0.1] /Users/furusin/.android/build-cache/2e4170834f47f2146eba7d47dad3e151419afe1a/output/AndroidManifest.xml:25:25-75
 uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from [com.google.android.gms:play-services-gcm:8.4.0] /Users/furusin/.android/build-cache/37622f9968611afa01f5b49ac037560d404cd621/output/AndroidManifest.xml:21:5-82
+ADDED from [com.google.android.gms:play-services-gcm:10.0.1] /Users/furusin/.android/build-cache/70cf63697854f3fe80444b5e9784f096b43a42e3/output/AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:10.0.1] /Users/furusin/.android/build-cache/dc65025b9d234457c29d7afe0a442fb850d066ba/output/AndroidManifest.xml:20:5-81
+MERGED from [com.google.firebase:firebase-iid:10.0.1] /Users/furusin/.android/build-cache/67e0f2e1a777eefe268f8a1e4ab71a0e35f29b00/output/AndroidManifest.xml:22:5-81
 	android:name
-		ADDED from [com.google.android.gms:play-services-gcm:8.4.0] /Users/furusin/.android/build-cache/37622f9968611afa01f5b49ac037560d404cd621/output/AndroidManifest.xml:21:22-79
-provider#com.google.android.gms.measurement.AppMeasurementContentProvider
-ADDED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/furusin/.android/build-cache/fbdb6d86d4ffb8368eaff0c5637f8de7b6738ae3/output/AndroidManifest.xml:28:7-31:37
-	android:authorities
-		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/furusin/.android/build-cache/fbdb6d86d4ffb8368eaff0c5637f8de7b6738ae3/output/AndroidManifest.xml:29:11-76
-	android:exported
-		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/furusin/.android/build-cache/fbdb6d86d4ffb8368eaff0c5637f8de7b6738ae3/output/AndroidManifest.xml:31:11-35
-	android:name
-		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/furusin/.android/build-cache/fbdb6d86d4ffb8368eaff0c5637f8de7b6738ae3/output/AndroidManifest.xml:30:11-90
-receiver#com.google.android.gms.measurement.AppMeasurementReceiver
-ADDED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/furusin/.android/build-cache/fbdb6d86d4ffb8368eaff0c5637f8de7b6738ae3/output/AndroidManifest.xml:33:7-39:18
+		ADDED from [com.google.android.gms:play-services-gcm:10.0.1] /Users/furusin/.android/build-cache/70cf63697854f3fe80444b5e9784f096b43a42e3/output/AndroidManifest.xml:20:22-79
+service#com.google.android.gms.tagmanager.TagManagerService
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] /Users/furusin/.android/build-cache/75d916e060d45f314a726afe4fc5d89f9b4a0c4e/output/AndroidManifest.xml:24:9-134
 	android:enabled
-		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/furusin/.android/build-cache/fbdb6d86d4ffb8368eaff0c5637f8de7b6738ae3/output/AndroidManifest.xml:35:11-33
-	android:name
-		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/furusin/.android/build-cache/fbdb6d86d4ffb8368eaff0c5637f8de7b6738ae3/output/AndroidManifest.xml:34:11-83
-intent-filter#com.google.android.gms.measurement.UPLOAD
-ADDED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/furusin/.android/build-cache/fbdb6d86d4ffb8368eaff0c5637f8de7b6738ae3/output/AndroidManifest.xml:36:9-38:25
-action#com.google.android.gms.measurement.UPLOAD
-ADDED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/furusin/.android/build-cache/fbdb6d86d4ffb8368eaff0c5637f8de7b6738ae3/output/AndroidManifest.xml:37:11-77
-	android:name
-		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/furusin/.android/build-cache/fbdb6d86d4ffb8368eaff0c5637f8de7b6738ae3/output/AndroidManifest.xml:37:19-75
-service#com.google.android.gms.measurement.AppMeasurementService
-ADDED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/furusin/.android/build-cache/fbdb6d86d4ffb8368eaff0c5637f8de7b6738ae3/output/AndroidManifest.xml:41:7-44:37
-	android:enabled
-		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/furusin/.android/build-cache/fbdb6d86d4ffb8368eaff0c5637f8de7b6738ae3/output/AndroidManifest.xml:43:11-33
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] /Users/furusin/.android/build-cache/75d916e060d45f314a726afe4fc5d89f9b4a0c4e/output/AndroidManifest.xml:24:110-132
 	android:exported
-		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/furusin/.android/build-cache/fbdb6d86d4ffb8368eaff0c5637f8de7b6738ae3/output/AndroidManifest.xml:44:11-35
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] /Users/furusin/.android/build-cache/75d916e060d45f314a726afe4fc5d89f9b4a0c4e/output/AndroidManifest.xml:24:85-109
 	android:name
-		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] /Users/furusin/.android/build-cache/fbdb6d86d4ffb8368eaff0c5637f8de7b6738ae3/output/AndroidManifest.xml:42:11-82
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] /Users/furusin/.android/build-cache/75d916e060d45f314a726afe4fc5d89f9b4a0c4e/output/AndroidManifest.xml:24:18-84
+activity#com.google.android.gms.tagmanager.TagManagerPreviewActivity
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] /Users/furusin/.android/build-cache/75d916e060d45f314a726afe4fc5d89f9b4a0c4e/output/AndroidManifest.xml:25:9-32:20
+	android:noHistory
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] /Users/furusin/.android/build-cache/75d916e060d45f314a726afe4fc5d89f9b4a0c4e/output/AndroidManifest.xml:25:94-118
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] /Users/furusin/.android/build-cache/75d916e060d45f314a726afe4fc5d89f9b4a0c4e/output/AndroidManifest.xml:25:19-93
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] /Users/furusin/.android/build-cache/75d916e060d45f314a726afe4fc5d89f9b4a0c4e/output/AndroidManifest.xml:26:13-31:29
+data
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] /Users/furusin/.android/build-cache/75d916e060d45f314a726afe4fc5d89f9b4a0c4e/output/AndroidManifest.xml:27:17-71
+	android:scheme
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] /Users/furusin/.android/build-cache/75d916e060d45f314a726afe4fc5d89f9b4a0c4e/output/AndroidManifest.xml:27:23-69
+action#android.intent.action.VIEW
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] /Users/furusin/.android/build-cache/75d916e060d45f314a726afe4fc5d89f9b4a0c4e/output/AndroidManifest.xml:28:17-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.0.1] /Users/furusin/.android/build-cache/75d916e060d45f314a726afe4fc5d89f9b4a0c4e/output/AndroidManifest.xml:28:25-66
 uses-feature#0x00020000
-ADDED from [com.google.android.gms:play-services-maps:8.4.0] /Users/furusin/.android/build-cache/851d1a5662e0c382a9d6714b9ae251c387357e23/output/AndroidManifest.xml:22:5-24:33
+ADDED from [com.google.android.gms:play-services-maps:10.0.1] /Users/furusin/.android/build-cache/03b561ffa5b7f3e9602d30e3fbc7bc373851adcf/output/AndroidManifest.xml:21:5-77
 	android:glEsVersion
-		ADDED from [com.google.android.gms:play-services-maps:8.4.0] /Users/furusin/.android/build-cache/851d1a5662e0c382a9d6714b9ae251c387357e23/output/AndroidManifest.xml:23:8-40
+		ADDED from [com.google.android.gms:play-services-maps:10.0.1] /Users/furusin/.android/build-cache/03b561ffa5b7f3e9602d30e3fbc7bc373851adcf/output/AndroidManifest.xml:21:19-51
 	android:required
-		ADDED from [com.google.android.gms:play-services-maps:8.4.0] /Users/furusin/.android/build-cache/851d1a5662e0c382a9d6714b9ae251c387357e23/output/AndroidManifest.xml:24:8-31
+		ADDED from [com.google.android.gms:play-services-maps:10.0.1] /Users/furusin/.android/build-cache/03b561ffa5b7f3e9602d30e3fbc7bc373851adcf/output/AndroidManifest.xml:21:52-75
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:10.0.1] /Users/furusin/.android/build-cache/4bca41ee5621d755ee25119a25ed9edae516f1aa/output/AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] /Users/furusin/.android/build-cache/4bca41ee5621d755ee25119a25ed9edae516f1aa/output/AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] /Users/furusin/.android/build-cache/4bca41ee5621d755ee25119a25ed9edae516f1aa/output/AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] /Users/furusin/.android/build-cache/4bca41ee5621d755ee25119a25ed9edae516f1aa/output/AndroidManifest.xml:19:19-85
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/furusin/.android/build-cache/976fb8d66289478d2a31c318d013a3a62b90eacd/output/AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /Users/furusin/.android/build-cache/ae07229278dfe638393222cd25fe995cd23465ab/output/AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/furusin/.android/build-cache/976fb8d66289478d2a31c318d013a3a62b90eacd/output/AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/furusin/.android/build-cache/976fb8d66289478d2a31c318d013a3a62b90eacd/output/AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/furusin/.android/build-cache/976fb8d66289478d2a31c318d013a3a62b90eacd/output/AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/furusin/.android/build-cache/976fb8d66289478d2a31c318d013a3a62b90eacd/output/AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/furusin/.android/build-cache/976fb8d66289478d2a31c318d013a3a62b90eacd/output/AndroidManifest.xml:27:162-184
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/furusin/.android/build-cache/976fb8d66289478d2a31c318d013a3a62b90eacd/output/AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/furusin/.android/build-cache/976fb8d66289478d2a31c318d013a3a62b90eacd/output/AndroidManifest.xml:27:17-104
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/furusin/.android/build-cache/976fb8d66289478d2a31c318d013a3a62b90eacd/output/AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/furusin/.android/build-cache/976fb8d66289478d2a31c318d013a3a62b90eacd/output/AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/furusin/.android/build-cache/976fb8d66289478d2a31c318d013a3a62b90eacd/output/AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/furusin/.android/build-cache/976fb8d66289478d2a31c318d013a3a62b90eacd/output/AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:10.0.1] /Users/furusin/.android/build-cache/ae07229278dfe638393222cd25fe995cd23465ab/output/AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/furusin/.android/build-cache/976fb8d66289478d2a31c318d013a3a62b90eacd/output/AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/furusin/.android/build-cache/976fb8d66289478d2a31c318d013a3a62b90eacd/output/AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.0.1] /Users/furusin/.android/build-cache/976fb8d66289478d2a31c318d013a3a62b90eacd/output/AndroidManifest.xml:32:16-87
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/furusin/.android/build-cache/67e0f2e1a777eefe268f8a1e4ab71a0e35f29b00/output/AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/furusin/.android/build-cache/67e0f2e1a777eefe268f8a1e4ab71a0e35f29b00/output/AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/furusin/.android/build-cache/67e0f2e1a777eefe268f8a1e4ab71a0e35f29b00/output/AndroidManifest.xml:24:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/furusin/.android/build-cache/67e0f2e1a777eefe268f8a1e4ab71a0e35f29b00/output/AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/furusin/.android/build-cache/67e0f2e1a777eefe268f8a1e4ab71a0e35f29b00/output/AndroidManifest.xml:26:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/furusin/.android/build-cache/67e0f2e1a777eefe268f8a1e4ab71a0e35f29b00/output/AndroidManifest.xml:30:9-36:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/furusin/.android/build-cache/67e0f2e1a777eefe268f8a1e4ab71a0e35f29b00/output/AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/furusin/.android/build-cache/67e0f2e1a777eefe268f8a1e4ab71a0e35f29b00/output/AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/furusin/.android/build-cache/67e0f2e1a777eefe268f8a1e4ab71a0e35f29b00/output/AndroidManifest.xml:30:19-84
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/furusin/.android/build-cache/67e0f2e1a777eefe268f8a1e4ab71a0e35f29b00/output/AndroidManifest.xml:31:13-35:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/furusin/.android/build-cache/67e0f2e1a777eefe268f8a1e4ab71a0e35f29b00/output/AndroidManifest.xml:32:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/furusin/.android/build-cache/67e0f2e1a777eefe268f8a1e4ab71a0e35f29b00/output/AndroidManifest.xml:32:25-78
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/furusin/.android/build-cache/67e0f2e1a777eefe268f8a1e4ab71a0e35f29b00/output/AndroidManifest.xml:33:17-85
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/furusin/.android/build-cache/67e0f2e1a777eefe268f8a1e4ab71a0e35f29b00/output/AndroidManifest.xml:33:25-83
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/furusin/.android/build-cache/67e0f2e1a777eefe268f8a1e4ab71a0e35f29b00/output/AndroidManifest.xml:34:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/furusin/.android/build-cache/67e0f2e1a777eefe268f8a1e4ab71a0e35f29b00/output/AndroidManifest.xml:34:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/furusin/.android/build-cache/67e0f2e1a777eefe268f8a1e4ab71a0e35f29b00/output/AndroidManifest.xml:40:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/furusin/.android/build-cache/67e0f2e1a777eefe268f8a1e4ab71a0e35f29b00/output/AndroidManifest.xml:40:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/furusin/.android/build-cache/67e0f2e1a777eefe268f8a1e4ab71a0e35f29b00/output/AndroidManifest.xml:40:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/furusin/.android/build-cache/67e0f2e1a777eefe268f8a1e4ab71a0e35f29b00/output/AndroidManifest.xml:44:9-48:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/furusin/.android/build-cache/67e0f2e1a777eefe268f8a1e4ab71a0e35f29b00/output/AndroidManifest.xml:44:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/furusin/.android/build-cache/67e0f2e1a777eefe268f8a1e4ab71a0e35f29b00/output/AndroidManifest.xml:44:18-82
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/furusin/.android/build-cache/67e0f2e1a777eefe268f8a1e4ab71a0e35f29b00/output/AndroidManifest.xml:45:13-47:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/furusin/.android/build-cache/67e0f2e1a777eefe268f8a1e4ab71a0e35f29b00/output/AndroidManifest.xml:45:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/furusin/.android/build-cache/67e0f2e1a777eefe268f8a1e4ab71a0e35f29b00/output/AndroidManifest.xml:46:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.0.1] /Users/furusin/.android/build-cache/67e0f2e1a777eefe268f8a1e4ab71a0e35f29b00/output/AndroidManifest.xml:46:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:10.0.1] /Users/furusin/.android/build-cache/a41f8631b6cd003760bac16ed8755539128dfb5a/output/AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:10.0.1] /Users/furusin/.android/build-cache/a41f8631b6cd003760bac16ed8755539128dfb5a/output/AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:10.0.1] /Users/furusin/.android/build-cache/a41f8631b6cd003760bac16ed8755539128dfb5a/output/AndroidManifest.xml:6:144-168
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:10.0.1] /Users/furusin/.android/build-cache/a41f8631b6cd003760bac16ed8755539128dfb5a/output/AndroidManifest.xml:6:169-192
+	android:name
+		ADDED from [com.google.firebase:firebase-common:10.0.1] /Users/furusin/.android/build-cache/a41f8631b6cd003760bac16ed8755539128dfb5a/output/AndroidManifest.xml:6:79-143

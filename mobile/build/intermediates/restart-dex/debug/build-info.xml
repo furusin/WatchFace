@@ -6,27 +6,34 @@
     density="xxxhdpi"
     format="10"
     plugin-version="2.3.0"
-    timestamp="1489815784557"
+    timestamp="1489888123673"
     token="1454947427808512678"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="2047" />
+        duration="2073" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="86" />
     <task
         name="verifier"
-        duration="0" />
+        duration="3" />
+
+    <artifact
+        location="/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/split-apk/debug/slices/slice_3.apk"
+        type="SPLIT" />
 
     <build
         build-mode="FULL"
-        timestamp="1489815706783"
+        timestamp="1489888052455"
         verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            type="SPLIT" />
         <artifact
             location="/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
@@ -52,13 +59,10 @@
             location="/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            location="/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
         <artifact
             location="/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/split-apk/debug/slices/slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
         <artifact
             location="/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/outputs/apk/mobile-debug.apk"
@@ -66,7 +70,11 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1489815784557"
-        verifier="COLD_SWAP_REQUESTED" />
+        timestamp="1489888123673"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            type="SPLIT" />
+    </build>
 
 </instant-run>
