@@ -37,38 +37,24 @@ import java.io.IOException;
 
 public class MainActivity extends AppCompatActivity implements GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener,
         ResultCallback<DataApi.DataItemResult> {
-
-    /**
-     * ATTENTION: This was auto-generated to implement the App Indexing API.
-     * See https://g.co/AppIndexing/AndroidStudio for more information.
-     */
-    private ActivityMainBinding mBinding;
-    private final int READ_REQUEST_CODE = 44;
-    GoogleApiClient mGoogleApiClient;
-
-
     private static final String PATH_WITH_FEATURE = "/watch_face_config/Digital";
-    private String mPeerId;
-    private MyBatteryManager myBatteryManager;
-    //int batteryStatus = 0;
-    String batteryStatusString = "";
-    int batteryLevel = 0;
+    private static final int READ_REQUEST_CODE = 44;
 
+    private ActivityMainBinding mBinding;
+    private GoogleApiClient mGoogleApiClient;
+
+    private String mPeerId;
 
     @Override
     protected void onResume() {
         super.onResume();
 
-        IntentFilter intentFilter = new IntentFilter();
-        intentFilter.addAction(Intent.ACTION_BATTERY_CHANGED);
-        registerReceiver(mBroadcastReveiver, intentFilter);
     }
 
     @Override
     protected void onPause() {
         super.onPause();
 
-        unregisterReceiver(mBroadcastReveiver);
     }
 
     @Override
@@ -90,7 +76,6 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
         new MyApplication().initAdMob(mBinding.adView);
 
         mPeerId = getIntent().getStringExtra(WatchFaceCompanion.EXTRA_PEER_ID);
-        myBatteryManager = new MyBatteryManager(getApplicationContext());
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -104,53 +89,6 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
         // ATTENTION: This was auto-generated to implement the App Indexing API.
         // See https://g.co/AppIndexing/AndroidStudio for more information.
     }
-
-    private BroadcastReceiver mBroadcastReveiver = new BroadcastReceiver() {
-        @Override
-        public void onReceive(Context context, Intent intent) {
-            String action = intent.getAction();
-            if (action.equals(Intent.ACTION_BATTERY_CHANGED)) {
-                int batteryStatus = intent.getIntExtra("status", 0);
-                batteryLevel = intent.getIntExtra("level", 0);
-
-                switch (batteryStatus) {
-                    case BatteryManager.BATTERY_STATUS_UNKNOWN:
-                        batteryStatusString = "unknown";
-                        break;
-                    case BatteryManager.BATTERY_STATUS_CHARGING:
-                        batteryStatusString = "charging";
-                        break;
-                    case BatteryManager.BATTERY_STATUS_DISCHARGING:
-                        batteryStatusString = "discharging";
-                        break;
-                    case BatteryManager.BATTERY_STATUS_NOT_CHARGING:
-                        batteryStatusString = "not charging";
-                        break;
-                    case BatteryManager.BATTERY_STATUS_FULL:
-                        batteryStatusString = "full";
-                        break;
-                }
-
-
-                PutDataMapRequest putDataMapRequest = PutDataMapRequest.create("/batteryInfo");
-                DataMap dataMap = new DataMap();
-                dataMap.putInt("BatteryLevel", batteryLevel);
-                dataMap.putInt("BatteryStatus", batteryStatus);
-
-                putDataMapRequest.getDataMap().putDataMap("/batteryInfo", dataMap);
-                PutDataRequest request = putDataMapRequest.asPutDataRequest();
-                com.google.android.gms.common.api.PendingResult<DataApi.DataItemResult> pendingResult = Wearable.DataApi.putDataItem(mGoogleApiClient, request);
-                pendingResult.setResultCallback(new ResultCallback<DataApi.DataItemResult>() {
-                    @Override
-                    public void onResult(DataApi.DataItemResult dataItemResult) {
-
-                    }
-                });
-
-
-            }
-        }
-    };
 
     @Override
     public void onActivityResult(int requestCode, int resultCode,
