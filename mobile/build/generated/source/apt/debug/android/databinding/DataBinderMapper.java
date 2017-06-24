@@ -40,6 +40,7 @@ class DataBinderMapper  {
     }
     private static class InnerBrLookup {
         static String[] sKeys = new String[]{
-            "_all"};
+            "_all"
+            ,"mainViewInterface"};
     }
 }

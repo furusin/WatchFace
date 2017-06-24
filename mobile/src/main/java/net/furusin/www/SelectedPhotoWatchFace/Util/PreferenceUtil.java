@@ -35,7 +35,6 @@ public class PreferenceUtil {
     }
 
     public static String getBitmapString(final Context context) {
-        Log.d("test", "PreferenceUtil.getBitmapString");
         return getSharedPreferences(context).getString(PreferenceKey.Bitmap, "");
     }
 

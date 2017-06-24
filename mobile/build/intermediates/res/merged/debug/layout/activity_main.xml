@@ -4,6 +4,9 @@
         xmlns:tools="http://schemas.android.com/tools">
 
     <data>
+        <variable
+            name="mainViewInterface"
+            type="net.furusin.www.SelectedPhotoWatchFace.viewInterface.MainViewInterface"/>
     </data>
 
     <RelativeLayout
@@ -25,7 +28,8 @@
             android:id="@+id/button"
             style="@style/select_photo_btn"
             android:layout_above="@id/adView"
-            android:text="@string/choose_image"/>
+            android:text="@string/choose_image"
+            android:onClick="@{() -> mainViewInterface.selectPhoto()}"/>
 
 
         <ScrollView

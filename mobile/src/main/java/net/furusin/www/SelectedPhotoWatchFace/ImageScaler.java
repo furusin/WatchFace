@@ -3,28 +3,28 @@ package net.furusin.www.SelectedPhotoWatchFace;
 import android.graphics.Bitmap;
 import android.graphics.Matrix;
 
-/**
- * Created by furusin on 2016/08/15.
- * アプリから選択した画像を切り抜くクラス。
- * 縦長の写真の場合、中心から横幅のサイズを正方形に切り出す。
- * 横長の写真の場合、中心から縦幅のサイズを正方形に切り出す。
- */
 public class ImageScaler {
-
-    int IMAGE_SIZE_MAX = 512;
+    private static int IMAGE_SIZE_MAX = 512;
     Bitmap mBitmap;
 
     public ImageScaler(Bitmap bitmap) {
         mBitmap = bitmap;
     }
 
+    public Bitmap scaleAndCropBitmap() {
+        Bitmap scaledAndCroppedBitmap = mBitmap;
+        scaledAndCroppedBitmap = scaleBitmap(scaledAndCroppedBitmap);
+        scaledAndCroppedBitmap = cropBitmap(scaledAndCroppedBitmap);
 
-    public Bitmap scale() {
-        Bitmap scaledBitmap = null;
-        int bitmapWidth = mBitmap.getWidth();
-        int bitmapHeight = mBitmap.getHeight();
+        return scaledAndCroppedBitmap;
+    }
 
-        if (mBitmap.getWidth() > IMAGE_SIZE_MAX && mBitmap.getHeight() > IMAGE_SIZE_MAX) {
+    private Bitmap scaleBitmap(Bitmap bitmap) {
+        Bitmap scaledBitmap = bitmap;
+        int bitmapWidth = bitmap.getWidth();
+        int bitmapHeight = bitmap.getHeight();
+
+        if (bitmap.getWidth() > IMAGE_SIZE_MAX && bitmap.getHeight() > IMAGE_SIZE_MAX) {
 
             float scaleWidth = ((float) IMAGE_SIZE_MAX) / bitmapWidth;
             float scaleHeight = ((float) IMAGE_SIZE_MAX) / bitmapHeight;
@@ -32,39 +32,24 @@ public class ImageScaler {
 
             Matrix scale = new Matrix();
             scale.postScale(scaleFactor, scaleFactor);
-
-            scaledBitmap = Bitmap.createBitmap(mBitmap, 0, 0, bitmapWidth, bitmapHeight, scale, false);
-            mBitmap.recycle();
-            mBitmap = scaledBitmap;
-
+            scaledBitmap = Bitmap.createBitmap(bitmap, 0, 0, bitmapWidth, bitmapHeight, scale, false);
         }
-        return mBitmap;
+        bitmap.recycle();
+        return scaledBitmap;
     }
 
-
-
-    /*
-     * アプリから選択した画像を切り抜くクラス。
-     * 縦長の写真の場合、中心から横幅のサイズを正方形に切り出す。
-     * 横長の写真の場合、中心から縦幅のサイズを正方形に切り出す。
-     *
-     *
-     */
-
-    public Bitmap crop() {
-        Bitmap croppedBitmap = null;
+    private Bitmap cropBitmap(Bitmap bitmap) {
+        Bitmap croppedBitmap = bitmap;
         int size = 0;
-        if(mBitmap.getWidth() > mBitmap.getHeight()) {
-            size = mBitmap.getHeight();
-            croppedBitmap = Bitmap.createBitmap(mBitmap, (mBitmap.getWidth() / 2) - size / 2, 0, size, size, null, true);
-        }else{
-            size = mBitmap.getWidth();
-            croppedBitmap = Bitmap.createBitmap(mBitmap, 0, (mBitmap.getHeight() / 2) - size / 2, size, size, null, true);
+        if (bitmap.getWidth() > bitmap.getHeight()) {
+            size = bitmap.getHeight();
+            croppedBitmap = Bitmap.createBitmap(bitmap, (bitmap.getWidth() / 2) - size / 2, 0, size, size, null, true);
+        } else {
+            size = bitmap.getWidth();
+            croppedBitmap = Bitmap.createBitmap(bitmap, 0, (bitmap.getHeight() / 2) - size / 2, size, size, null, true);
 
         }
-        mBitmap.recycle();
-
+        bitmap.recycle();
         return croppedBitmap;
     }
-
 }

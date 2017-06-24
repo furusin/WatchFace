@@ -1,23 +1,27 @@
 [
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/color/abc_tint_switch_track.xml",
-        "source": "/Users/furusin/.android/build-cache/a9b82416d9884b7a64cd06ad872b683da1458011/output/res/color/abc_tint_switch_track.xml"
+        "source": "/Users/furusin/.android/build-cache/4c6540865d01dbd7998d71335f91a202b8b91955/output/res/color/abc_tint_switch_track.xml"
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/color/abc_btn_colored_text_material.xml",
-        "source": "/Users/furusin/.android/build-cache/a9b82416d9884b7a64cd06ad872b683da1458011/output/res/color/abc_btn_colored_text_material.xml"
+        "source": "/Users/furusin/.android/build-cache/4c6540865d01dbd7998d71335f91a202b8b91955/output/res/color/abc_btn_colored_text_material.xml"
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/color/card_grey_text_color.xml",
         "source": "/Users/furusin/.android/build-cache/39c0d849d4b7f797759a94cb6642b1c5d87728c0/output/res/color/card_grey_text_color.xml"
     },
     {
-        "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",
-        "source": "/Users/furusin/.android/build-cache/a9b82416d9884b7a64cd06ad872b683da1458011/output/res/color/abc_secondary_text_material_light.xml"
-    },
-    {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_dark.xml",
         "source": "/Users/furusin/.android/build-cache/4bca41ee5621d755ee25119a25ed9edae516f1aa/output/res/color/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",
+        "source": "/Users/furusin/.android/build-cache/4c6540865d01dbd7998d71335f91a202b8b91955/output/res/color/abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/color/common_google_signin_btn_tint.xml",
+        "source": "/Users/furusin/.android/build-cache/a057e594771293da44312903ea30932abb95a8b5/output/res/color/common_google_signin_btn_tint.xml"
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/color/circular_button.xml",
@@ -25,27 +29,27 @@
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/color/abc_btn_colored_borderless_text_material.xml",
-        "source": "/Users/furusin/.android/build-cache/a9b82416d9884b7a64cd06ad872b683da1458011/output/res/color/abc_btn_colored_borderless_text_material.xml"
-    },
-    {
-        "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/color/abc_tint_btn_checkable.xml",
-        "source": "/Users/furusin/.android/build-cache/a9b82416d9884b7a64cd06ad872b683da1458011/output/res/color/abc_tint_btn_checkable.xml"
+        "source": "/Users/furusin/.android/build-cache/4c6540865d01dbd7998d71335f91a202b8b91955/output/res/color/abc_btn_colored_borderless_text_material.xml"
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/color/abc_tint_spinner.xml",
-        "source": "/Users/furusin/.android/build-cache/a9b82416d9884b7a64cd06ad872b683da1458011/output/res/color/abc_tint_spinner.xml"
+        "source": "/Users/furusin/.android/build-cache/4c6540865d01dbd7998d71335f91a202b8b91955/output/res/color/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/color/abc_tint_btn_checkable.xml",
+        "source": "/Users/furusin/.android/build-cache/4c6540865d01dbd7998d71335f91a202b8b91955/output/res/color/abc_tint_btn_checkable.xml"
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/color/abc_tint_switch_thumb.xml",
-        "source": "/Users/furusin/.android/build-cache/a9b82416d9884b7a64cd06ad872b683da1458011/output/res/color/abc_tint_switch_thumb.xml"
+        "source": "/Users/furusin/.android/build-cache/4c6540865d01dbd7998d71335f91a202b8b91955/output/res/color/abc_tint_switch_thumb.xml"
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
-        "source": "/Users/furusin/.android/build-cache/a9b82416d9884b7a64cd06ad872b683da1458011/output/res/color/abc_primary_text_material_dark.xml"
+        "source": "/Users/furusin/.android/build-cache/4c6540865d01dbd7998d71335f91a202b8b91955/output/res/color/abc_primary_text_material_dark.xml"
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml",
-        "source": "/Users/furusin/.android/build-cache/a9b82416d9884b7a64cd06ad872b683da1458011/output/res/color/abc_primary_text_disable_only_material_light.xml"
+        "source": "/Users/furusin/.android/build-cache/4c6540865d01dbd7998d71335f91a202b8b91955/output/res/color/abc_primary_text_disable_only_material_light.xml"
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/color/card_text_color.xml",
@@ -53,7 +57,7 @@
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_dark.xml",
-        "source": "/Users/furusin/.android/build-cache/a9b82416d9884b7a64cd06ad872b683da1458011/output/res/color/abc_hint_foreground_material_dark.xml"
+        "source": "/Users/furusin/.android/build-cache/4c6540865d01dbd7998d71335f91a202b8b91955/output/res/color/abc_hint_foreground_material_dark.xml"
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/color/wallet_secondary_text_holo_dark.xml",
@@ -61,11 +65,11 @@
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/color/abc_secondary_text_material_dark.xml",
-        "source": "/Users/furusin/.android/build-cache/a9b82416d9884b7a64cd06ad872b683da1458011/output/res/color/abc_secondary_text_material_dark.xml"
+        "source": "/Users/furusin/.android/build-cache/4c6540865d01dbd7998d71335f91a202b8b91955/output/res/color/abc_secondary_text_material_dark.xml"
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_light.xml",
-        "source": "/Users/furusin/.android/build-cache/a9b82416d9884b7a64cd06ad872b683da1458011/output/res/color/abc_hint_foreground_material_light.xml"
+        "source": "/Users/furusin/.android/build-cache/4c6540865d01dbd7998d71335f91a202b8b91955/output/res/color/abc_hint_foreground_material_light.xml"
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/color/wallet_primary_text_holo_light.xml",
@@ -73,11 +77,11 @@
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/color/abc_tint_seek_thumb.xml",
-        "source": "/Users/furusin/.android/build-cache/a9b82416d9884b7a64cd06ad872b683da1458011/output/res/color/abc_tint_seek_thumb.xml"
+        "source": "/Users/furusin/.android/build-cache/4c6540865d01dbd7998d71335f91a202b8b91955/output/res/color/abc_tint_seek_thumb.xml"
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/color/abc_search_url_text.xml",
-        "source": "/Users/furusin/.android/build-cache/a9b82416d9884b7a64cd06ad872b683da1458011/output/res/color/abc_search_url_text.xml"
+        "source": "/Users/furusin/.android/build-cache/4c6540865d01dbd7998d71335f91a202b8b91955/output/res/color/abc_search_url_text.xml"
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_light.xml",
@@ -85,26 +89,26 @@
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/color/abc_primary_text_material_light.xml",
-        "source": "/Users/furusin/.android/build-cache/a9b82416d9884b7a64cd06ad872b683da1458011/output/res/color/abc_primary_text_material_light.xml"
+        "source": "/Users/furusin/.android/build-cache/4c6540865d01dbd7998d71335f91a202b8b91955/output/res/color/abc_primary_text_material_light.xml"
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml",
-        "source": "/Users/furusin/.android/build-cache/a9b82416d9884b7a64cd06ad872b683da1458011/output/res/color/switch_thumb_material_dark.xml"
+        "source": "/Users/furusin/.android/build-cache/4c6540865d01dbd7998d71335f91a202b8b91955/output/res/color/switch_thumb_material_dark.xml"
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/color/abc_tint_edittext.xml",
-        "source": "/Users/furusin/.android/build-cache/a9b82416d9884b7a64cd06ad872b683da1458011/output/res/color/abc_tint_edittext.xml"
+        "source": "/Users/furusin/.android/build-cache/4c6540865d01dbd7998d71335f91a202b8b91955/output/res/color/abc_tint_edittext.xml"
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/color/switch_thumb_material_light.xml",
-        "source": "/Users/furusin/.android/build-cache/a9b82416d9884b7a64cd06ad872b683da1458011/output/res/color/switch_thumb_material_light.xml"
+        "source": "/Users/furusin/.android/build-cache/4c6540865d01dbd7998d71335f91a202b8b91955/output/res/color/switch_thumb_material_light.xml"
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_dark.xml",
-        "source": "/Users/furusin/.android/build-cache/a9b82416d9884b7a64cd06ad872b683da1458011/output/res/color/abc_primary_text_disable_only_material_dark.xml"
+        "source": "/Users/furusin/.android/build-cache/4c6540865d01dbd7998d71335f91a202b8b91955/output/res/color/abc_primary_text_disable_only_material_dark.xml"
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/color/abc_tint_default.xml",
-        "source": "/Users/furusin/.android/build-cache/a9b82416d9884b7a64cd06ad872b683da1458011/output/res/color/abc_tint_default.xml"
+        "source": "/Users/furusin/.android/build-cache/4c6540865d01dbd7998d71335f91a202b8b91955/output/res/color/abc_tint_default.xml"
     }
 ]

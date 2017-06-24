@@ -24,6 +24,7 @@ import com.google.android.gms.wearable.PutDataRequest;
 import com.google.android.gms.wearable.Wearable;
 
 import net.furusin.www.SelectedPhotoWatchFace.databinding.ActivityMainBinding;
+import net.furusin.www.SelectedPhotoWatchFace.service.Advertise;
 import net.furusin.www.SelectedPhotoWatchFace.viewInterface.MainViewInterface;
 
 import java.io.ByteArrayOutputStream;
@@ -38,6 +39,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
     private GoogleApiClient mGoogleApiClient;
 
     private String mPeerId;
+    private Advertise advertize;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,6 +47,8 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
         setContentView(R.layout.activity_main);
 
         mBinding = DataBindingUtil.setContentView(this, R.layout.activity_main);
+        mBinding.setMainViewInterface(this);
+        mPeerId = getIntent().getStringExtra(WatchFaceCompanion.EXTRA_PEER_ID);
 
         mGoogleApiClient = new GoogleApiClient
                 .Builder(this)
@@ -53,31 +57,26 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
                 .addApi(Wearable.API)
                 .build();
 
-        new MyApplication().initAdMob(mBinding.adView);
-
-        mPeerId = getIntent().getStringExtra(WatchFaceCompanion.EXTRA_PEER_ID);
+        advertize = new Advertise(getApplicationContext(), mBinding.adView);
+        advertize.initAdMob();
     }
 
     @Override
-    public void onActivityResult(int requestCode, int resultCode,
-                                 Intent resultData) {
-
+    public void onActivityResult(int requestCode, int resultCode, Intent resultData) {
+        advertize.reloadAdMob();
         if (requestCode == READ_REQUEST_CODE && resultCode == Activity.RESULT_OK) {
             Uri uri = null;
             if (resultData != null) {
                 uri = resultData.getData();
-                ImageScaler imageScaler;
                 try {
                     Bitmap originalBitmap = MediaStore.Images.Media.getBitmap(getContentResolver(), uri);
 
                     mBinding.imageView.setImageBitmap(cropImage(originalBitmap));
 
-                    Bitmap scaledBitmap;
-                    imageScaler = new ImageScaler(originalBitmap);
-                    scaledBitmap = imageScaler.scale();
-                    scaledBitmap = imageScaler.crop();
+                    Bitmap scaledAndCroppedBitmap;
+                    scaledAndCroppedBitmap = new ImageScaler(originalBitmap).scaleAndCropBitmap();
 
-                    Asset asset = createAssetFromBitmap(scaledBitmap);
+                    Asset asset = createAssetFromBitmap(scaledAndCroppedBitmap);
 
                     PutDataMapRequest dataMap = PutDataMapRequest.create("/image");
                     dataMap.getDataMap().putAsset("profileImage", asset);
@@ -96,8 +95,8 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
         }
     }
 
-    private Bitmap cropImage(Bitmap bitmap) {
-        Bitmap croppedBitmap = null;
+    private static Bitmap cropImage(Bitmap bitmap) {
+        Bitmap croppedBitmap = bitmap;
         int size = 0;
         if (bitmap.getWidth() > bitmap.getHeight()) {
             size = bitmap.getHeight();
@@ -114,7 +113,6 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
         bitmap.compress(Bitmap.CompressFormat.PNG, 100, byteStream);
         return Asset.createFromBytes(byteStream.toByteArray());
     }
-
 
     @Override
     public void onStart() {
@@ -135,26 +133,28 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
         Uri.Builder builder = new Uri.Builder();
         Uri uri = builder.scheme("wear").path(PATH_WITH_FEATURE).authority(mPeerId).build();
         Wearable.DataApi.getDataItem(mGoogleApiClient, uri).setResultCallback(this);
-
     }
 
     @Override
     public void onConnectionSuspended(int i) {
+
     }
 
     @Override
     public void onConnectionFailed(@NonNull ConnectionResult connectionResult) {
+
     }
 
     @Override
     public void onResult(@NonNull DataApi.DataItemResult dataItemResult) {
+
     }
 
     @Override
     public void selectPhoto() {
         Intent intent = new Intent(Intent.ACTION_PICK, MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
         intent.setType("image/*");
-
         startActivityForResult(intent, READ_REQUEST_CODE);
     }
+
 }

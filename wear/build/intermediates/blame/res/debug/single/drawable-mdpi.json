@@ -56,12 +56,12 @@
         "source": "/Users/furusin/.android/build-cache/2eea369930c0414fffede891d19d3757b89e9081/output/res/drawable-mdpi/common_google_signin_btn_icon_light_disabled.9.png"
     },
     {
-        "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/res/merged/debug/drawable-mdpi/common_google_signin_btn_icon_light_pressed.9.png",
-        "source": "/Users/furusin/.android/build-cache/2eea369930c0414fffede891d19d3757b89e9081/output/res/drawable-mdpi/common_google_signin_btn_icon_light_pressed.9.png"
-    },
-    {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/res/merged/debug/drawable-mdpi/common_plus_signin_btn_icon_light_focused.9.png",
         "source": "/Users/furusin/.android/build-cache/2eea369930c0414fffede891d19d3757b89e9081/output/res/drawable-mdpi/common_plus_signin_btn_icon_light_focused.9.png"
+    },
+    {
+        "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/res/merged/debug/drawable-mdpi/common_google_signin_btn_icon_light_pressed.9.png",
+        "source": "/Users/furusin/.android/build-cache/2eea369930c0414fffede891d19d3757b89e9081/output/res/drawable-mdpi/common_google_signin_btn_icon_light_pressed.9.png"
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/wear/build/intermediates/res/merged/debug/drawable-mdpi/common_plus_signin_btn_icon_dark_disabled.9.png",

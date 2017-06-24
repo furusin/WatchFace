@@ -4,6 +4,9 @@
                                                        
 
     
+                 
+                                    
+                                                                                           
            
 
     <RelativeLayout
@@ -25,7 +28,8 @@
             android:id="@+id/button"
             style="@style/select_photo_btn"
             android:layout_above="@id/adView"
-            android:text="@string/choose_image"/>
+            android:text="@string/choose_image"
+            android:tag="binding_1"                                   />
 
 
         <ScrollView

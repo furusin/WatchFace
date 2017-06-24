@@ -1,11 +1,11 @@
 [
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
-        "source": "/Users/furusin/.android/build-cache/a9b82416d9884b7a64cd06ad872b683da1458011/output/res/layout-v21/notification_action_tombstone.xml"
+        "source": "/Users/furusin/.android/build-cache/4c6540865d01dbd7998d71335f91a202b8b91955/output/res/layout-v21/notification_action_tombstone.xml"
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
-        "source": "/Users/furusin/.android/build-cache/a9b82416d9884b7a64cd06ad872b683da1458011/output/res/layout-v21/notification_template_custom_big.xml"
+        "source": "/Users/furusin/.android/build-cache/4c6540865d01dbd7998d71335f91a202b8b91955/output/res/layout-v21/notification_template_custom_big.xml"
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/layout-v21/place_autocomplete_fragment.xml",
@@ -17,10 +17,10 @@
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
-        "source": "/Users/furusin/.android/build-cache/a9b82416d9884b7a64cd06ad872b683da1458011/output/res/layout-v21/notification_template_icon_group.xml"
+        "source": "/Users/furusin/.android/build-cache/4c6540865d01dbd7998d71335f91a202b8b91955/output/res/layout-v21/notification_template_icon_group.xml"
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
-        "source": "/Users/furusin/.android/build-cache/a9b82416d9884b7a64cd06ad872b683da1458011/output/res/layout-v21/notification_action.xml"
+        "source": "/Users/furusin/.android/build-cache/4c6540865d01dbd7998d71335f91a202b8b91955/output/res/layout-v21/notification_action.xml"
     }
 ]

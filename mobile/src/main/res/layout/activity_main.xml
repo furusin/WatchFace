@@ -29,7 +29,7 @@
             style="@style/select_photo_btn"
             android:layout_above="@id/adView"
             android:text="@string/choose_image"
-            android:onClick="@{mainViewInterface.selectPhoto()}"/>
+            android:onClick="@{() -> mainViewInterface.selectPhoto()}"/>
 
 
         <ScrollView

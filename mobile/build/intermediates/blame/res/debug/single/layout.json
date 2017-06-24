@@ -1,87 +1,87 @@
 [
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/layout/notification_template_media_custom.xml",
-        "source": "/Users/furusin/.android/build-cache/a9b82416d9884b7a64cd06ad872b683da1458011/output/res/layout/notification_template_media_custom.xml"
+        "source": "/Users/furusin/.android/build-cache/4c6540865d01dbd7998d71335f91a202b8b91955/output/res/layout/notification_template_media_custom.xml"
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/layout/mr_volume_control.xml",
-        "source": "/Users/furusin/.android/build-cache/ff9fdc378cd1a46fd3d05c08c9b27ef40543c60d/output/res/layout/mr_volume_control.xml"
+        "source": "/Users/furusin/.android/build-cache/fc25c472543d08c9a0e807b8693732a2d06b2864/output/res/layout/mr_volume_control.xml"
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/layout/abc_alert_dialog_title_material.xml",
-        "source": "/Users/furusin/.android/build-cache/a9b82416d9884b7a64cd06ad872b683da1458011/output/res/layout/abc_alert_dialog_title_material.xml"
+        "source": "/Users/furusin/.android/build-cache/4c6540865d01dbd7998d71335f91a202b8b91955/output/res/layout/abc_alert_dialog_title_material.xml"
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
-        "source": "/Users/furusin/.android/build-cache/a9b82416d9884b7a64cd06ad872b683da1458011/output/res/layout/abc_screen_content_include.xml"
+        "source": "/Users/furusin/.android/build-cache/4c6540865d01dbd7998d71335f91a202b8b91955/output/res/layout/abc_screen_content_include.xml"
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/layout/mr_controller_material_dialog_b.xml",
-        "source": "/Users/furusin/.android/build-cache/ff9fdc378cd1a46fd3d05c08c9b27ef40543c60d/output/res/layout/mr_controller_material_dialog_b.xml"
+        "source": "/Users/furusin/.android/build-cache/fc25c472543d08c9a0e807b8693732a2d06b2864/output/res/layout/mr_controller_material_dialog_b.xml"
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
-        "source": "/Users/furusin/.android/build-cache/a9b82416d9884b7a64cd06ad872b683da1458011/output/res/layout/abc_popup_menu_item_layout.xml"
+        "source": "/Users/furusin/.android/build-cache/4c6540865d01dbd7998d71335f91a202b8b91955/output/res/layout/abc_popup_menu_item_layout.xml"
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
-        "source": "/Users/furusin/.android/build-cache/a9b82416d9884b7a64cd06ad872b683da1458011/output/res/layout/abc_expanded_menu_layout.xml"
+        "source": "/Users/furusin/.android/build-cache/4c6540865d01dbd7998d71335f91a202b8b91955/output/res/layout/abc_expanded_menu_layout.xml"
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/layout/notification_template_icon_group.xml",
-        "source": "/Users/furusin/.android/build-cache/a9b82416d9884b7a64cd06ad872b683da1458011/output/res/layout/notification_template_icon_group.xml"
+        "source": "/Users/furusin/.android/build-cache/4c6540865d01dbd7998d71335f91a202b8b91955/output/res/layout/notification_template_icon_group.xml"
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
-        "source": "/Users/furusin/.android/build-cache/a9b82416d9884b7a64cd06ad872b683da1458011/output/res/layout/abc_select_dialog_material.xml"
+        "source": "/Users/furusin/.android/build-cache/4c6540865d01dbd7998d71335f91a202b8b91955/output/res/layout/abc_select_dialog_material.xml"
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
-        "source": "/Users/furusin/.android/build-cache/a9b82416d9884b7a64cd06ad872b683da1458011/output/res/layout/abc_action_bar_title_item.xml"
+        "source": "/Users/furusin/.android/build-cache/4c6540865d01dbd7998d71335f91a202b8b91955/output/res/layout/abc_action_bar_title_item.xml"
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
-        "source": "/Users/furusin/.android/build-cache/a9b82416d9884b7a64cd06ad872b683da1458011/output/res/layout/abc_action_menu_layout.xml"
-    },
-    {
-        "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/layout/mr_chooser_dialog.xml",
-        "source": "/Users/furusin/.android/build-cache/ff9fdc378cd1a46fd3d05c08c9b27ef40543c60d/output/res/layout/mr_chooser_dialog.xml"
+        "source": "/Users/furusin/.android/build-cache/4c6540865d01dbd7998d71335f91a202b8b91955/output/res/layout/abc_action_menu_layout.xml"
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
-        "source": "/Users/furusin/.android/build-cache/a9b82416d9884b7a64cd06ad872b683da1458011/output/res/layout/abc_list_menu_item_checkbox.xml"
+        "source": "/Users/furusin/.android/build-cache/4c6540865d01dbd7998d71335f91a202b8b91955/output/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/layout/mr_chooser_dialog.xml",
+        "source": "/Users/furusin/.android/build-cache/fc25c472543d08c9a0e807b8693732a2d06b2864/output/res/layout/mr_chooser_dialog.xml"
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
-        "source": "/Users/furusin/.android/build-cache/a9b82416d9884b7a64cd06ad872b683da1458011/output/res/layout/abc_action_mode_close_item_material.xml"
+        "source": "/Users/furusin/.android/build-cache/4c6540865d01dbd7998d71335f91a202b8b91955/output/res/layout/abc_action_mode_close_item_material.xml"
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/layout/notification_action.xml",
-        "source": "/Users/furusin/.android/build-cache/a9b82416d9884b7a64cd06ad872b683da1458011/output/res/layout/notification_action.xml"
+        "source": "/Users/furusin/.android/build-cache/4c6540865d01dbd7998d71335f91a202b8b91955/output/res/layout/notification_action.xml"
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
-        "source": "/Users/furusin/.android/build-cache/a9b82416d9884b7a64cd06ad872b683da1458011/output/res/layout/notification_template_part_time.xml"
+        "source": "/Users/furusin/.android/build-cache/4c6540865d01dbd7998d71335f91a202b8b91955/output/res/layout/notification_template_part_time.xml"
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/layout/abc_popup_menu_header_item_layout.xml",
-        "source": "/Users/furusin/.android/build-cache/a9b82416d9884b7a64cd06ad872b683da1458011/output/res/layout/abc_popup_menu_header_item_layout.xml"
+        "source": "/Users/furusin/.android/build-cache/4c6540865d01dbd7998d71335f91a202b8b91955/output/res/layout/abc_popup_menu_header_item_layout.xml"
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/layout/mr_playback_control.xml",
-        "source": "/Users/furusin/.android/build-cache/ff9fdc378cd1a46fd3d05c08c9b27ef40543c60d/output/res/layout/mr_playback_control.xml"
+        "source": "/Users/furusin/.android/build-cache/fc25c472543d08c9a0e807b8693732a2d06b2864/output/res/layout/mr_playback_control.xml"
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
-        "source": "/Users/furusin/.android/build-cache/a9b82416d9884b7a64cd06ad872b683da1458011/output/res/layout/abc_list_menu_item_radio.xml"
+        "source": "/Users/furusin/.android/build-cache/4c6540865d01dbd7998d71335f91a202b8b91955/output/res/layout/abc_list_menu_item_radio.xml"
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
-        "source": "/Users/furusin/.android/build-cache/a9b82416d9884b7a64cd06ad872b683da1458011/output/res/layout/abc_screen_toolbar.xml"
+        "source": "/Users/furusin/.android/build-cache/4c6540865d01dbd7998d71335f91a202b8b91955/output/res/layout/abc_screen_toolbar.xml"
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
-        "source": "/Users/furusin/.android/build-cache/a9b82416d9884b7a64cd06ad872b683da1458011/output/res/layout/abc_list_menu_item_layout.xml"
+        "source": "/Users/furusin/.android/build-cache/4c6540865d01dbd7998d71335f91a202b8b91955/output/res/layout/abc_list_menu_item_layout.xml"
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/layout/cast_mini_controller.xml",
@@ -97,11 +97,11 @@
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
-        "source": "/Users/furusin/.android/build-cache/a9b82416d9884b7a64cd06ad872b683da1458011/output/res/layout/abc_screen_simple.xml"
+        "source": "/Users/furusin/.android/build-cache/4c6540865d01dbd7998d71335f91a202b8b91955/output/res/layout/abc_screen_simple.xml"
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
-        "source": "/Users/furusin/.android/build-cache/a9b82416d9884b7a64cd06ad872b683da1458011/output/res/layout/abc_action_mode_bar.xml"
+        "source": "/Users/furusin/.android/build-cache/4c6540865d01dbd7998d71335f91a202b8b91955/output/res/layout/abc_action_mode_bar.xml"
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/layout/alert_dialog_wearable.xml",
@@ -109,11 +109,11 @@
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
-        "source": "/Users/furusin/.android/build-cache/a9b82416d9884b7a64cd06ad872b683da1458011/output/res/layout/abc_action_menu_item_layout.xml"
+        "source": "/Users/furusin/.android/build-cache/4c6540865d01dbd7998d71335f91a202b8b91955/output/res/layout/abc_action_menu_item_layout.xml"
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
-        "source": "/Users/furusin/.android/build-cache/a9b82416d9884b7a64cd06ad872b683da1458011/output/res/layout/select_dialog_singlechoice_material.xml"
+        "source": "/Users/furusin/.android/build-cache/4c6540865d01dbd7998d71335f91a202b8b91955/output/res/layout/select_dialog_singlechoice_material.xml"
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/layout/place_autocomplete_progress.xml",
@@ -121,19 +121,19 @@
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
-        "source": "/Users/furusin/.android/build-cache/a9b82416d9884b7a64cd06ad872b683da1458011/output/res/layout/abc_action_bar_view_list_nav_layout.xml"
+        "source": "/Users/furusin/.android/build-cache/4c6540865d01dbd7998d71335f91a202b8b91955/output/res/layout/abc_action_bar_view_list_nav_layout.xml"
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
-        "source": "/Users/furusin/.android/build-cache/a9b82416d9884b7a64cd06ad872b683da1458011/output/res/layout/abc_alert_dialog_button_bar_material.xml"
+        "source": "/Users/furusin/.android/build-cache/4c6540865d01dbd7998d71335f91a202b8b91955/output/res/layout/abc_alert_dialog_button_bar_material.xml"
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
-        "source": "/Users/furusin/.android/build-cache/a9b82416d9884b7a64cd06ad872b683da1458011/output/res/layout/abc_search_dropdown_item_icons_2line.xml"
+        "source": "/Users/furusin/.android/build-cache/4c6540865d01dbd7998d71335f91a202b8b91955/output/res/layout/abc_search_dropdown_item_icons_2line.xml"
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
-        "source": "/Users/furusin/.android/build-cache/a9b82416d9884b7a64cd06ad872b683da1458011/output/res/layout/select_dialog_multichoice_material.xml"
+        "source": "/Users/furusin/.android/build-cache/4c6540865d01dbd7998d71335f91a202b8b91955/output/res/layout/select_dialog_multichoice_material.xml"
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/layout/cast_intro_overlay.xml",
@@ -141,11 +141,11 @@
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/layout/notification_template_lines_media.xml",
-        "source": "/Users/furusin/.android/build-cache/a9b82416d9884b7a64cd06ad872b683da1458011/output/res/layout/notification_template_lines_media.xml"
+        "source": "/Users/furusin/.android/build-cache/4c6540865d01dbd7998d71335f91a202b8b91955/output/res/layout/notification_template_lines_media.xml"
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
-        "source": "/Users/furusin/.android/build-cache/a9b82416d9884b7a64cd06ad872b683da1458011/output/res/layout/notification_template_part_chronometer.xml"
+        "source": "/Users/furusin/.android/build-cache/4c6540865d01dbd7998d71335f91a202b8b91955/output/res/layout/notification_template_part_chronometer.xml"
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/layout/place_autocomplete_fragment.xml",
@@ -153,15 +153,15 @@
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
-        "source": "/Users/furusin/.android/build-cache/a9b82416d9884b7a64cd06ad872b683da1458011/output/res/layout/select_dialog_item_material.xml"
+        "source": "/Users/furusin/.android/build-cache/4c6540865d01dbd7998d71335f91a202b8b91955/output/res/layout/select_dialog_item_material.xml"
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
-        "source": "/Users/furusin/.android/build-cache/a9b82416d9884b7a64cd06ad872b683da1458011/output/res/layout/abc_alert_dialog_material.xml"
+        "source": "/Users/furusin/.android/build-cache/4c6540865d01dbd7998d71335f91a202b8b91955/output/res/layout/abc_alert_dialog_material.xml"
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
-        "source": "/Users/furusin/.android/build-cache/a9b82416d9884b7a64cd06ad872b683da1458011/output/res/layout/abc_search_view.xml"
+        "source": "/Users/furusin/.android/build-cache/4c6540865d01dbd7998d71335f91a202b8b91955/output/res/layout/abc_search_view.xml"
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/layout/error_layout.xml",
@@ -169,31 +169,31 @@
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
-        "source": "/Users/furusin/.android/build-cache/a9b82416d9884b7a64cd06ad872b683da1458011/output/res/layout/abc_activity_chooser_view_list_item.xml"
+        "source": "/Users/furusin/.android/build-cache/4c6540865d01dbd7998d71335f91a202b8b91955/output/res/layout/abc_activity_chooser_view_list_item.xml"
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/layout/mr_controller_volume_item.xml",
-        "source": "/Users/furusin/.android/build-cache/ff9fdc378cd1a46fd3d05c08c9b27ef40543c60d/output/res/layout/mr_controller_volume_item.xml"
+        "source": "/Users/furusin/.android/build-cache/fc25c472543d08c9a0e807b8693732a2d06b2864/output/res/layout/mr_controller_volume_item.xml"
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
-        "source": "/Users/furusin/.android/build-cache/a9b82416d9884b7a64cd06ad872b683da1458011/output/res/layout/support_simple_spinner_dropdown_item.xml"
+        "source": "/Users/furusin/.android/build-cache/4c6540865d01dbd7998d71335f91a202b8b91955/output/res/layout/support_simple_spinner_dropdown_item.xml"
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
-        "source": "/Users/furusin/.android/build-cache/a9b82416d9884b7a64cd06ad872b683da1458011/output/res/layout/notification_template_media.xml"
+        "source": "/Users/furusin/.android/build-cache/4c6540865d01dbd7998d71335f91a202b8b91955/output/res/layout/notification_template_media.xml"
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
-        "source": "/Users/furusin/.android/build-cache/a9b82416d9884b7a64cd06ad872b683da1458011/output/res/layout/abc_screen_simple_overlay_action_mode.xml"
+        "source": "/Users/furusin/.android/build-cache/4c6540865d01dbd7998d71335f91a202b8b91955/output/res/layout/abc_screen_simple_overlay_action_mode.xml"
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
-        "source": "/Users/furusin/.android/build-cache/a9b82416d9884b7a64cd06ad872b683da1458011/output/res/layout/abc_activity_chooser_view.xml"
+        "source": "/Users/furusin/.android/build-cache/4c6540865d01dbd7998d71335f91a202b8b91955/output/res/layout/abc_activity_chooser_view.xml"
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
-        "source": "/Users/furusin/.android/build-cache/a9b82416d9884b7a64cd06ad872b683da1458011/output/res/layout/abc_list_menu_item_icon.xml"
+        "source": "/Users/furusin/.android/build-cache/4c6540865d01dbd7998d71335f91a202b8b91955/output/res/layout/abc_list_menu_item_icon.xml"
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/layout/place_autocomplete_item_powered_by_google.xml",
@@ -201,15 +201,15 @@
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
-        "source": "/Users/furusin/.android/build-cache/a9b82416d9884b7a64cd06ad872b683da1458011/output/res/layout/abc_action_bar_up_container.xml"
+        "source": "/Users/furusin/.android/build-cache/4c6540865d01dbd7998d71335f91a202b8b91955/output/res/layout/abc_action_bar_up_container.xml"
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/layout/notification_action_tombstone.xml",
-        "source": "/Users/furusin/.android/build-cache/a9b82416d9884b7a64cd06ad872b683da1458011/output/res/layout/notification_action_tombstone.xml"
+        "source": "/Users/furusin/.android/build-cache/4c6540865d01dbd7998d71335f91a202b8b91955/output/res/layout/notification_action_tombstone.xml"
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/layout/mr_chooser_list_item.xml",
-        "source": "/Users/furusin/.android/build-cache/ff9fdc378cd1a46fd3d05c08c9b27ef40543c60d/output/res/layout/mr_chooser_list_item.xml"
+        "source": "/Users/furusin/.android/build-cache/fc25c472543d08c9a0e807b8693732a2d06b2864/output/res/layout/mr_chooser_list_item.xml"
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/layout/cast_tracks_chooser_dialog_row_layout.xml",
@@ -217,7 +217,7 @@
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
-        "source": "/Users/furusin/.android/build-cache/a9b82416d9884b7a64cd06ad872b683da1458011/output/res/layout/abc_dialog_title_material.xml"
+        "source": "/Users/furusin/.android/build-cache/4c6540865d01dbd7998d71335f91a202b8b91955/output/res/layout/abc_dialog_title_material.xml"
     },
     {
         "merged": "/Users/furusin/AndroidStudioProjects/WatchFace/mobile/build/intermediates/res/merged/debug/layout/cast_tracks_chooser_dialog_layout.xml",
